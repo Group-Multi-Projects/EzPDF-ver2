@@ -35,18 +35,16 @@ def get_jwt_token(username, password):
     else:
         print(f"Error: {response.status_code}")
         return None, None
-
-class UploadFileView(APIView):
-    serializer_class = UploadFileSerializer
-
-    def post(self, request):
-        serializer = self.serializer_class(data=request.data, context={'request': request})
-        
-        if serializer.is_valid():
-            serializer.save()  
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+@api_view(['POST'])
+def upload_file(request):
+    print("zoo")
+    serializer = UploadFileSerializer(data=request.data, context={'request': request})
+    
+    if serializer.is_valid():
+        serializer.save()  # Save the file data
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 def edit_file(request, file_id):
     try:
         file = get_object_or_404(FileModel, id=file_id)

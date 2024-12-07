@@ -20,9 +20,14 @@ class UploadFileSerializer(serializers.ModelSerializer):
         # Lấy user từ context
         self.user = self.context.get('request').user
 
-    def update(self, instance, validated_data):
-        # Sử dụng self.user thay vì trực tiếp truy vấn request.user
-        account = AccountModel.objects.get(username=self.user.username)
-        instance.account = account
-        instance.created_at = timezone.now()
-        return super().update(instance, validated_data)
+    def create(self, validated_data):
+        # Gắn tài khoản dựa trên user từ context
+        try:
+            account = AccountModel.objects.get(username=self.user.username)
+        except AccountModel.DoesNotExist:
+            account = None
+
+        validated_data['account'] = account  # Gán tài khoản vào validated_data
+
+        # Tạo instance mới
+        return super().create(validated_data)

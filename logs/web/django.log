@@ -2069,3 +2069,752 @@ INFO 2024-12-07 17:25:56,239 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\setti
 INFO 2024-12-07 17:25:57,347 autoreload Watching for file changes with StatReloader
 INFO 2024-12-07 17:28:16,695 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
 INFO 2024-12-07 17:28:17,765 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:33:44,240 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:33:49,145 log Not Found: /
+WARNING 2024-12-07 17:33:49,146 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-07 17:33:49,268 log Not Found: /favicon.ico
+WARNING 2024-12-07 17:33:49,269 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+WARNING 2024-12-07 17:33:52,798 log Unauthorized: /upload/
+WARNING 2024-12-07 17:33:52,799 basehttp "GET /upload/ HTTP/1.1" 401 3749
+INFO 2024-12-07 17:34:49,217 basehttp "OPTIONS /upload/ HTTP/1.1" 200 0
+WARNING 2024-12-07 17:34:49,243 log Unauthorized: /upload/
+WARNING 2024-12-07 17:34:49,244 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:34:49,686 log Unauthorized: /upload/
+WARNING 2024-12-07 17:34:49,687 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:34:49,842 log Unauthorized: /upload/
+WARNING 2024-12-07 17:34:49,844 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:34:49,986 log Unauthorized: /upload/
+WARNING 2024-12-07 17:34:49,987 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:34:50,147 log Unauthorized: /upload/
+WARNING 2024-12-07 17:34:50,148 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:34:50,290 log Unauthorized: /upload/
+WARNING 2024-12-07 17:34:50,291 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:34:50,435 log Unauthorized: /upload/
+WARNING 2024-12-07 17:34:50,436 basehttp "POST /upload/ HTTP/1.1" 401 51
+INFO 2024-12-07 17:35:10,759 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:35:11,853 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:35:20,735 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:35:21,694 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:35:28,968 log Unauthorized: /upload/
+WARNING 2024-12-07 17:35:28,970 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:35:29,107 log Unauthorized: /upload/
+WARNING 2024-12-07 17:35:29,108 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:35:29,263 log Unauthorized: /upload/
+WARNING 2024-12-07 17:35:29,264 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:35:29,403 log Unauthorized: /upload/
+WARNING 2024-12-07 17:35:29,404 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:35:29,539 log Unauthorized: /upload/
+WARNING 2024-12-07 17:35:29,540 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:35:29,706 log Unauthorized: /upload/
+WARNING 2024-12-07 17:35:29,707 basehttp "POST /upload/ HTTP/1.1" 401 51
+INFO 2024-12-07 17:36:39,641 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:36:40,792 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:36:45,586 log Unauthorized: /upload/
+WARNING 2024-12-07 17:36:45,588 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:36:45,762 log Unauthorized: /upload/
+WARNING 2024-12-07 17:36:45,764 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:36:45,931 log Unauthorized: /upload/
+WARNING 2024-12-07 17:36:45,932 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:36:46,058 log Unauthorized: /upload/
+WARNING 2024-12-07 17:36:46,059 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:36:46,201 log Unauthorized: /upload/
+WARNING 2024-12-07 17:36:46,202 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:36:46,354 log Unauthorized: /upload/
+WARNING 2024-12-07 17:36:46,355 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:36:46,499 log Unauthorized: /upload/
+WARNING 2024-12-07 17:36:46,500 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:36:46,658 log Unauthorized: /upload/
+WARNING 2024-12-07 17:36:46,659 basehttp "POST /upload/ HTTP/1.1" 401 51
+INFO 2024-12-07 17:37:47,907 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:37:48,891 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:37:52,228 log Unauthorized: /upload/
+WARNING 2024-12-07 17:37:52,229 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:37:52,346 log Unauthorized: /upload/
+WARNING 2024-12-07 17:37:52,347 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:37:52,491 log Unauthorized: /upload/
+WARNING 2024-12-07 17:37:52,492 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:37:52,634 log Unauthorized: /upload/
+WARNING 2024-12-07 17:37:52,635 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:37:52,786 log Unauthorized: /upload/
+WARNING 2024-12-07 17:37:52,787 basehttp "POST /upload/ HTTP/1.1" 401 51
+WARNING 2024-12-07 17:37:52,938 log Unauthorized: /upload/
+WARNING 2024-12-07 17:37:52,939 basehttp "POST /upload/ HTTP/1.1" 401 51
+INFO 2024-12-07 17:38:16,944 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:38:18,020 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:38:22,685 log Unauthorized: /upload/
+WARNING 2024-12-07 17:38:22,686 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:38:22,824 log Unauthorized: /upload/
+WARNING 2024-12-07 17:38:22,825 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:38:22,969 log Unauthorized: /upload/
+WARNING 2024-12-07 17:38:22,970 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:38:23,111 log Unauthorized: /upload/
+WARNING 2024-12-07 17:38:23,113 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:38:23,248 log Unauthorized: /upload/
+WARNING 2024-12-07 17:38:23,249 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:38:23,384 log Unauthorized: /upload/
+WARNING 2024-12-07 17:38:23,385 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 17:38:34,806 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:38:36,034 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:38:38,789 basehttp "POST /upload/ HTTP/1.1" 201 121
+INFO 2024-12-07 17:38:38,916 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:38:39,067 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:38:39,191 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:38:39,317 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:38:39,473 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:38:39,647 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:38:54,994 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:38:56,250 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:40:46,896 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:40:57,988 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 17:40:58,903 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:41:04,253 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:04,255 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:04,433 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:04,434 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:04,585 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:04,586 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:04,744 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:04,745 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:08,521 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:08,522 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:08,688 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:08,689 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:08,840 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:08,842 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:08,984 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:08,985 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:09,120 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:09,121 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:09,280 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:09,281 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:09,407 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:09,409 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:09,568 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:09,569 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:09,712 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:09,714 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:09,863 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:09,865 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:10,000 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:10,001 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:10,167 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:10,169 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:10,327 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:10,328 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:10,480 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:10,481 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:10,632 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:10,633 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:41:10,793 log Unauthorized: /upload/
+WARNING 2024-12-07 17:41:10,794 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 17:41:21,138 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:41:22,145 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:41:28,934 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:41:30,122 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:41:32,690 basehttp "POST /upload/ HTTP/1.1" 201 121
+INFO 2024-12-07 17:41:32,841 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:41:32,994 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:41:33,360 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:41:33,513 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:41:33,631 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:41:33,794 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:41:54,577 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:41:55,546 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:42:08,712 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:42:09,715 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:42:48,876 log Bad Request: /account/signin/
+WARNING 2024-12-07 17:42:48,877 basehttp "POST /account/signin/ HTTP/1.1" 400 52
+INFO 2024-12-07 17:43:12,484 views User attempting login: user@example.com
+WARNING 2024-12-07 17:43:12,753 views Failed login attempt for email: user@example.com
+WARNING 2024-12-07 17:43:12,754 log Bad Request: /account/signin/
+WARNING 2024-12-07 17:43:12,755 basehttp "POST /account/signin/ HTTP/1.1" 400 94
+INFO 2024-12-07 17:43:38,584 views User attempting login: user@example.com
+WARNING 2024-12-07 17:43:38,851 views Failed login attempt for email: user@example.com
+WARNING 2024-12-07 17:43:38,852 log Bad Request: /account/signin/
+WARNING 2024-12-07 17:43:38,853 basehttp "POST /account/signin/ HTTP/1.1" 400 94
+INFO 2024-12-07 17:43:39,755 views User attempting login: user@example.com
+WARNING 2024-12-07 17:43:40,015 views Failed login attempt for email: user@example.com
+WARNING 2024-12-07 17:43:40,015 log Bad Request: /account/signin/
+WARNING 2024-12-07 17:43:40,016 basehttp "POST /account/signin/ HTTP/1.1" 400 94
+INFO 2024-12-07 17:43:51,670 views User attempting login: admin@gmail.com
+INFO 2024-12-07 17:43:51,974 views Login successful for user: admin@gmail.com
+INFO 2024-12-07 17:43:52,003 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+INFO 2024-12-07 17:44:11,558 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:44:12,628 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:44:17,350 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:44:18,452 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:44:21,797 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:44:22,835 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:44:26,153 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:44:27,195 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:44:52,651 basehttp "POST /upload/ HTTP/1.1" 201 71
+WARNING 2024-12-07 17:45:01,713 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:01,715 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:01,880 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:01,881 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:02,016 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:02,017 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:02,145 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:02,146 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:02,280 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:02,281 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:02,423 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:02,426 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:02,568 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:02,570 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:02,712 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:02,723 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:02,848 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:02,849 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:02,992 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:02,994 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 17:45:28,628 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:45:29,605 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:45:32,140 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:32,141 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:32,304 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:32,305 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:32,456 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:32,458 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:32,591 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:32,592 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:32,736 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:32,737 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:32,888 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:32,889 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:33,032 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:33,034 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:33,168 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:33,170 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:33,312 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:33,313 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:33,464 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:33,465 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:45:33,607 log Unauthorized: /upload/
+WARNING 2024-12-07 17:45:33,609 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 17:45:36,846 basehttp "POST /upload/ HTTP/1.1" 201 121
+INFO 2024-12-07 17:45:36,978 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:45:37,113 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:45:37,279 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:45:41,635 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:45:41,969 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:45:42,148 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:45:42,304 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:45:42,504 basehttp "POST /upload/ HTTP/1.1" 201 129
+WARNING 2024-12-07 17:50:02,099 log Unauthorized: /account/get_user_info_serializers/
+WARNING 2024-12-07 17:50:02,100 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 401 51
+INFO 2024-12-07 17:54:16,453 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:54:17,507 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:54:32,564 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:54:46,859 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:54:47,870 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:55:11,951 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:55:16,120 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:55:16,275 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:55:16,460 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:55:16,637 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:55:16,791 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:55:16,931 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:55:17,099 basehttp "POST /upload/ HTTP/1.1" 201 129
+WARNING 2024-12-07 17:56:53,872 log Unauthorized: /upload/
+WARNING 2024-12-07 17:56:53,873 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:56:54,017 log Unauthorized: /upload/
+WARNING 2024-12-07 17:56:54,018 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:56:54,161 log Unauthorized: /upload/
+WARNING 2024-12-07 17:56:54,162 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:56:54,319 log Unauthorized: /upload/
+WARNING 2024-12-07 17:56:54,320 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:56:54,471 log Unauthorized: /upload/
+WARNING 2024-12-07 17:56:54,472 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:56:54,640 log Unauthorized: /upload/
+WARNING 2024-12-07 17:56:54,641 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 17:57:01,815 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:57:04,572 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:04,573 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:04,744 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:04,746 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:04,896 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:04,897 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:05,056 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:05,057 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:07,584 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:07,585 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:07,744 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:07,745 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:07,888 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:07,889 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:08,039 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:08,040 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:08,175 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:08,176 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:08,327 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:08,328 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:14,920 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:14,921 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:15,092 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:15,093 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:15,240 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:15,241 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:15,367 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:15,368 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 17:57:28,500 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:57:29,492 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:57:32,085 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:32,086 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:32,341 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:32,342 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:32,488 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:32,490 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:32,639 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:32,640 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:32,792 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:32,794 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:32,936 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:32,938 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:33,089 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:33,090 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:33,415 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:33,416 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 17:57:37,503 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:57:38,614 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:57:45,046 basehttp "POST /upload/ HTTP/1.1" 201 122
+INFO 2024-12-07 17:57:45,170 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 17:57:45,329 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 17:57:45,486 basehttp "POST /upload/ HTTP/1.1" 201 130
+WARNING 2024-12-07 17:57:57,585 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:57,591 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:57,704 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:57,707 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:57,840 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:57,842 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:57:57,976 log Unauthorized: /upload/
+WARNING 2024-12-07 17:57:57,978 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 17:58:23,283 log Unauthorized: /upload/
+WARNING 2024-12-07 17:58:23,284 basehttp "GET /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 17:58:23,427 log Unauthorized: /upload/
+WARNING 2024-12-07 17:58:23,428 basehttp "GET /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 17:58:23,610 log Unauthorized: /upload/
+WARNING 2024-12-07 17:58:23,611 basehttp "GET /upload/ HTTP/1.1" 401 3749
+INFO 2024-12-07 17:58:27,568 basehttp "POST /upload/ HTTP/1.1" 201 122
+INFO 2024-12-07 17:58:27,706 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 17:58:27,846 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 17:58:28,013 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 18:00:43,687 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 18:00:44,663 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:05:26,145 basehttp "OPTIONS /upload/ HTTP/1.1" 200 0
+INFO 2024-12-07 18:05:26,184 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 18:05:26,309 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 18:05:26,446 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 18:05:26,595 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 18:05:26,756 basehttp "POST /upload/ HTTP/1.1" 201 130
+INFO 2024-12-07 18:05:26,876 basehttp "POST /upload/ HTTP/1.1" 201 130
+WARNING 2024-12-07 18:05:59,079 log Not Found: /
+WARNING 2024-12-07 18:05:59,080 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-07 18:05:59,216 log Not Found: /favicon.ico
+WARNING 2024-12-07 18:05:59,217 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+WARNING 2024-12-07 18:06:02,592 log Not Found: /
+WARNING 2024-12-07 18:06:02,593 basehttp "GET / HTTP/1.1" 404 4485
+INFO 2024-12-07 18:06:29,893 basehttp "POST /upload/ HTTP/1.1" 201 121
+INFO 2024-12-07 18:06:30,104 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:30,297 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:30,484 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:30,684 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:31,001 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:31,384 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:31,585 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:31,746 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:32,107 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:32,290 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:06:32,458 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:12:02,720 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 18:12:03,712 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:12:12,568 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 18:12:13,521 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 18:12:24,737 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:12:24,740 basehttp "POST /upload/ HTTP/1.1" 500 110005
+ERROR 2024-12-07 18:12:24,868 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:12:24,870 basehttp "POST /upload/ HTTP/1.1" 500 110005
+ERROR 2024-12-07 18:12:25,002 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:12:25,004 basehttp "POST /upload/ HTTP/1.1" 500 110005
+ERROR 2024-12-07 18:12:25,148 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:12:25,151 basehttp "POST /upload/ HTTP/1.1" 500 110005
+ERROR 2024-12-07 18:12:25,340 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:12:25,341 basehttp "POST /upload/ HTTP/1.1" 500 110005
+ERROR 2024-12-07 18:12:25,443 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:12:25,445 basehttp "POST /upload/ HTTP/1.1" 500 110005
+INFO 2024-12-07 18:12:40,183 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 18:12:43,485 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 18:13:02,549 log Unauthorized: /upload/
+WARNING 2024-12-07 18:13:02,567 basehttp "POST /upload/ HTTP/1.1" 401 58
+ERROR 2024-12-07 18:13:13,637 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:13:13,640 basehttp "POST /upload/ HTTP/1.1" 500 110005
+ERROR 2024-12-07 18:13:13,816 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:13:13,818 basehttp "POST /upload/ HTTP/1.1" 500 110005
+ERROR 2024-12-07 18:13:14,011 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:13:14,012 basehttp "POST /upload/ HTTP/1.1" 500 110005
+ERROR 2024-12-07 18:13:14,110 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:13:14,111 basehttp "POST /upload/ HTTP/1.1" 500 110005
+INFO 2024-12-07 18:13:46,298 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 18:14:49,627 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in upload_file
+    serializer.save(request.user)  # Save the file data
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSerializer.save() takes 1 positional argument but 2 were given
+ERROR 2024-12-07 18:14:49,636 basehttp "POST /upload/ HTTP/1.1" 500 110716
+INFO 2024-12-07 18:16:32,484 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:16:35,694 basehttp "POST /upload/ HTTP/1.1" 201 121
+INFO 2024-12-07 18:16:35,876 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:16:36,015 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:18:00,975 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 18:18:02,059 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:18:08,548 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:18:08,700 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:18:08,840 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:18:08,960 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:18:27,627 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 18:18:28,756 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:18:42,906 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 18:18:43,871 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:18:49,354 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 18:18:50,430 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:18:56,931 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:19:07,357 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:21:50,252 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 18:21:52,716 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:24:19,779 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 18:24:22,209 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:24:31,761 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 18:24:34,264 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:24:42,807 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:27:19,219 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:27:22,353 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:27:22,519 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 18:30:24,332 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 18:30:25,401 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 18:30:29,495 basehttp "POST /upload/ HTTP/1.1" 201 126

@@ -15,7 +15,9 @@
         fetch('http://127.0.0.1:8000/upload/', {  // Đường dẫn API của bạn, ví dụ /api/upload/
             method: 'POST',
             body: formData,
-   
+            headers: {
+                'Authorization': 'Bearer ' + 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM4NzUyMjMxLCJpYXQiOjE3MzM1NjgyMzEsImp0aSI6ImMzNmUxZWFjMjUxMTQ1MTdiZjYzMDJjNjdmMjVlNmRjIiwidXNlcl9pZCI6MX0.7vbedoFYLtOIphe7zz_XnrlnxNqqNfV54_yWhxuyzsI',  // Nếu cần Authorization
+            },
         })
         .then(response => response.json())
         .then(data => {
