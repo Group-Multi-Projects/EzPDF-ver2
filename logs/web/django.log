@@ -1,0 +1,2071 @@
+INFO 2024-12-07 12:59:32,757 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:00:38,427 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 13:00:39,482 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:00:52,442 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:00:58,141 basehttp "GET / HTTP/1.1" 200 24049
+WARNING 2024-12-07 06:00:58,354 log Not Found: /favicon.ico
+WARNING 2024-12-07 06:00:58,357 basehttp "GET /favicon.ico HTTP/1.1" 404 6061
+INFO 2024-12-07 06:01:08,104 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 13:01:08,565 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 06:01:08,861 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:01:09,666 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:02:05,635 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:02:06,273 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:02:06,701 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:02:07,039 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:02:09,100 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:02:09,124 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:02:09,818 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:02:10,151 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:02:11,670 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:02:12,325 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:03:02,639 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:03:02,926 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:03:03,678 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:03:03,712 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:03:10,604 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:03:11,151 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:03:11,578 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:03:11,846 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:04:23,187 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:04:23,380 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:04:23,913 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:04:24,431 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:04:59,406 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:05:00,087 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:05:00,389 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:05:00,797 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:05:03,877 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:05:04,100 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:05:04,615 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:05:05,110 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:05:43,377 autoreload D:\Python_Project\EzPDF-ver2\Account\urls.py changed, reloading.
+INFO 2024-12-07 06:05:44,024 autoreload /app/Account/urls.py changed, reloading.
+INFO 2024-12-07 13:05:44,404 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:05:44,806 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:07:46,766 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:07:46,898 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:07:47,517 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:07:47,942 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:08:06,789 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:08:06,969 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:08:07,658 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:08:07,781 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:08:22,855 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:08:23,149 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:08:23,554 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:08:24,092 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:09:15,722 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:09:15,734 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:09:16,455 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:09:16,783 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:09:29,533 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:09:29,973 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:09:30,254 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:09:30,933 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:09:37,746 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:09:38,050 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:09:38,743 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:09:38,774 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:09:42,341 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:09:42,423 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:09:43,091 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:09:43,403 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:10:02,918 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:10:03,538 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:10:03,935 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:10:04,285 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:10:15,164 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:10:15,267 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:10:15,975 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:10:16,135 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:10:24,841 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:10:25,098 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:10:25,570 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:10:26,133 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:10:31,929 autoreload D:\Python_Project\EzPDF-ver2\Account\urls.py changed, reloading.
+INFO 2024-12-07 06:10:32,339 autoreload /app/Account/urls.py changed, reloading.
+INFO 2024-12-07 13:10:32,955 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:10:33,076 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:10:36,654 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:10:36,670 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:10:37,362 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:10:37,585 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:10:46,551 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:10:47,279 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:10:47,475 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:10:47,951 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:11:00,702 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:11:00,988 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:11:01,630 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:11:01,662 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:11:07,342 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:11:07,396 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:11:08,004 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:11:08,293 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:11:17,238 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:11:17,911 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:11:18,165 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:11:18,565 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:11:52,615 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:11:52,767 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:11:53,464 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:11:53,555 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:12:13,956 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:12:14,174 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:12:14,659 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:12:15,150 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:13:01,316 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:13:01,544 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:13:02,351 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:13:02,460 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:13:11,464 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:13:12,294 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:13:12,412 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:13:12,958 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:13:42,666 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:13:42,917 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:13:43,713 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:13:43,760 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:15:35,134 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:15:35,869 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:15:35,995 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 13:15:36,906 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:15:40,485 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:15:40,558 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:15:41,163 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:15:41,531 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:15:46,255 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:15:46,882 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:15:47,206 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:15:47,582 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:15:54,005 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:15:54,312 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:15:54,994 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:15:55,027 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:17:08,410 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:17:09,085 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:17:09,143 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 13:17:10,009 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:17:35,954 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:17:35,980 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:17:36,688 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:17:36,956 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:17:44,824 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:17:45,518 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:17:45,765 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:17:46,205 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:17:47,340 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:17:47,660 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:17:48,232 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:17:48,338 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:19:07,824 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:19:07,955 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:19:08,713 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:19:08,871 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:20:39,837 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:20:39,941 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:20:40,630 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:20:40,804 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:20:44,190 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:20:44,409 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:20:44,870 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:20:45,362 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:20:57,446 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:20:57,923 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:20:58,403 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:20:58,586 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:21:02,069 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:21:02,072 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:21:02,754 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:21:02,992 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:21:27,964 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:21:28,442 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:21:28,953 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:21:29,138 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:21:40,043 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:21:40,072 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:21:40,773 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:21:41,081 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:22:28,349 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:22:28,843 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:22:29,304 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:22:29,575 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:22:43,605 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:22:43,687 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:22:44,402 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:22:44,584 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:24:00,660 autoreload D:\Python_Project\EzPDF-ver2\Account\forms.py changed, reloading.
+INFO 2024-12-07 06:24:00,933 autoreload /app/Account/forms.py changed, reloading.
+INFO 2024-12-07 06:24:01,697 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:24:01,719 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:24:08,439 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:24:08,556 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:24:09,133 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:24:09,507 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:24:52,803 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:24:52,854 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:24:53,565 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:24:53,783 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:24:57,127 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:24:57,395 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:24:57,829 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:24:58,319 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:24:59,831 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:25:00,334 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:25:00,763 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:25:01,024 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:27:11,835 autoreload D:\Python_Project\EzPDF-ver2\Account\forms.py changed, reloading.
+INFO 2024-12-07 06:27:12,648 autoreload /app/Account/forms.py changed, reloading.
+INFO 2024-12-07 13:27:12,801 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:27:13,391 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:27:35,642 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:27:36,021 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:27:36,690 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:27:36,804 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:28:00,844 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:28:14,035 autoreload D:\Python_Project\EzPDF-ver2\Account\urls.py changed, reloading.
+INFO 2024-12-07 06:28:14,216 autoreload /app/Account/urls.py changed, reloading.
+INFO 2024-12-07 13:28:14,471 autoreload D:\Python_Project\EzPDF-ver2\Account\urls.py changed, reloading.
+INFO 2024-12-07 06:28:15,023 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:28:15,092 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:28:15,621 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:28:27,569 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 13:28:28,040 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 06:28:28,156 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 13:28:28,651 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:28:28,961 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:28:29,075 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:28:30,409 basehttp "GET / HTTP/1.1" 200 24049
+WARNING 2024-12-07 13:28:30,599 log Not Found: /favicon.ico
+WARNING 2024-12-07 13:28:30,600 basehttp "GET /favicon.ico HTTP/1.1" 404 6061
+ERROR 2024-12-07 13:30:02,906 log Internal Server Error: /account/signin
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/account/signin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-07 13:30:02,908 basehttp "POST /account/signin HTTP/1.1" 500 80950
+INFO 2024-12-07 13:30:10,657 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:30:10,658 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:30:11,472 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:30:11,539 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:30:11,839 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:30:12,523 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:30:19,004 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:30:19,758 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:30:28,272 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:30:29,026 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:30:42,115 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 13:30:47,165 log Internal Server Error: /account/signin
+Traceback (most recent call last):
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/account/signin/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-07 13:30:47,170 basehttp "POST /account/signin HTTP/1.1" 500 81443
+WARNING 2024-12-07 13:32:15,676 log Forbidden (CSRF cookie not set.): /account/signin/
+WARNING 2024-12-07 13:32:15,677 basehttp "POST /account/signin/ HTTP/1.1" 403 2855
+INFO 2024-12-07 06:33:33,641 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:33:34,351 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:33:34,473 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:33:36,617 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:33:37,499 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:33:42,785 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:33:46,130 views User attempting login: user@example.com
+WARNING 2024-12-07 13:33:46,408 views Failed login attempt for email: user@example.com
+WARNING 2024-12-07 13:33:46,409 log Bad Request: /account/signin/
+WARNING 2024-12-07 13:33:46,410 basehttp "POST /account/signin/ HTTP/1.1" 400 94
+INFO 2024-12-07 06:34:06,039 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:34:06,396 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:34:06,840 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:34:07,596 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:34:31,038 views User attempting login: admin@gmail.com
+INFO 2024-12-07 13:34:31,399 views Login successful for user: admin@gmail.com
+INFO 2024-12-07 13:34:31,458 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+INFO 2024-12-07 13:34:37,625 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:34:37,691 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:34:38,506 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:34:38,745 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:35:00,965 views User signed up successfully.
+INFO 2024-12-07 13:35:00,967 basehttp "POST /account/signup/ HTTP/1.1" 201 77
+WARNING 2024-12-07 13:35:45,518 log Method Not Allowed: /account/signup/
+WARNING 2024-12-07 13:35:45,519 basehttp "GET /account/signup/ HTTP/1.1" 405 67
+WARNING 2024-12-07 13:35:49,949 views Sign up failed due to invalid form data.
+WARNING 2024-12-07 13:35:49,950 log Bad Request: /account/signup/
+WARNING 2024-12-07 13:35:49,950 basehttp "POST /account/signup/ HTTP/1.1" 400 226
+INFO 2024-12-07 13:36:09,265 views User attempting login: user@example.com
+INFO 2024-12-07 13:36:09,586 views Login successful for user: user@example.com
+INFO 2024-12-07 13:36:09,628 basehttp "POST /account/signin/ HTTP/1.1" 200 531
+INFO 2024-12-07 13:36:21,559 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 13:36:22,534 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:36:22,558 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:36:23,322 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:36:36,247 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:36:36,759 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:36:36,985 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:36:37,772 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:36:43,247 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:36:43,305 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:36:44,068 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:36:44,271 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:36:48,699 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:36:49,330 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 13:36:49,764 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:36:50,102 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:37:14,149 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2024-12-07 06:37:14,282 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-07 06:37:15,596 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:37:15,953 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:37:23,904 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 06:37:24,383 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 13:37:24,913 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:37:25,150 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:40:11,827 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:40:12,138 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:40:12,809 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:40:13,358 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:42:56,769 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:42:56,991 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 06:42:57,976 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:42:58,065 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:48:18,329 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:48:18,575 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:48:19,145 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:48:19,603 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:49:20,723 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:49:20,808 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:49:21,435 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:49:21,754 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:50:53,465 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:50:54,079 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:50:54,164 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:50:55,014 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:51:07,051 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 13:51:07,249 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 06:51:08,014 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:51:08,579 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:54:33,699 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:54:33,903 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:54:34,615 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:54:35,080 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:56:01,376 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:56:01,517 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:56:02,271 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:56:02,761 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:56:13,835 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:56:14,137 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:56:14,858 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:56:14,911 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:56:50,453 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:56:50,847 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:56:51,212 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:56:51,888 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:56:57,511 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 06:56:58,356 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:56:58,413 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 13:56:59,513 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 06:59:30,059 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 13:59:30,111 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 06:59:30,880 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 13:59:31,192 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:00:34,614 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:00:35,179 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:00:35,473 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:00:36,347 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:01:44,124 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:01:44,666 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:01:45,190 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:01:45,496 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:02:11,187 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:02:11,288 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:02:11,979 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:02:12,381 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:02:19,362 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:02:20,072 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:02:20,164 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:02:21,064 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:02:36,200 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:02:36,236 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:02:37,056 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:02:37,391 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:02:43,233 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 07:02:43,713 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 14:02:44,341 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:02:44,656 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:02:54,561 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:02:55,441 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:02:55,561 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:02:56,228 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:04:05,253 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:04:05,946 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:04:05,997 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:04:07,026 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:04:17,754 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:04:17,906 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:04:18,584 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:04:18,977 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:04:24,783 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 07:04:25,227 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 14:04:25,757 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:04:25,981 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:04:51,796 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:04:51,994 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:04:52,564 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:04:53,053 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:05:41,055 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:05:41,202 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:05:41,991 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:05:42,140 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:05:56,304 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:05:56,982 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:05:57,285 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:05:57,751 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:06:28,562 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:06:28,875 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:06:29,355 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:06:30,004 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:08:46,039 log Method Not Allowed: /get_list_files/files/
+WARNING 2024-12-07 14:08:46,040 basehttp "POST /get_list_files/files/ HTTP/1.1" 405 44
+INFO 2024-12-07 14:08:50,378 basehttp "GET /get_list_files/files/ HTTP/1.1" 200 17
+INFO 2024-12-07 14:09:57,947 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 07:09:58,207 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 14:09:58,978 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:09:59,039 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:10:13,949 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:10:14,188 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:10:14,714 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:10:15,268 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:14:42,941 views Upload form is not valid
+WARNING 2024-12-07 14:14:42,942 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:14:42,942 basehttp "POST /upload_file/ HTTP/1.1" 400 31
+INFO 2024-12-07 14:15:42,510 autoreload D:\Python_Project\EzPDF-ver2\File\forms.py changed, reloading.
+INFO 2024-12-07 07:15:42,962 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 14:15:43,637 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:15:43,844 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:15:52,241 views Upload form is not valid
+WARNING 2024-12-07 14:15:52,242 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:15:52,243 basehttp "POST /upload_file/ HTTP/1.1" 400 31
+WARNING 2024-12-07 14:15:53,183 views Upload form is not valid
+WARNING 2024-12-07 14:15:53,183 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:15:53,184 basehttp "POST /upload_file/ HTTP/1.1" 400 31
+WARNING 2024-12-07 14:15:54,047 views Upload form is not valid
+WARNING 2024-12-07 14:15:54,048 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:15:54,049 basehttp "POST /upload_file/ HTTP/1.1" 400 31
+INFO 2024-12-07 07:16:01,073 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 07:16:01,795 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:16:06,826 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:17:44,957 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:17:45,080 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:17:45,816 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:17:46,448 views Upload form is not valid
+WARNING 2024-12-07 14:17:46,456 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:17:46,459 basehttp "POST /upload_file/ HTTP/1.1" 400 31
+INFO 2024-12-07 14:17:48,660 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:17:54,111 views Received POST request
+WARNING 2024-12-07 14:17:54,126 views Upload form is not valid
+WARNING 2024-12-07 14:17:54,127 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:17:54,129 basehttp "POST /upload_file/ HTTP/1.1" 400 31
+INFO 2024-12-07 14:18:09,322 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:18:12,871 views Received POST request
+WARNING 2024-12-07 14:18:12,887 views Upload form is not valid
+WARNING 2024-12-07 14:18:12,889 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:18:12,890 basehttp "POST /upload_file/ HTTP/1.1" 400 31
+INFO 2024-12-07 07:18:58,312 autoreload /app/File/models.py changed, reloading.
+INFO 2024-12-07 14:18:58,922 autoreload D:\Python_Project\EzPDF-ver2\File\models.py changed, reloading.
+INFO 2024-12-07 07:18:59,177 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:19:01,201 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:19:04,174 autoreload D:\Python_Project\EzPDF-ver2\File\forms.py changed, reloading.
+INFO 2024-12-07 07:19:04,375 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 07:19:05,113 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:19:06,606 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:19:29,891 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:19:30,612 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:19:41,176 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:19:41,970 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:19:46,798 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:19:49,434 views Received POST request
+WARNING 2024-12-07 14:21:11,497 views Upload form is not valid
+WARNING 2024-12-07 14:21:12,501 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:21:12,503 basehttp "POST /upload_file/ HTTP/1.1" 400 31
+INFO 2024-12-07 14:22:47,021 views Received POST request
+INFO 2024-12-07 14:27:41,577 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:27:42,210 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:27:42,946 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:28:55,176 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:28:55,816 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:28:58,010 views Upload form is not valid
+WARNING 2024-12-07 14:28:58,016 log Bad Request: /upload_file/
+INFO 2024-12-07 14:28:58,021 basehttp - Broken pipe from ('127.0.0.1', 25631)
+INFO 2024-12-07 14:29:00,346 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:29:28,256 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:29:28,483 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:29:29,263 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:32:10,489 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:32:11,224 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:32:13,701 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:32:14,384 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:32:18,944 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:32:19,683 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:32:45,026 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 07:32:45,735 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:32:47,779 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 14:32:48,428 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:32:48,616 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:32:54,906 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 07:32:55,711 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:33:03,100 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:33:03,836 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:33:10,120 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:33:10,852 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:33:15,594 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:33:25,165 views Received POST request for file upload
+ERROR 2024-12-07 14:33:25,171 views Error while saving file: Got a `TypeError` when calling `FileModel.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `FileModel.objects.create()`. You may need to make the field read-only, or override the FileSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'username'
+
+ERROR 2024-12-07 14:33:25,172 log Internal Server Error: /upload/
+ERROR 2024-12-07 14:33:25,172 basehttp "POST /upload/ HTTP/1.1" 500 1323
+INFO 2024-12-07 14:35:11,718 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 07:35:11,980 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 14:35:12,743 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:35:12,758 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:35:33,159 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 14:35:33,397 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 07:35:34,001 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:35:34,614 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:35:47,853 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:35:47,986 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:35:48,774 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:35:48,894 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:35:56,773 views Received POST request for file upload
+ERROR 2024-12-07 14:35:56,775 views Error while saving file: 'AccountModel' object has no attribute 'account'
+ERROR 2024-12-07 14:35:56,776 log Internal Server Error: /upload/
+ERROR 2024-12-07 14:35:56,777 basehttp "POST /upload/ HTTP/1.1" 500 83
+INFO 2024-12-07 07:39:48,248 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 07:39:49,017 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:39:49,224 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 14:39:50,273 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:39:51,486 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 14:39:51,817 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 07:39:52,284 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:39:52,929 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:39:59,865 views Received POST request for file upload
+INFO 2024-12-07 14:39:59,887 views Uploaded file: None
+ERROR 2024-12-07 14:39:59,887 views Error while saving file: The 'file' attribute has no file associated with it.
+ERROR 2024-12-07 14:39:59,888 log Internal Server Error: /upload/
+ERROR 2024-12-07 14:39:59,889 basehttp "POST /upload/ HTTP/1.1" 500 87
+INFO 2024-12-07 07:40:43,006 autoreload /app/File/models.py changed, reloading.
+INFO 2024-12-07 14:40:43,415 autoreload D:\Python_Project\EzPDF-ver2\File\models.py changed, reloading.
+INFO 2024-12-07 07:40:43,781 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:40:44,554 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:40:54,391 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 07:40:54,533 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 07:40:55,342 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:40:55,441 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:41:24,520 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:41:25,295 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:41:29,851 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 07:41:30,664 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:41:33,168 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:41:33,855 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:41:37,293 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:41:37,965 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:41:56,047 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 07:41:56,742 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:41:59,694 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 07:42:00,500 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:42:19,767 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:42:20,496 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:42:32,147 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 07:42:32,911 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:42:34,871 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:42:35,581 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:43:09,953 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:43:10,710 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:44:02,288 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:44:03,001 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:44:04,262 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:44:04,967 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:44:13,514 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:44:14,186 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:44:22,721 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:44:23,392 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:44:26,746 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:44:27,421 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:45:39,866 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 07:45:40,727 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:46:45,894 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:46:47,710 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:46:48,171 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:46:48,584 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:46:49,439 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:47:19,117 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:47:19,887 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:47:20,170 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:47:20,688 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:47:39,946 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:47:40,814 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:47:40,920 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 14:47:41,979 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:47:42,835 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 07:47:43,566 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:48:02,355 views Upload form is not valid
+WARNING 2024-12-07 14:48:02,356 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:48:02,357 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+INFO 2024-12-07 14:48:12,998 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:48:13,665 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:48:13,991 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:48:14,411 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:49:20,214 views Upload form is not valid
+WARNING 2024-12-07 14:49:20,216 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:49:20,217 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+WARNING 2024-12-07 14:49:54,876 views Upload form is not valid
+WARNING 2024-12-07 14:49:54,877 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:49:54,878 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+WARNING 2024-12-07 14:49:55,876 views Upload form is not valid
+WARNING 2024-12-07 14:49:55,877 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:49:55,877 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+INFO 2024-12-07 14:50:47,778 autoreload D:\Python_Project\EzPDF-ver2\File\forms.py changed, reloading.
+INFO 2024-12-07 07:50:47,986 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 07:50:48,745 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:50:48,805 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:52:36,082 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 14:52:36,182 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:52:37,003 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:52:37,465 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:52:40,968 views Upload form is not valid
+WARNING 2024-12-07 14:52:40,970 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:52:40,970 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+WARNING 2024-12-07 14:52:42,253 views Upload form is not valid
+WARNING 2024-12-07 14:52:42,254 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:52:42,255 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+WARNING 2024-12-07 14:52:42,988 views Upload form is not valid
+WARNING 2024-12-07 14:52:42,989 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:52:42,990 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+WARNING 2024-12-07 14:52:43,620 views Upload form is not valid
+WARNING 2024-12-07 14:52:43,620 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:52:43,621 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+INFO 2024-12-07 07:54:04,733 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 14:54:04,986 autoreload D:\Python_Project\EzPDF-ver2\File\forms.py changed, reloading.
+INFO 2024-12-07 07:54:05,523 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:54:06,159 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:54:16,985 autoreload D:\Python_Project\EzPDF-ver2\File\forms.py changed, reloading.
+INFO 2024-12-07 07:54:17,252 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 07:54:18,081 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:54:18,114 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:54:20,075 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 07:54:20,961 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 14:54:24,605 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 07:55:33,637 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 14:55:33,764 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 07:55:34,411 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 14:55:36,113 views Upload form is not valid
+WARNING 2024-12-07 14:55:36,121 log Bad Request: /upload_file/
+WARNING 2024-12-07 14:55:36,123 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+INFO 2024-12-07 14:55:38,531 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:00:44,513 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:00:45,324 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:00:45,324 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:00:56,126 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:00:56,848 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:00:58,221 views Upload form is not valid
+WARNING 2024-12-07 15:00:58,228 log Bad Request: /upload_file/
+WARNING 2024-12-07 15:00:58,230 basehttp "POST /upload_file/ HTTP/1.1" 400 126
+INFO 2024-12-07 15:01:00,472 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:01:19,119 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 08:01:19,806 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:01:21,769 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:01:22,453 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:01:27,530 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:01:28,276 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:01:43,940 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:01:46,419 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 15:02:25,251 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:02:57,663 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 15:03:02,307 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:03:02,556 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:03:03,320 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:03:04,684 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:03:13,079 autoreload /app/File/forms.py changed, reloading.
+INFO 2024-12-07 08:03:13,791 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:03:15,179 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:03:15,855 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:03:26,615 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:03:27,269 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:11:59,913 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:12:00,621 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:12:59,354 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:13:00,137 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:13:09,897 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 08:13:10,673 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:13:27,745 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:13:29,272 log Not Found: /
+WARNING 2024-12-07 15:13:29,274 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-07 15:13:29,370 log Not Found: /favicon.ico
+WARNING 2024-12-07 15:13:29,371 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+INFO 2024-12-07 15:13:32,312 basehttp "GET /upload HTTP/1.1" 301 0
+WARNING 2024-12-07 15:13:32,336 log Unauthorized: /upload/
+WARNING 2024-12-07 15:13:32,337 basehttp "GET /upload/ HTTP/1.1" 401 3749
+INFO 2024-12-07 15:13:32,481 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-12-07 15:13:32,481 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-12-07 15:13:32,485 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-12-07 15:13:32,487 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-12-07 15:13:32,512 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-12-07 15:13:32,515 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-12-07 15:13:32,515 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-12-07 15:13:32,524 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-12-07 15:13:32,525 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-12-07 15:13:32,536 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-12-07 15:13:32,544 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-12-07 15:13:32,556 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-12-07 15:13:39,053 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 08:13:39,696 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 15:13:40,143 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:13:40,517 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:13:44,712 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:13:44,714 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:13:45,456 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:13:45,726 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:13:52,945 basehttp "POST /upload/ HTTP/1.1" 200 65
+INFO 2024-12-07 15:14:00,224 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:14:00,385 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:14:01,181 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:14:01,266 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:14:35,012 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 08:14:35,671 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 15:14:36,014 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:14:36,458 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:15:09,716 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 08:15:10,470 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:15:25,098 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:15:38,349 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 15:15:39,216 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 08:15:39,274 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:15:40,273 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:15:41,225 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 08:15:42,008 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:15:42,906 log Unauthorized: /upload/
+WARNING 2024-12-07 15:15:42,906 basehttp "GET /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 15:15:43,422 log Unauthorized: /upload/
+WARNING 2024-12-07 15:15:43,423 basehttp "GET /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 15:15:43,590 log Unauthorized: /upload/
+WARNING 2024-12-07 15:15:43,591 basehttp "GET /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 15:15:43,742 log Unauthorized: /upload/
+WARNING 2024-12-07 15:15:43,743 basehttp "GET /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 15:15:43,909 log Unauthorized: /upload/
+WARNING 2024-12-07 15:15:43,910 basehttp "GET /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 15:15:44,070 log Unauthorized: /upload/
+WARNING 2024-12-07 15:15:44,071 basehttp "GET /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 15:15:44,260 log Unauthorized: /upload/
+WARNING 2024-12-07 15:15:44,261 basehttp "GET /upload/ HTTP/1.1" 401 3749
+INFO 2024-12-07 08:15:54,769 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 15:15:54,895 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 08:15:55,641 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:15:55,984 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:15:57,877 log Method Not Allowed: /upload/
+WARNING 2024-12-07 15:15:57,878 basehttp "GET /upload/ HTTP/1.1" 405 8264
+INFO 2024-12-07 15:16:21,630 basehttp "POST /upload/ HTTP/1.1" 200 8349
+INFO 2024-12-07 08:17:02,590 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 15:17:02,642 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 08:17:03,385 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:17:03,666 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:17:10,249 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:17:10,875 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:17:11,363 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:17:11,680 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:17:32,026 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:17:32,819 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:17:32,932 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:17:33,504 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:17:35,442 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:17:36,172 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:17:36,310 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 15:17:37,358 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 15:17:39,638 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in post
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 1133, in get_field_names
+    raise TypeError(
+TypeError: The `fields` option must be a list or tuple or "__all__". Got str.
+ERROR 2024-12-07 15:17:39,641 basehttp "POST /upload/ HTTP/1.1" 500 145534
+ERROR 2024-12-07 15:17:42,828 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 44, in post
+    if serializer.is_valid():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 1133, in get_field_names
+    raise TypeError(
+TypeError: The `fields` option must be a list or tuple or "__all__". Got str.
+ERROR 2024-12-07 15:17:42,832 basehttp "POST /upload/ HTTP/1.1" 500 145534
+INFO 2024-12-07 15:18:07,161 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 08:18:07,492 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 15:18:08,188 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:18:08,283 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:18:10,901 basehttp "POST /upload/ HTTP/1.1" 200 7033
+INFO 2024-12-07 15:18:14,511 basehttp "POST /upload/ HTTP/1.1" 200 7033
+INFO 2024-12-07 15:18:22,276 basehttp "POST /upload/ HTTP/1.1" 200 7033
+INFO 2024-12-07 15:18:56,628 autoreload D:\Python_Project\EzPDF-ver2\File\models.py changed, reloading.
+INFO 2024-12-07 08:18:56,854 autoreload /app/File/models.py changed, reloading.
+INFO 2024-12-07 08:18:57,668 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:18:57,715 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:19:04,836 basehttp "POST /upload/ HTTP/1.1" 200 7033
+INFO 2024-12-07 08:20:08,712 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:20:08,917 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:20:09,539 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:20:10,199 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:20:11,558 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:20:12,292 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:20:16,274 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 15:21:50,572 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 45, in post
+    serializer.save()
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 194, in save
+    assert not hasattr(self, '_data'), (
+AssertionError: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+ERROR 2024-12-07 15:21:50,583 basehttp "POST /upload/ HTTP/1.1" 500 109914
+INFO 2024-12-07 08:23:01,516 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:23:01,584 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:23:02,288 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:23:04,061 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:23:29,162 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:23:29,290 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:23:30,066 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:23:31,582 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:23:32,077 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:23:32,890 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:23:59,021 basehttp - Broken pipe from ('127.0.0.1', 27321)
+ERROR 2024-12-07 15:24:12,764 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 46, in post
+    serializer.save()
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 194, in save
+    assert not hasattr(self, '_data'), (
+AssertionError: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+ERROR 2024-12-07 15:24:12,773 basehttp "POST /upload/ HTTP/1.1" 500 110245
+INFO 2024-12-07 15:25:47,405 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:25:47,438 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:25:48,179 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:25:52,589 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 15:26:48,885 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 51, in post
+    serializer.save()  # Lu vào c s d liu
+    ^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 194, in save
+    assert not hasattr(self, '_data'), (
+AssertionError: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+ERROR 2024-12-07 15:26:48,896 basehttp "POST /upload/ HTTP/1.1" 500 110330
+INFO 2024-12-07 08:28:00,611 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:28:01,176 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:28:01,369 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:28:04,596 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:28:05,315 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:28:07,544 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:28:14,347 basehttp "POST /upload/ HTTP/1.1" 201 7108
+INFO 2024-12-07 08:28:38,639 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:28:38,724 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:28:39,530 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:28:46,899 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 08:28:47,867 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:28:50,405 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:28:53,340 log Unauthorized: /upload/
+WARNING 2024-12-07 15:28:53,342 basehttp "POST /upload/ HTTP/1.1" 401 3750
+INFO 2024-12-07 15:29:01,681 basehttp "POST /upload/ HTTP/1.1" 201 13
+INFO 2024-12-07 15:29:17,328 basehttp "POST /upload/ HTTP/1.1" 201 13
+INFO 2024-12-07 15:29:55,695 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 08:29:56,003 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 15:29:56,835 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:29:56,886 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:29:59,180 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 08:29:59,885 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 08:30:00,691 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:30:02,903 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:30:18,907 log Forbidden: /upload/
+WARNING 2024-12-07 15:30:18,908 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 08:33:49,552 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:33:50,088 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:33:50,368 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:33:51,317 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:33:52,365 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:33:53,130 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:33:59,206 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 08:33:59,557 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 15:34:00,471 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:34:00,504 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:34:04,897 log Unauthorized: /upload/
+WARNING 2024-12-07 15:34:04,897 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 15:34:11,224 basehttp "POST /upload/ HTTP/1.1" 201 13
+INFO 2024-12-07 15:34:13,057 basehttp "POST /upload/ HTTP/1.1" 201 13
+INFO 2024-12-07 15:34:13,714 basehttp "POST /upload/ HTTP/1.1" 201 13
+INFO 2024-12-07 15:34:14,320 basehttp "POST /upload/ HTTP/1.1" 201 13
+INFO 2024-12-07 15:34:17,250 basehttp "POST /upload/ HTTP/1.1" 201 13
+INFO 2024-12-07 15:34:17,950 basehttp "POST /upload/ HTTP/1.1" 201 13
+WARNING 2024-12-07 15:34:44,111 log Unauthorized: /upload/
+WARNING 2024-12-07 15:34:44,113 basehttp "POST /upload/ HTTP/1.1" 401 3750
+WARNING 2024-12-07 15:34:49,688 log Unauthorized: /upload/
+WARNING 2024-12-07 15:34:49,689 basehttp "POST /upload/ HTTP/1.1" 401 3750
+INFO 2024-12-07 08:35:26,009 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 15:35:26,909 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 08:35:26,921 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:35:28,020 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:35:32,460 log Forbidden: /upload/
+WARNING 2024-12-07 15:35:32,462 basehttp "POST /upload/ HTTP/1.1" 403 3624
+WARNING 2024-12-07 15:35:34,775 log Forbidden: /upload/
+WARNING 2024-12-07 15:35:34,776 basehttp "POST /upload/ HTTP/1.1" 403 3624
+INFO 2024-12-07 15:35:43,702 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:35:44,048 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:35:44,737 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:35:44,847 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:35:47,390 basehttp "POST /upload/ HTTP/1.1" 201 7108
+INFO 2024-12-07 15:35:51,419 basehttp "POST /upload/ HTTP/1.1" 201 7124
+INFO 2024-12-07 15:35:54,294 basehttp "POST /upload/ HTTP/1.1" 201 7038
+INFO 2024-12-07 15:35:54,613 basehttp "POST /upload/ HTTP/1.1" 201 7038
+INFO 2024-12-07 15:35:54,961 basehttp "POST /upload/ HTTP/1.1" 201 7038
+WARNING 2024-12-07 15:36:20,761 log Forbidden: /upload/
+WARNING 2024-12-07 15:36:20,762 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:36:22,442 log Forbidden: /upload/
+WARNING 2024-12-07 15:36:22,443 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 15:36:42,984 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:36:43,203 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:36:44,012 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:36:44,044 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:36:52,501 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:36:52,880 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:36:53,328 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:36:53,968 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:36:54,765 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:36:55,424 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:36:55,549 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 15:36:56,444 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:37:09,330 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:37:09,643 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:37:10,036 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:37:10,669 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:37:11,997 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:37:12,786 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:37:14,698 log Forbidden: /upload/
+WARNING 2024-12-07 15:37:14,699 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:37:15,670 log Forbidden: /upload/
+WARNING 2024-12-07 15:37:15,670 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:37:16,427 log Forbidden: /upload/
+WARNING 2024-12-07 15:37:16,428 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 15:37:44,019 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:37:44,109 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:37:44,919 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:37:45,122 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:38:00,232 log Forbidden: /upload/
+WARNING 2024-12-07 15:38:00,233 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:38:01,038 log Forbidden: /upload/
+WARNING 2024-12-07 15:38:01,039 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:38:01,913 log Forbidden: /upload/
+WARNING 2024-12-07 15:38:01,914 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:38:02,692 log Forbidden: /upload/
+WARNING 2024-12-07 15:38:02,693 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:38:03,399 log Forbidden: /upload/
+WARNING 2024-12-07 15:38:03,400 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:38:04,102 log Forbidden: /upload/
+WARNING 2024-12-07 15:38:04,103 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:38:04,742 log Forbidden: /upload/
+WARNING 2024-12-07 15:38:04,743 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 08:38:33,608 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:38:33,669 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:38:34,482 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:38:34,886 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:39:22,902 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:39:23,153 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:39:23,916 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:39:23,953 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:39:58,037 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:39:58,384 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:39:59,112 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:39:59,231 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:40:04,390 log Forbidden: /upload/
+WARNING 2024-12-07 15:40:04,392 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:40:05,334 log Forbidden: /upload/
+WARNING 2024-12-07 15:40:05,335 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:40:06,167 log Forbidden: /upload/
+WARNING 2024-12-07 15:40:06,168 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:40:09,652 log Forbidden: /upload/
+WARNING 2024-12-07 15:40:09,654 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 08:40:54,407 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 15:40:54,465 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 08:40:55,230 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:40:55,569 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:41:06,556 log Forbidden: /upload/
+WARNING 2024-12-07 15:41:06,557 basehttp "POST /upload/ HTTP/1.1" 403 3624
+INFO 2024-12-07 15:43:27,721 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:45:10,604 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:45:11,428 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:45:16,028 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:46:17,825 log Forbidden: /upload/
+WARNING 2024-12-07 15:46:17,827 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:46:18,960 log Forbidden: /upload/
+WARNING 2024-12-07 15:46:18,961 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:46:19,802 log Forbidden: /upload/
+WARNING 2024-12-07 15:46:19,803 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:46:20,703 log Forbidden: /upload/
+WARNING 2024-12-07 15:46:20,704 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 15:46:29,154 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 08:46:29,508 autoreload /app/File/urls.py changed, reloading.
+INFO 2024-12-07 08:46:30,513 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:46:31,732 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 15:47:02,641 log Forbidden: /upload/
+WARNING 2024-12-07 15:47:02,643 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:47:04,746 log Forbidden: /upload/
+WARNING 2024-12-07 15:47:04,747 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:47:05,756 log Forbidden: /upload/
+WARNING 2024-12-07 15:47:05,757 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:47:06,791 log Forbidden: /upload/
+WARNING 2024-12-07 15:47:06,792 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:47:07,570 log Forbidden: /upload/
+WARNING 2024-12-07 15:47:07,571 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 15:47:08,334 log Forbidden: /upload/
+WARNING 2024-12-07 15:47:08,335 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 08:51:14,846 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 15:51:15,548 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 08:51:15,776 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:51:18,048 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:52:08,862 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 08:52:08,958 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 08:52:09,895 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 15:52:11,603 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:55:08,225 autoreload /app/File/models.py changed, reloading.
+INFO 2024-12-07 08:55:09,028 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:55:12,120 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 08:55:12,917 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:55:22,525 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 08:55:23,332 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:55:26,423 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 08:55:27,322 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:55:39,011 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-07 08:55:39,946 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:57:16,558 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:57:17,422 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:57:25,937 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:57:26,789 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:57:28,752 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:57:29,520 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:57:35,926 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:57:36,889 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:59:05,775 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:59:06,615 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:59:08,701 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:59:09,542 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:59:28,880 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:59:29,643 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 08:59:32,642 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 08:59:33,442 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:00:42,794 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:00:43,790 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:02:26,095 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:02:31,065 log Forbidden: /upload/
+WARNING 2024-12-07 16:02:31,066 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:02:32,006 log Forbidden: /upload/
+WARNING 2024-12-07 16:02:32,006 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:02:32,893 log Forbidden: /upload/
+WARNING 2024-12-07 16:02:32,895 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 16:04:21,705 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 09:04:22,161 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 16:04:23,001 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:04:23,022 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:04:41,731 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 09:04:42,368 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 16:04:43,306 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:04:43,693 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:04:52,322 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 16:04:52,421 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 09:04:53,123 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:04:53,544 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:04:58,789 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 16:05:28,151 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 09:06:49,115 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:06:49,684 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:06:50,052 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:06:50,963 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:06:54,560 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 16:07:13,667 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 16:07:25,474 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 16:07:40,577 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:07:40,815 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:07:41,643 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:07:41,665 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:07:49,943 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 16:08:06,202 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:08:06,430 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:08:07,400 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:08:07,481 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:08:16,955 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 09:09:43,684 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:09:44,286 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:09:44,491 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:09:45,364 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:09:52,494 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 16:14:45,297 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:14:45,825 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:14:46,546 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:14:46,773 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:15:00,365 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 09:17:02,238 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:17:02,854 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:17:03,112 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:17:04,198 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:17:05,224 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:17:05,969 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:17:09,892 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:17:10,077 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:17:11,069 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:17:11,150 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:17:33,049 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:17:33,707 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:17:34,169 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:17:34,622 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:17:42,007 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:19:15,855 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:19:15,938 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:19:16,114 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 09:19:16,794 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:19:18,402 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:20:24,168 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:20:24,401 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:20:25,075 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:20:46,635 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:20:47,594 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:20:50,749 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 16:20:53,126 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 16:21:06,556 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 55, in post
+    serializer.validated_data
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 267, in validated_data
+    raise AssertionError(msg)
+AssertionError: You must call `.is_valid()` before accessing `.validated_data`.
+ERROR 2024-12-07 16:21:06,567 basehttp "POST /upload/ HTTP/1.1" 500 109414
+INFO 2024-12-07 16:21:54,741 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:21:55,037 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:21:55,868 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:21:57,364 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:22:01,349 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:22:08,495 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 09:23:00,874 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:23:01,141 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:23:01,634 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:23:03,634 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:23:19,771 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:23:19,932 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:23:20,706 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:23:22,174 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:23:30,341 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:23:31,159 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:24:06,744 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:24:07,553 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:24:09,521 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:24:10,270 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:24:17,106 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 16:25:24,431 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 53, in post
+    serializer.save()  # Lu d liu vào c s d liu
+    ^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 194, in save
+    assert not hasattr(self, '_data'), (
+AssertionError: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+ERROR 2024-12-07 16:25:24,442 basehttp "POST /upload/ HTTP/1.1" 500 110234
+INFO 2024-12-07 16:25:31,501 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:25:33,298 log Not Found: /
+WARNING 2024-12-07 16:25:33,302 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-07 16:25:36,298 log Unauthorized: /upload/
+WARNING 2024-12-07 16:25:36,299 basehttp "POST /upload/ HTTP/1.1" 401 3750
+INFO 2024-12-07 16:26:44,240 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:26:44,247 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:26:45,100 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:26:46,652 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:28:55,250 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:28:56,000 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:28:58,133 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:28:58,967 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:29:00,922 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:29:01,703 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:29:03,716 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:29:04,427 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:29:09,613 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:29:10,380 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:29:14,983 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:30:00,972 log Bad Request: /upload/
+WARNING 2024-12-07 16:30:00,973 basehttp "POST /upload/ HTTP/1.1" 400 29
+INFO 2024-12-07 16:31:35,603 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:31:35,662 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:31:36,525 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:31:36,746 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:31:40,139 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:31:40,690 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:31:41,224 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:31:41,529 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:31:54,383 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 16:31:54,508 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 09:31:55,185 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:31:55,571 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:31:57,206 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 09:31:58,064 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:32:01,035 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 16:32:01,221 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:32:01,861 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:32:02,378 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:32:11,379 log Forbidden: /upload/
+WARNING 2024-12-07 16:32:11,380 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:32:13,439 log Forbidden: /upload/
+WARNING 2024-12-07 16:32:13,440 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:32:14,202 log Forbidden: /upload/
+WARNING 2024-12-07 16:32:14,203 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:32:14,883 log Forbidden: /upload/
+WARNING 2024-12-07 16:32:14,884 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:32:15,545 log Forbidden: /upload/
+WARNING 2024-12-07 16:32:15,546 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:32:16,127 log Forbidden: /upload/
+WARNING 2024-12-07 16:32:16,127 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:32:17,996 log Forbidden: /upload/
+WARNING 2024-12-07 16:32:17,997 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 16:33:42,451 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 09:33:42,646 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-07 09:33:43,574 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:33:43,761 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 09:33:45,940 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 09:33:46,730 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:36:10,478 log Forbidden: /upload/
+WARNING 2024-12-07 16:36:10,479 basehttp "POST /upload/ HTTP/1.1" 403 45
+WARNING 2024-12-07 16:36:11,807 log Forbidden: /upload/
+WARNING 2024-12-07 16:36:11,808 basehttp "POST /upload/ HTTP/1.1" 403 45
+INFO 2024-12-07 09:36:15,311 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-07 16:36:15,844 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 16:36:17,105 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:36:20,556 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 16:36:21,610 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:36:23,915 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:36:24,890 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:38:24,814 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:38:25,884 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:38:40,233 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:38:41,134 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 16:38:49,128 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'BasePermissionMetaclass' object is not iterable
+ERROR 2024-12-07 16:38:49,131 basehttp "POST /upload/ HTTP/1.1" 500 112589
+WARNING 2024-12-07 16:39:02,798 log Not Found: /
+WARNING 2024-12-07 16:39:02,799 basehttp "GET / HTTP/1.1" 404 4485
+INFO 2024-12-07 16:39:53,668 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:39:54,644 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:39:58,383 log Unauthorized: /upload/
+WARNING 2024-12-07 16:39:58,384 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:40:08,540 log Unauthorized: /upload/
+WARNING 2024-12-07 16:40:08,541 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:40:09,438 log Unauthorized: /upload/
+WARNING 2024-12-07 16:40:09,439 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:41:07,215 log Unauthorized: /upload/
+WARNING 2024-12-07 16:41:07,216 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:41:08,151 log Unauthorized: /upload/
+WARNING 2024-12-07 16:41:08,152 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 16:42:03,574 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:42:04,648 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:42:26,958 log Bad Request: /upload/
+WARNING 2024-12-07 16:42:26,959 basehttp "POST /upload/ HTTP/1.1" 400 29
+WARNING 2024-12-07 16:42:29,125 log Bad Request: /upload/
+WARNING 2024-12-07 16:42:29,126 basehttp "POST /upload/ HTTP/1.1" 400 29
+INFO 2024-12-07 16:42:32,562 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:42:33,678 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:43:14,916 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:43:15,983 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:43:20,107 log Bad Request: /upload/
+WARNING 2024-12-07 16:43:20,108 basehttp "POST /upload/ HTTP/1.1" 400 29
+WARNING 2024-12-07 16:43:20,951 log Bad Request: /upload/
+WARNING 2024-12-07 16:43:20,952 basehttp "POST /upload/ HTTP/1.1" 400 29
+WARNING 2024-12-07 16:43:21,773 log Bad Request: /upload/
+WARNING 2024-12-07 16:43:21,774 basehttp "POST /upload/ HTTP/1.1" 400 29
+WARNING 2024-12-07 16:43:22,504 log Bad Request: /upload/
+WARNING 2024-12-07 16:43:22,505 basehttp "POST /upload/ HTTP/1.1" 400 29
+WARNING 2024-12-07 16:43:23,399 log Bad Request: /upload/
+WARNING 2024-12-07 16:43:23,400 basehttp "POST /upload/ HTTP/1.1" 400 29
+INFO 2024-12-07 16:46:03,330 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:46:04,319 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:46:24,972 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:46:25,871 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:46:33,780 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:46:34,647 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:46:47,910 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:46:48,871 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:47:26,119 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:47:27,135 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:47:33,733 log Unauthorized: /upload/
+WARNING 2024-12-07 16:47:33,734 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:47:35,573 log Unauthorized: /upload/
+WARNING 2024-12-07 16:47:35,574 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:47:36,380 log Unauthorized: /upload/
+WARNING 2024-12-07 16:47:36,381 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:47:36,972 log Unauthorized: /upload/
+WARNING 2024-12-07 16:47:36,973 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:47:38,001 log Unauthorized: /upload/
+WARNING 2024-12-07 16:47:38,002 basehttp "POST /upload/ HTTP/1.1" 401 58
+WARNING 2024-12-07 16:47:38,588 log Unauthorized: /upload/
+WARNING 2024-12-07 16:47:38,589 basehttp "POST /upload/ HTTP/1.1" 401 58
+INFO 2024-12-07 16:47:41,627 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:47:42,598 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:48:00,045 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 16:48:01,197 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:48:04,546 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 16:48:05,584 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:48:13,432 log Method Not Allowed: /upload/
+WARNING 2024-12-07 16:48:13,433 basehttp "POST /upload/ HTTP/1.1" 405 41
+WARNING 2024-12-07 16:48:18,963 log Method Not Allowed: /upload/
+WARNING 2024-12-07 16:48:18,964 basehttp "GET /upload/ HTTP/1.1" 405 40
+ERROR 2024-12-07 16:48:22,127 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UploadFileView.put() missing 1 required positional argument: 'filename'
+ERROR 2024-12-07 16:48:22,130 basehttp "PUT /upload/ HTTP/1.1" 500 100547
+ERROR 2024-12-07 16:48:55,264 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UploadFileView.put() missing 1 required positional argument: 'filename'
+ERROR 2024-12-07 16:48:55,266 basehttp "PUT /upload/ HTTP/1.1" 500 100547
+INFO 2024-12-07 16:50:25,372 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 16:50:26,445 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:50:41,693 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 16:50:42,737 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:50:45,060 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:50:45,964 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 16:50:53,973 log Internal Server Error: /upload/file/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 46, in put
+    file_obj = request.data['file']
+               ~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:50:53,976 basehttp "PUT /upload/file/ HTTP/1.1" 500 104435
+INFO 2024-12-07 16:51:26,892 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:51:27,961 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:51:36,820 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 16:51:37,791 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 16:51:42,058 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 46, in put
+    file_obj = request.data['file']
+               ~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:51:42,061 basehttp "PUT /upload/ HTTP/1.1" 500 103945
+INFO 2024-12-07 16:52:01,276 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 16:52:02,303 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:52:04,648 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:52:05,588 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 16:52:09,687 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 46, in put
+    file_obj = request.data['file']
+               ~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:52:09,690 basehttp "PUT /upload/ HTTP/1.1" 500 103945
+ERROR 2024-12-07 16:52:10,774 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 46, in put
+    file_obj = request.data['file']
+               ~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:52:10,776 basehttp "PUT /upload/ HTTP/1.1" 500 103945
+ERROR 2024-12-07 16:52:59,125 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 46, in put
+    file_obj = request.data['file']
+               ~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:52:59,126 basehttp "PUT /upload/ HTTP/1.1" 500 103945
+ERROR 2024-12-07 16:53:00,051 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 46, in put
+    file_obj = request.data['file']
+               ~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:53:00,053 basehttp "PUT /upload/ HTTP/1.1" 500 103945
+WARNING 2024-12-07 16:53:13,884 log Unauthorized: /upload/
+WARNING 2024-12-07 16:53:13,885 basehttp "POST /upload/ HTTP/1.1" 401 3749
+WARNING 2024-12-07 16:53:13,943 log Not Found: /favicon.ico
+WARNING 2024-12-07 16:53:13,944 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+INFO 2024-12-07 16:53:18,630 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 16:53:19,610 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:54:37,525 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:54:38,486 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:55:04,628 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:55:05,568 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:55:36,974 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:55:37,859 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:55:54,276 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 16:55:55,219 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 16:56:16,252 log Method Not Allowed: /upload/
+WARNING 2024-12-07 16:56:16,252 basehttp "PUT /upload/ HTTP/1.1" 405 40
+INFO 2024-12-07 16:56:25,314 basehttp "POST /upload/ HTTP/1.1" 201 56
+INFO 2024-12-07 16:56:32,233 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:56:33,258 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:56:40,995 autoreload D:\Python_Project\EzPDF-ver2\File\models.py changed, reloading.
+INFO 2024-12-07 16:56:41,943 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:58:30,439 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 16:58:31,458 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 16:58:38,936 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 16:58:41,285 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 48, in post
+    uploaded_file = serializer.validated_data["file"]
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:58:41,287 basehttp "POST /upload/ HTTP/1.1" 500 104721
+ERROR 2024-12-07 16:58:58,677 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 48, in post
+    uploaded_file = serializer.validated_data["file"]
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:58:58,679 basehttp "POST /upload/ HTTP/1.1" 500 104721
+ERROR 2024-12-07 16:59:03,985 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 48, in post
+    uploaded_file = serializer.validated_data["file"]
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:59:03,986 basehttp "POST /upload/ HTTP/1.1" 500 104721
+ERROR 2024-12-07 16:59:29,874 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 48, in post
+    uploaded_file = serializer.validated_data["file"]
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'file'
+ERROR 2024-12-07 16:59:29,876 basehttp "POST /upload/ HTTP/1.1" 500 104721
+INFO 2024-12-07 17:00:17,422 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:02:22,232 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+ERROR 2024-12-07 17:07:21,850 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 49, in post
+    serializer.save()
+  File "d:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\serializers.py", line 194, in save
+    assert not hasattr(self, '_data'), (
+AssertionError: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+ERROR 2024-12-07 17:07:21,861 basehttp "POST /upload/ HTTP/1.1" 500 110450
+INFO 2024-12-07 17:07:24,199 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:09:55,099 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:10:12,516 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:10:13,760 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-07 17:10:18,203 log Not Found: /
+WARNING 2024-12-07 17:10:18,204 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-07 17:10:21,873 log Method Not Allowed: /upload/
+WARNING 2024-12-07 17:10:21,874 basehttp "GET /upload/ HTTP/1.1" 405 7065
+INFO 2024-12-07 17:10:27,640 basehttp "POST /upload/ HTTP/1.1" 201 7181
+INFO 2024-12-07 17:10:54,647 autoreload D:\Python_Project\EzPDF-ver2\File\urls.py changed, reloading.
+INFO 2024-12-07 17:10:55,600 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:11:40,049 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:11:41,028 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:11:47,232 basehttp "POST /upload/ HTTP/1.1" 201 7111
+INFO 2024-12-07 17:11:52,273 basehttp "POST /upload/ HTTP/1.1" 201 7111
+INFO 2024-12-07 17:12:00,033 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:12:01,018 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:12:06,415 basehttp "POST /upload/ HTTP/1.1" 201 7181
+INFO 2024-12-07 17:12:15,531 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:12:16,579 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:12:40,471 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:12:41,452 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:12:49,848 basehttp "POST /upload/ HTTP/1.1" 201 7147
+INFO 2024-12-07 17:16:39,511 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:16:40,561 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:16:45,825 basehttp "POST /upload/ HTTP/1.1" 201 85
+INFO 2024-12-07 17:16:45,982 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:16:46,133 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:16:46,290 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:16:46,431 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:16:46,588 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:16:57,283 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:16:58,349 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:17:07,590 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:07,741 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:07,985 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:08,159 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:08,295 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:08,442 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:08,587 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:08,876 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:09,008 basehttp "POST /upload/ HTTP/1.1" 201 93
+INFO 2024-12-07 17:17:30,347 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:17:31,267 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:17:51,894 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 17:17:52,843 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:18:59,013 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 17:18:59,918 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:19:47,311 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 17:19:48,325 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:20:37,537 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 17:20:38,449 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:21:01,368 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:21:02,336 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:21:09,960 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:21:10,922 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:21:17,686 basehttp "POST /upload/ HTTP/1.1" 201 121
+INFO 2024-12-07 17:21:18,006 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:21:18,162 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:21:18,331 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:21:18,495 basehttp "POST /upload/ HTTP/1.1" 201 129
+INFO 2024-12-07 17:21:33,042 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:21:34,059 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:21:36,353 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-07 17:21:37,270 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:21:47,089 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:21:48,069 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:21:54,996 basehttp "POST /upload/ HTTP/1.1" 201 122
+INFO 2024-12-07 17:22:43,779 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:22:44,742 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:23:43,692 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:23:44,770 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:23:53,631 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:23:54,595 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:24:00,431 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-07 17:24:01,406 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:24:32,385 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:24:33,340 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:25:03,087 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:25:04,541 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:25:16,282 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:25:48,043 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:25:49,264 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:25:56,239 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:25:57,347 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 17:28:16,695 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-07 17:28:17,765 autoreload Watching for file changes with StatReloader
