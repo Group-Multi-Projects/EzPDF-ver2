@@ -2818,3 +2818,12 @@ INFO 2024-12-07 18:27:22,519 basehttp "POST /upload/ HTTP/1.1" 201 129
 INFO 2024-12-07 18:30:24,332 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
 INFO 2024-12-07 18:30:25,401 autoreload Watching for file changes with StatReloader
 INFO 2024-12-07 18:30:29,495 basehttp "POST /upload/ HTTP/1.1" 201 126
+INFO 2024-12-08 14:54:14,247 autoreload Watching for file changes with StatReloader
+INFO 2024-12-08 14:54:17,858 views User attempting login: admin@gmail.com
+INFO 2024-12-08 14:54:18,142 views Login successful for user: admin@gmail.com
+INFO 2024-12-08 14:54:18,189 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+INFO 2024-12-10 03:30:32,125 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-10 03:31:57,774 log Not Found: /
+WARNING 2024-12-10 03:31:57,780 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-10 03:31:57,914 log Not Found: /favicon.ico
+WARNING 2024-12-10 03:31:57,919 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
