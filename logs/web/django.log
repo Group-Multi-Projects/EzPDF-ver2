@@ -2818,3 +2818,534 @@ INFO 2024-12-07 18:27:22,519 basehttp "POST /upload/ HTTP/1.1" 201 129
 INFO 2024-12-07 18:30:24,332 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
 INFO 2024-12-07 18:30:25,401 autoreload Watching for file changes with StatReloader
 INFO 2024-12-07 18:30:29,495 basehttp "POST /upload/ HTTP/1.1" 201 126
+INFO 2024-12-10 13:39:07,534 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 13:40:41,423 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 13:41:08,494 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 13:41:43,323 autoreload /home/huypro/EZPDF/EzPDF-ver2/EzPDF/settings.py changed, reloading.
+INFO 2024-12-10 13:41:44,935 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 13:44:18,200 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-10 13:44:22,479 log Not Found: /
+WARNING 2024-12-10 13:44:22,480 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-10 13:44:23,498 log Not Found: /favicon.ico
+WARNING 2024-12-10 13:44:23,501 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+INFO 2024-12-10 14:17:58,224 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 14:17:59,227 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:20:16,707 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 14:20:17,690 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:22:50,754 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 14:22:51,736 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:22:59,741 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 14:23:00,792 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:23:06,807 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 14:23:07,851 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:25:11,370 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 14:25:12,105 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:27:59,619 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:30:40,817 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:30:44,385 views User attempting login: admin@gmail.com
+INFO 2024-12-10 14:30:45,143 views Login successful for user: admin@gmail.com
+INFO 2024-12-10 14:30:45,406 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+ERROR 2024-12-10 14:32:54,372 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 46, in upload_file
+    pdf_to_word(serializer.data['file'],os.path.joint('media','files','converted_files','output.docx') )
+AttributeError: module 'posixpath' has no attribute 'joint'
+ERROR 2024-12-10 14:32:54,375 basehttp "POST /upload/ HTTP/1.1" 500 112806
+INFO 2024-12-10 14:33:55,389 autoreload /home/huypro/EZPDF/EzPDF-ver2/conversion/views.py changed, reloading.
+INFO 2024-12-10 14:33:56,385 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:34:58,273 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 14:35:04,274 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 46, in upload_file
+    pdf_to_word(serializer.data['file'],os.path.join('media','files','converted_files','output.docx') )
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: 'http://127.0.0.1:8000/media/files/Tuan_2_Cai_dat_hadoop_yarn_spark_jhr3Wvp.pdf'
+ERROR 2024-12-10 14:35:04,280 basehttp "POST /upload/ HTTP/1.1" 500 126799
+ERROR 2024-12-10 14:39:19,002 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 46, in upload_file
+    pdf_to_word(serializer.data['file'],os.path.join('media','files','converted_files','output.docx') )
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: 'http://127.0.0.1:8000/media/files/Tuan_2_Cai_dat_hadoop_yarn_spark_aGOqvHi.pdf'
+ERROR 2024-12-10 14:39:19,003 basehttp "POST /upload/ HTTP/1.1" 500 126799
+INFO 2024-12-10 14:45:35,747 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 14:45:42,301 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 46, in upload_file
+    pdf_to_word(serializer.data['file'],os.path.join('media','files','converted_files','output.docx') )
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: 'http://127.0.0.1:8000/media/files/BangTotNghiep.pdf'
+ERROR 2024-12-10 14:45:42,304 basehttp "POST /upload/ HTTP/1.1" 500 126445
+INFO 2024-12-10 14:57:04,471 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 14:57:05,501 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 14:57:49,508 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 14:57:50,399 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 14:58:00,572 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 53, in upload_file
+    file_content = default_storage.open(file_path).read()
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 81, in _open
+    return File(open(self.path(name), mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/huypro/EZPDF/EzPDF-ver2/media/media/files/BangTotNghiep_XJZ5aeX.pdf'
+ERROR 2024-12-10 14:58:00,575 basehttp "POST /upload/ HTTP/1.1" 500 121897
+ERROR 2024-12-10 14:58:11,517 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 53, in upload_file
+    file_content = default_storage.open(file_path).read()
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 81, in _open
+    return File(open(self.path(name), mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/huypro/EZPDF/EzPDF-ver2/media/media/files/BangTotNghiep_FZovq6F.pdf'
+ERROR 2024-12-10 14:58:11,517 basehttp "POST /upload/ HTTP/1.1" 500 121897
+INFO 2024-12-10 15:01:32,923 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:01:33,882 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:01:35,324 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:01:36,335 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:01:39,213 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:01:40,157 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:01:45,561 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 53, in upload_file
+    file_content = default_storage.open(file_path).read()
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/files/storage/filesystem.py", line 81, in _open
+    return File(open(self.path(name), mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/huypro/EZPDF/EzPDF-ver2/media/media/files/BangTotNghiep_vDB4r48.pdf'
+ERROR 2024-12-10 15:01:45,563 basehttp "POST /upload/ HTTP/1.1" 500 121845
+ERROR 2024-12-10 15:03:10,587 log Internal Server Error: /upload
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/upload/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-10 15:03:10,588 basehttp "POST /upload HTTP/1.1" 500 85802
+ERROR 2024-12-10 15:03:12,797 log Internal Server Error: /upload
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/upload/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-10 15:03:12,797 basehttp "POST /upload HTTP/1.1" 500 85802
+INFO 2024-12-10 15:13:34,767 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:13:41,263 log Internal Server Error: /upload
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/upload/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-10 15:13:41,264 basehttp "POST /upload HTTP/1.1" 500 85802
+INFO 2024-12-10 15:14:55,476 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:14:56,274 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:15:01,021 log Internal Server Error: /upload
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/upload/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-10 15:15:01,022 basehttp "POST /upload HTTP/1.1" 500 85802
+INFO 2024-12-10 15:15:33,386 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:15:34,215 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:15:38,231 log Internal Server Error: /upload
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/upload/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-10 15:15:38,232 basehttp "POST /upload HTTP/1.1" 500 85802
+INFO 2024-12-10 15:16:34,461 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:16:35,272 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:16:38,566 log Internal Server Error: /upload
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/upload/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-10 15:16:38,567 basehttp "POST /upload HTTP/1.1" 500 85802
+INFO 2024-12-10 15:16:51,662 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:16:57,082 log Internal Server Error: /upload
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/upload/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-12-10 15:16:57,083 basehttp "POST /upload HTTP/1.1" 500 85802
+WARNING 2024-12-10 15:17:57,861 log Not Found: /upload/ 
+WARNING 2024-12-10 15:17:57,862 basehttp "POST /upload/%20 HTTP/1.1" 404 4530
+ERROR 2024-12-10 15:18:25,397 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 46, in upload_file
+    pdf_to_word(serializer.data['file'], '/media/files/converted_files/output.docx')
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: 'http://127.0.0.1:8000/media/files/BangTotNghiep.pdf'
+ERROR 2024-12-10 15:18:25,401 basehttp "POST /upload/ HTTP/1.1" 500 126348
+INFO 2024-12-10 15:18:48,869 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:18:49,738 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:19:12,972 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:19:13,847 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:19:16,413 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 46, in upload_file
+    pdf_to_word(serializer.data['file'], '/media/files/converted_files/output.docx')
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: 'http://127.0.0.1:8000/media/files/BangTotNghiep_aNC9yTL.pdf'
+ERROR 2024-12-10 15:19:16,416 basehttp "POST /upload/ HTTP/1.1" 500 126436
+INFO 2024-12-10 15:20:13,027 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:20:13,847 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:20:20,713 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:20:21,525 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:20:25,414 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 46, in upload_file
+    pdf_to_word(serializer.data['file'], '/media/files/output.docx')
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: 'http://127.0.0.1:8000/media/files/BangTotNghiep_augksHR.pdf'
+ERROR 2024-12-10 15:20:25,420 basehttp "POST /upload/ HTTP/1.1" 500 126388
+INFO 2024-12-10 15:21:34,776 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:21:35,705 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:21:39,822 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 47, in upload_file
+    pdf_to_word(serializer.data['file'], os.path.join('media', 'files', 'converted_files', 'output.docx'))
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: 'http://127.0.0.1:8000/media/files/BangTotNghiep_QM2nrEq.pdf'
+ERROR 2024-12-10 15:21:39,825 basehttp "POST /upload/ HTTP/1.1" 500 126514
+INFO 2024-12-10 15:23:08,989 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:23:09,797 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:23:13,000 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 47, in upload_file
+    pdf_to_word(serializer.data['file'], os.path.join('media', 'files','output.docx'))
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: 'http://127.0.0.1:8000/media/files/BangTotNghiep_SK7horg.pdf'
+ERROR 2024-12-10 15:23:13,003 basehttp "POST /upload/ HTTP/1.1" 500 126438
+INFO 2024-12-10 15:23:54,750 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:23:55,603 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:26:18,534 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:26:19,357 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 15:26:40,100 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 47, in upload_file
+    pdf_to_word('/media/files/BangTotNghiep.pdf', os.path.join('media', 'files', 'converted_files', 'output.docx'))
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 99, in pdf_to_word
+    cv = WordConverter(pdf_file_path)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pdf2docx/converter.py", line 59, in __init__
+    self._fitz_doc = fitz.Document(pdf_file)
+  File "/home/huypro/EZPDF/EzPDF-ver2/myenv/lib/python3.10/site-packages/pymupdf/__init__.py", line 2955, in __init__
+    raise FileNotFoundError(msg)
+pymupdf.FileNotFoundError: no such file: '/media/files/BangTotNghiep.pdf'
+ERROR 2024-12-10 15:26:40,103 basehttp "POST /upload/ HTTP/1.1" 500 126213
+INFO 2024-12-10 15:27:24,181 autoreload /home/huypro/EZPDF/EzPDF-ver2/File/views.py changed, reloading.
+INFO 2024-12-10 15:27:25,026 autoreload Watching for file changes with StatReloader

@@ -13,7 +13,7 @@ def upload_to_convert(request):
 def convert_file_after_login(request, type):
     form = ConversionForm()
     file = ""
-    if type == "pdf2word":
+    if type == "pdf2word": 
         docx_file = os.path.join(settings.MEDIA_ROOT,'files', 'converted_files', 'output.docx')
         docx_file = docx_file.replace("/", "\\")
         if request.method == "POST":

@@ -18,6 +18,7 @@ from tools.models import TextModel,DrawModel
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
+from conversion.views import pdf_to_word
 logger = logging.getLogger(__name__)
 # Create your views here.
 
@@ -42,6 +43,8 @@ def upload_file(request):
     
     if serializer.is_valid():
         serializer.save()  # Save the file data
+    
+        pdf_to_word(serializer.data['file'], os.path.join('media', 'files', 'converted_files', 'output.docx'))
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
@@ -80,7 +83,7 @@ def edit_file(request, file_id):
 
 
 @api_view(["GET", "PUT", "DELETE"])
-@permission_classes([IsAuthenticated])
+# @permission_classes([IsAuthenticated])
 def get_put_delete_file_api(request, id):
     model = get_object_or_404(FileModel, id=id)
 
@@ -101,7 +104,7 @@ def get_put_delete_file_api(request, id):
 
 
 @api_view(["GET", "POST"])
-@permission_classes([IsAuthenticated])
+# @permission_classes([IsAuthenticated])
 def get_list_files(request,page_type):
     if request.method == "GET":
         try:
