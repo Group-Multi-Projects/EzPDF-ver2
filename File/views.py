@@ -18,6 +18,7 @@ from tools.models import TextModel,DrawModel
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
+from conversion.views import pdf_to_word
 logger = logging.getLogger(__name__)
 # Create your views here.
 
@@ -41,8 +42,13 @@ def upload_file(request):
     serializer = UploadFileSerializer(data=request.data, context={'request': request})
     
     if serializer.is_valid():
-        serializer.save()  # Save the file data
-        
+        serializer.validated_data  
+        serializer.save() 
+        print(serializer.data)
+        file_url = serializer.data['file']
+        file_path = file_url.replace('http://127.0.0.1:8000/media/', settings.MEDIA_ROOT)
+        file_output =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files','output.docx')).replace("\\", "/")
+        pdf_to_word(file_path,file_output)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

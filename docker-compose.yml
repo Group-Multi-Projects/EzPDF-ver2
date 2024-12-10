@@ -8,7 +8,7 @@ services:
       MYSQL_ROOT_PASSWORD: dinhthai2004  # Đặt mật khẩu cho người dùng root
       MYSQL_DATABASE: ezpdf               # Tạo database mặc định
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - db_data:/var/lib/mysql
 
