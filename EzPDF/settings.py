@@ -124,7 +124,7 @@ DATABASES = {
 }
 
 # Đọc file .env
-# environ.Env.read_env()
+# # environ.Env.read_env()
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
@@ -307,3 +307,4 @@ LOGGING = {
         'level': 'INFO',
     },
 }
+

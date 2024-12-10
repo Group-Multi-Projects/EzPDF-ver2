@@ -287,3 +287,1144 @@ INFO 2024-12-10 15:41:12,574 converter (18/18) Page 18
 ERROR 2024-12-10 15:41:12,585 converter Ignore page 18 due to making page error: invalid literal for int() with base 16: 'x1'
 INFO 2024-12-10 15:41:12,638 converter Terminated in 1.92s.
 INFO 2024-12-10 15:41:12,645 basehttp "POST /upload/ HTTP/1.1" 201 127
+INFO 2024-12-10 15:45:43,239 autoreload /app/jwt_auth/views.py changed, reloading.
+INFO 2024-12-10 15:45:44,556 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:45:49,925 autoreload /app/jwt_auth/views.py changed, reloading.
+INFO 2024-12-10 15:45:50,761 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:46:13,524 autoreload /app/Account/views.py changed, reloading.
+INFO 2024-12-10 15:46:14,420 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:46:22,986 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 15:46:23,843 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:48:42,000 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 15:48:42,887 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:48:47,150 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 15:48:48,003 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 15:53:29,193 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 15:53:30,068 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:14:18,711 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:14:19,619 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:14:30,256 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:14:31,092 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:15:53,714 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:15:54,584 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:16:13,892 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:16:14,688 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:16:24,160 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:16:25,022 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:16:30,163 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:16:30,990 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:16:32,905 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:16:33,730 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:16:57,358 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:16:58,209 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:17:02,336 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:17:03,164 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:17:05,084 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:17:05,900 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:18:05,579 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:18:06,523 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:18:22,760 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:18:23,664 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:18:38,732 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:18:39,532 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:20:24,558 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:20:25,395 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:20:55,631 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:20:56,505 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:21:00,560 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:21:01,360 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:21:30,787 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:21:31,513 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:22:49,639 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:22:50,436 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:22:55,636 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:22:56,465 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:23:12,723 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:23:13,579 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:23:52,527 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:23:53,332 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:24:02,865 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:24:03,627 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:24:25,297 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-10 16:24:30,370 log Bad Request: /upload/
+WARNING 2024-12-10 16:24:30,375 basehttp "POST /upload/ HTTP/1.1" 400 46
+ERROR 2024-12-10 16:25:42,772 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type', 'ouput_file_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 46, in upload_file
+    serializer.save()
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/app/File/serializers.py", line 34, in create
+    return super().create(validated_data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1008, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `FileModel.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `FileModel.objects.create()`. You may need to make the field read-only, or override the UploadFileSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type', 'ouput_file_url'
+
+ERROR 2024-12-10 16:25:42,782 basehttp "POST /upload/ HTTP/1.1" 500 152927
+INFO 2024-12-10 16:27:23,184 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:27:24,052 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:27:35,854 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:27:36,712 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:27:52,111 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 16:27:53,844 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 44, in upload_file
+    if serializer.is_valid():
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+  File "/usr/local/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'output_file_url' was declared on serializer UploadFileSerializer, but has not been included in the 'fields' option.
+ERROR 2024-12-10 16:27:53,853 basehttp "POST /upload/ HTTP/1.1" 500 139819
+ERROR 2024-12-10 16:27:55,429 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 44, in upload_file
+    if serializer.is_valid():
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+  File "/usr/local/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'output_file_url' was declared on serializer UploadFileSerializer, but has not been included in the 'fields' option.
+ERROR 2024-12-10 16:27:55,435 basehttp "POST /upload/ HTTP/1.1" 500 139819
+INFO 2024-12-10 16:28:30,744 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:28:31,567 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:28:46,673 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-10 16:28:47,718 log Bad Request: /upload/
+WARNING 2024-12-10 16:28:47,722 basehttp "POST /upload/ HTTP/1.1" 400 2
+WARNING 2024-12-10 16:29:01,359 log Bad Request: /upload/
+WARNING 2024-12-10 16:29:01,363 basehttp "POST /upload/ HTTP/1.1" 400 2
+WARNING 2024-12-10 16:29:02,125 log Bad Request: /upload/
+WARNING 2024-12-10 16:29:02,130 basehttp "POST /upload/ HTTP/1.1" 400 2
+WARNING 2024-12-10 16:29:02,832 log Bad Request: /upload/
+WARNING 2024-12-10 16:29:02,835 basehttp "POST /upload/ HTTP/1.1" 400 2
+WARNING 2024-12-10 16:29:03,535 log Bad Request: /upload/
+WARNING 2024-12-10 16:29:03,540 basehttp "POST /upload/ HTTP/1.1" 400 2
+INFO 2024-12-10 16:30:46,489 converter Start to convert /app/media/files/note2_thuchanh.pdf
+INFO 2024-12-10 16:30:46,492 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-10 16:30:46,496 converter [1;36m[2/4] Analyzing document...[0m
+INFO 2024-12-10 16:30:47,931 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-10 16:30:47,934 converter (1/11) Page 1
+INFO 2024-12-10 16:30:47,983 converter (2/11) Page 2
+INFO 2024-12-10 16:30:48,036 converter (3/11) Page 3
+INFO 2024-12-10 16:30:48,054 converter (4/11) Page 4
+INFO 2024-12-10 16:30:48,074 converter (5/11) Page 5
+INFO 2024-12-10 16:30:48,087 converter (6/11) Page 6
+INFO 2024-12-10 16:30:48,102 converter (7/11) Page 7
+INFO 2024-12-10 16:30:48,122 converter (8/11) Page 8
+INFO 2024-12-10 16:30:48,135 converter (9/11) Page 9
+INFO 2024-12-10 16:30:48,141 converter (10/11) Page 10
+INFO 2024-12-10 16:30:48,151 converter (11/11) Page 11
+INFO 2024-12-10 16:30:48,155 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-10 16:30:48,172 converter (1/11) Page 1
+ERROR 2024-12-10 16:30:48,181 converter Ignore page 1 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,187 converter (2/11) Page 2
+ERROR 2024-12-10 16:30:48,197 converter Ignore page 2 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,202 converter (3/11) Page 3
+ERROR 2024-12-10 16:30:48,210 converter Ignore page 3 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,214 converter (4/11) Page 4
+ERROR 2024-12-10 16:30:48,221 converter Ignore page 4 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,226 converter (5/11) Page 5
+ERROR 2024-12-10 16:30:48,233 converter Ignore page 5 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,237 converter (6/11) Page 6
+ERROR 2024-12-10 16:30:48,243 converter Ignore page 6 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,247 converter (7/11) Page 7
+ERROR 2024-12-10 16:30:48,253 converter Ignore page 7 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,256 converter (8/11) Page 8
+ERROR 2024-12-10 16:30:48,266 converter Ignore page 8 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,271 converter (9/11) Page 9
+ERROR 2024-12-10 16:30:48,282 converter Ignore page 9 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,288 converter (10/11) Page 10
+ERROR 2024-12-10 16:30:48,298 converter Ignore page 10 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:30:48,303 converter (11/11) Page 11
+INFO 2024-12-10 16:30:48,345 converter Terminated in 1.86s.
+INFO 2024-12-10 16:30:48,351 basehttp "POST /upload/ HTTP/1.1" 201 118
+INFO 2024-12-10 16:31:08,421 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:31:09,253 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:32:13,106 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:32:14,030 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:32:41,027 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:32:41,848 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:32:43,805 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:32:44,603 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:33:17,888 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:33:46,539 converter Start to convert /app/media/files/note2_thuchanh_VEb9Scq.pdf
+INFO 2024-12-10 16:33:46,542 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-10 16:33:46,547 converter [1;36m[2/4] Analyzing document...[0m
+INFO 2024-12-10 16:33:48,078 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-10 16:33:48,082 converter (1/11) Page 1
+INFO 2024-12-10 16:33:48,131 converter (2/11) Page 2
+INFO 2024-12-10 16:33:48,185 converter (3/11) Page 3
+INFO 2024-12-10 16:33:48,204 converter (4/11) Page 4
+INFO 2024-12-10 16:33:48,222 converter (5/11) Page 5
+INFO 2024-12-10 16:33:48,236 converter (6/11) Page 6
+INFO 2024-12-10 16:33:48,249 converter (7/11) Page 7
+INFO 2024-12-10 16:33:48,267 converter (8/11) Page 8
+INFO 2024-12-10 16:33:48,281 converter (9/11) Page 9
+INFO 2024-12-10 16:33:48,287 converter (10/11) Page 10
+INFO 2024-12-10 16:33:48,296 converter (11/11) Page 11
+INFO 2024-12-10 16:33:48,300 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-10 16:33:50,615 converter (1/11) Page 1
+ERROR 2024-12-10 16:33:50,632 converter Ignore page 1 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,636 converter (2/11) Page 2
+ERROR 2024-12-10 16:33:50,644 converter Ignore page 2 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,648 converter (3/11) Page 3
+ERROR 2024-12-10 16:33:50,657 converter Ignore page 3 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,661 converter (4/11) Page 4
+ERROR 2024-12-10 16:33:50,667 converter Ignore page 4 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,672 converter (5/11) Page 5
+ERROR 2024-12-10 16:33:50,679 converter Ignore page 5 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,684 converter (6/11) Page 6
+ERROR 2024-12-10 16:33:50,690 converter Ignore page 6 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,694 converter (7/11) Page 7
+ERROR 2024-12-10 16:33:50,832 converter Ignore page 7 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,839 converter (8/11) Page 8
+ERROR 2024-12-10 16:33:50,846 converter Ignore page 8 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,850 converter (9/11) Page 9
+ERROR 2024-12-10 16:33:50,857 converter Ignore page 9 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,861 converter (10/11) Page 10
+ERROR 2024-12-10 16:33:50,870 converter Ignore page 10 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:33:50,875 converter (11/11) Page 11
+INFO 2024-12-10 16:33:51,474 converter Terminated in 5.01s.
+INFO 2024-12-10 16:33:51,481 basehttp "POST /upload/ HTTP/1.1" 201 126
+INFO 2024-12-10 16:34:15,289 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:34:16,451 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:34:36,320 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:34:38,948 converter Start to convert /app/media/files/note2_thuchanh_JBNhip0.pdf
+INFO 2024-12-10 16:34:38,952 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-10 16:34:38,958 converter [1;36m[2/4] Analyzing document...[0m
+INFO 2024-12-10 16:34:40,470 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-10 16:34:40,474 converter (1/11) Page 1
+INFO 2024-12-10 16:34:40,525 converter (2/11) Page 2
+INFO 2024-12-10 16:34:40,589 converter (3/11) Page 3
+INFO 2024-12-10 16:34:40,618 converter (4/11) Page 4
+INFO 2024-12-10 16:34:40,638 converter (5/11) Page 5
+INFO 2024-12-10 16:34:40,652 converter (6/11) Page 6
+INFO 2024-12-10 16:34:40,668 converter (7/11) Page 7
+INFO 2024-12-10 16:34:40,687 converter (8/11) Page 8
+INFO 2024-12-10 16:34:40,701 converter (9/11) Page 9
+INFO 2024-12-10 16:34:40,708 converter (10/11) Page 10
+INFO 2024-12-10 16:34:40,718 converter (11/11) Page 11
+INFO 2024-12-10 16:34:40,723 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-10 16:34:40,739 converter (1/11) Page 1
+ERROR 2024-12-10 16:34:40,747 converter Ignore page 1 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,752 converter (2/11) Page 2
+ERROR 2024-12-10 16:34:40,761 converter Ignore page 2 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,766 converter (3/11) Page 3
+ERROR 2024-12-10 16:34:40,775 converter Ignore page 3 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,779 converter (4/11) Page 4
+ERROR 2024-12-10 16:34:40,790 converter Ignore page 4 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,795 converter (5/11) Page 5
+ERROR 2024-12-10 16:34:40,801 converter Ignore page 5 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,805 converter (6/11) Page 6
+ERROR 2024-12-10 16:34:40,812 converter Ignore page 6 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,816 converter (7/11) Page 7
+ERROR 2024-12-10 16:34:40,822 converter Ignore page 7 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,828 converter (8/11) Page 8
+ERROR 2024-12-10 16:34:40,838 converter Ignore page 8 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,844 converter (9/11) Page 9
+ERROR 2024-12-10 16:34:40,854 converter Ignore page 9 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,860 converter (10/11) Page 10
+ERROR 2024-12-10 16:34:40,871 converter Ignore page 10 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 16:34:40,878 converter (11/11) Page 11
+INFO 2024-12-10 16:34:40,917 converter Terminated in 1.97s.
+INFO 2024-12-10 16:34:40,924 basehttp "POST /upload/ HTTP/1.1" 201 126
+INFO 2024-12-10 16:35:28,770 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:35:29,700 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:35:44,638 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 16:35:45,792 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 46, in upload_file
+    serializer.save()
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/app/File/serializers.py", line 38, in create
+    return super().create(validated_data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1008, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `FileModel.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `FileModel.objects.create()`. You may need to make the field read-only, or override the UploadFileSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type'
+
+ERROR 2024-12-10 16:35:45,799 basehttp "POST /upload/ HTTP/1.1" 500 153394
+ERROR 2024-12-10 16:35:48,200 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 46, in upload_file
+    serializer.save()
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/app/File/serializers.py", line 38, in create
+    return super().create(validated_data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1008, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `FileModel.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `FileModel.objects.create()`. You may need to make the field read-only, or override the UploadFileSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type'
+
+ERROR 2024-12-10 16:35:48,206 basehttp "POST /upload/ HTTP/1.1" 500 153394
+INFO 2024-12-10 16:38:47,215 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:38:48,072 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:38:54,368 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:38:55,253 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:40:03,595 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:40:04,431 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:40:18,948 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 16:40:20,433 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 46, in upload_file
+    serializer.save()
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/app/File/serializers.py", line 38, in create
+    file_instance =  super().create(validated_data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1008, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `FileModel.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `FileModel.objects.create()`. You may need to make the field read-only, or override the UploadFileSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type'
+
+ERROR 2024-12-10 16:40:20,443 basehttp "POST /upload/ HTTP/1.1" 500 154080
+INFO 2024-12-10 16:40:38,462 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:40:39,305 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:41:10,171 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 16:41:12,567 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 46, in upload_file
+    serializer.save()
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/app/File/serializers.py", line 38, in create
+    file_instance =  super().create(validated_data)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 1008, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `FileModel.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `FileModel.objects.create()`. You may need to make the field read-only, or override the UploadFileSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
+    obj = self.model(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: FileModel() got unexpected keyword arguments: 'request_type'
+
+ERROR 2024-12-10 16:41:12,582 basehttp "POST /upload/ HTTP/1.1" 500 154080
+INFO 2024-12-10 16:41:29,112 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:41:30,504 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:43:58,392 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-10 16:44:00,865 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:44:15,073 autoreload /app/File/models.py changed, reloading.
+INFO 2024-12-10 16:44:15,945 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:44:24,084 autoreload /app/File/models.py changed, reloading.
+INFO 2024-12-10 16:44:24,904 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:44:26,651 autoreload /app/File/models.py changed, reloading.
+INFO 2024-12-10 16:44:27,487 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:44:41,868 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:44:42,698 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:44:44,482 autoreload /app/File/serializers.py changed, reloading.
+INFO 2024-12-10 16:44:45,585 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:44:47,385 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:44:48,224 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:44:52,101 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:44:52,950 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:44:54,693 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:44:55,525 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:45:03,793 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:45:04,653 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:45:06,460 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 16:45:07,268 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 16:45:23,784 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2024-12-10 16:45:24,642 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:46:56,558 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:47:00,967 converter Start to convert D:\Python_Project\EzPDF-ver2\media/files/note2_thuchanh_dx6ALIj.pdf
+INFO 2024-12-10 23:47:00,968 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-10 23:47:00,968 converter [1;36m[2/4] Analyzing document...[0m
+INFO 2024-12-10 23:47:01,870 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-10 23:47:01,871 converter (1/11) Page 1
+INFO 2024-12-10 23:47:01,902 converter (2/11) Page 2
+INFO 2024-12-10 23:47:01,936 converter (3/11) Page 3
+INFO 2024-12-10 23:47:01,947 converter (4/11) Page 4
+INFO 2024-12-10 23:47:01,956 converter (5/11) Page 5
+INFO 2024-12-10 23:47:01,964 converter (6/11) Page 6
+INFO 2024-12-10 23:47:01,973 converter (7/11) Page 7
+INFO 2024-12-10 23:47:01,983 converter (8/11) Page 8
+INFO 2024-12-10 23:47:01,989 converter (9/11) Page 9
+INFO 2024-12-10 23:47:01,991 converter (10/11) Page 10
+INFO 2024-12-10 23:47:01,995 converter (11/11) Page 11
+INFO 2024-12-10 23:47:01,996 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-10 23:47:02,015 converter (1/11) Page 1
+INFO 2024-12-10 23:47:02,071 converter (2/11) Page 2
+INFO 2024-12-10 23:47:02,137 converter (3/11) Page 3
+INFO 2024-12-10 23:47:02,161 converter (4/11) Page 4
+INFO 2024-12-10 23:47:02,185 converter (5/11) Page 5
+INFO 2024-12-10 23:47:02,202 converter (6/11) Page 6
+INFO 2024-12-10 23:47:02,223 converter (7/11) Page 7
+INFO 2024-12-10 23:47:02,243 converter (8/11) Page 8
+INFO 2024-12-10 23:47:02,264 converter (9/11) Page 9
+INFO 2024-12-10 23:47:02,274 converter (10/11) Page 10
+INFO 2024-12-10 23:47:02,288 converter (11/11) Page 11
+INFO 2024-12-10 23:47:02,316 converter Terminated in 1.35s.
+INFO 2024-12-10 23:47:02,319 basehttp "POST /upload/ HTTP/1.1" 201 207
+INFO 2024-12-10 23:48:44,234 autoreload D:\Python_Project\EzPDF-ver2\File\serializers.py changed, reloading.
+INFO 2024-12-10 23:48:45,252 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:49:25,503 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-10 23:49:26,541 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:49:29,985 converter Start to convert D:\Python_Project\EzPDF-ver2\media/files/note2_thuchanh_bJWZ8dQ.pdf
+INFO 2024-12-10 23:49:29,986 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-10 23:49:29,986 converter [1;36m[2/4] Analyzing document...[0m
+INFO 2024-12-10 23:49:30,852 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-10 23:49:30,853 converter (1/11) Page 1
+INFO 2024-12-10 23:49:30,885 converter (2/11) Page 2
+INFO 2024-12-10 23:49:30,916 converter (3/11) Page 3
+INFO 2024-12-10 23:49:30,929 converter (4/11) Page 4
+INFO 2024-12-10 23:49:30,937 converter (5/11) Page 5
+INFO 2024-12-10 23:49:30,945 converter (6/11) Page 6
+INFO 2024-12-10 23:49:30,957 converter (7/11) Page 7
+INFO 2024-12-10 23:49:30,967 converter (8/11) Page 8
+INFO 2024-12-10 23:49:30,973 converter (9/11) Page 9
+INFO 2024-12-10 23:49:30,975 converter (10/11) Page 10
+INFO 2024-12-10 23:49:30,980 converter (11/11) Page 11
+INFO 2024-12-10 23:49:30,980 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-10 23:49:30,993 converter (1/11) Page 1
+INFO 2024-12-10 23:49:31,056 converter (2/11) Page 2
+INFO 2024-12-10 23:49:31,125 converter (3/11) Page 3
+INFO 2024-12-10 23:49:31,150 converter (4/11) Page 4
+INFO 2024-12-10 23:49:31,174 converter (5/11) Page 5
+INFO 2024-12-10 23:49:31,191 converter (6/11) Page 6
+INFO 2024-12-10 23:49:31,214 converter (7/11) Page 7
+INFO 2024-12-10 23:49:31,238 converter (8/11) Page 8
+INFO 2024-12-10 23:49:31,257 converter (9/11) Page 9
+INFO 2024-12-10 23:49:31,268 converter (10/11) Page 10
+INFO 2024-12-10 23:49:31,285 converter (11/11) Page 11
+INFO 2024-12-10 23:49:31,312 converter Terminated in 1.33s.
+INFO 2024-12-10 23:49:31,315 basehttp "POST /upload/ HTTP/1.1" 201 207
+INFO 2024-12-10 23:51:18,369 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2024-12-10 23:51:19,679 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:55:26,268 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:55:29,305 converter Start to convert D:\Python_Project\EzPDF-ver2\media/files/note2_thuchanh_sWFcNYg.pdf
+INFO 2024-12-10 23:55:29,306 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-10 23:55:29,306 converter [1;36m[2/4] Analyzing document...[0m
+INFO 2024-12-10 23:55:30,131 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-10 23:55:30,132 converter (1/11) Page 1
+INFO 2024-12-10 23:55:30,163 converter (2/11) Page 2
+INFO 2024-12-10 23:55:30,192 converter (3/11) Page 3
+INFO 2024-12-10 23:55:30,202 converter (4/11) Page 4
+INFO 2024-12-10 23:55:30,210 converter (5/11) Page 5
+INFO 2024-12-10 23:55:30,217 converter (6/11) Page 6
+INFO 2024-12-10 23:55:30,226 converter (7/11) Page 7
+INFO 2024-12-10 23:55:30,236 converter (8/11) Page 8
+INFO 2024-12-10 23:55:30,242 converter (9/11) Page 9
+INFO 2024-12-10 23:55:30,244 converter (10/11) Page 10
+INFO 2024-12-10 23:55:30,248 converter (11/11) Page 11
+INFO 2024-12-10 23:55:30,249 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-10 23:55:30,262 converter (1/11) Page 1
+INFO 2024-12-10 23:55:30,320 converter (2/11) Page 2
+INFO 2024-12-10 23:55:30,385 converter (3/11) Page 3
+INFO 2024-12-10 23:55:30,410 converter (4/11) Page 4
+INFO 2024-12-10 23:55:30,435 converter (5/11) Page 5
+INFO 2024-12-10 23:55:30,451 converter (6/11) Page 6
+INFO 2024-12-10 23:55:30,469 converter (7/11) Page 7
+INFO 2024-12-10 23:55:30,490 converter (8/11) Page 8
+INFO 2024-12-10 23:55:30,509 converter (9/11) Page 9
+INFO 2024-12-10 23:55:30,518 converter (10/11) Page 10
+INFO 2024-12-10 23:55:30,533 converter (11/11) Page 11
+INFO 2024-12-10 23:55:30,560 converter Terminated in 1.26s.
+INFO 2024-12-10 23:55:30,562 basehttp "POST /upload/ HTTP/1.1" 201 207
+INFO 2024-12-10 23:55:47,543 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-10 23:55:48,504 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:56:00,491 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-10 23:56:01,656 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:57:32,339 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-10 23:57:33,647 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:58:58,900 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-10 23:58:59,952 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:59:00,408 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+INFO 2024-12-10 23:59:56,690 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-10 23:59:57,725 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 23:59:58,138 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+INFO 2024-12-11 00:00:14,107 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-11 00:00:15,116 autoreload Watching for file changes with StatReloader
+INFO 2024-12-11 00:00:15,524 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+INFO 2024-12-11 00:00:18,469 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-11 00:00:19,395 autoreload Watching for file changes with StatReloader
+INFO 2024-12-11 00:00:19,793 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+ERROR 2024-12-11 00:00:23,614 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 55, in upload_file
+    file_path = file_url.replace(f'{env.IO_URL}media/', settings.MEDIA_ROOT)
+                                    ^^^^^^^^^^
+AttributeError: 'Env' object has no attribute 'IO_URL'
+ERROR 2024-12-11 00:00:23,617 basehttp "POST /upload/ HTTP/1.1" 500 110983
+ERROR 2024-12-11 00:00:24,993 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 55, in upload_file
+    file_path = file_url.replace(f'{env.IO_URL}media/', settings.MEDIA_ROOT)
+                                    ^^^^^^^^^^
+AttributeError: 'Env' object has no attribute 'IO_URL'
+ERROR 2024-12-11 00:00:24,995 basehttp "POST /upload/ HTTP/1.1" 500 110983
+INFO 2024-12-11 00:00:55,662 autoreload Watching for file changes with StatReloader
+INFO 2024-12-11 00:00:56,057 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+ERROR 2024-12-11 00:00:59,222 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 55, in upload_file
+    file_path = file_url.replace(f'{env.IO_URL}media/', settings.MEDIA_ROOT)
+                                    ^^^^^^^^^^
+AttributeError: 'Env' object has no attribute 'IO_URL'
+ERROR 2024-12-11 00:00:59,225 basehttp "POST /upload/ HTTP/1.1" 500 110983
+ERROR 2024-12-11 00:01:00,536 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 55, in upload_file
+    file_path = file_url.replace(f'{env.IO_URL}media/', settings.MEDIA_ROOT)
+                                    ^^^^^^^^^^
+AttributeError: 'Env' object has no attribute 'IO_URL'
+ERROR 2024-12-11 00:01:00,539 basehttp "POST /upload/ HTTP/1.1" 500 110983
+INFO 2024-12-11 00:01:10,353 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-11 00:01:11,546 autoreload Watching for file changes with StatReloader
+INFO 2024-12-11 00:01:11,955 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+INFO 2024-12-11 00:01:58,431 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-11 00:01:59,483 autoreload Watching for file changes with StatReloader
+INFO 2024-12-11 00:01:59,872 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+ERROR 2024-12-11 00:02:02,278 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 388, in get_value
+    value = self.ENVIRON[var_name]
+            ~~~~~~~~~~~~^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'IO_URL'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 53, in upload_file
+    io_url = env('IO_URL')
+             ^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 199, in __call__
+    return self.get_value(
+           ^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 392, in get_value
+    raise ImproperlyConfigured(error_msg) from exc
+django.core.exceptions.ImproperlyConfigured: Set the IO_URL environment variable
+ERROR 2024-12-11 00:02:02,281 basehttp "POST /upload/ HTTP/1.1" 500 130642
+ERROR 2024-12-11 00:02:03,231 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 388, in get_value
+    value = self.ENVIRON[var_name]
+            ~~~~~~~~~~~~^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'IO_URL'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 53, in upload_file
+    io_url = env('IO_URL')
+             ^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 199, in __call__
+    return self.get_value(
+           ^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 392, in get_value
+    raise ImproperlyConfigured(error_msg) from exc
+django.core.exceptions.ImproperlyConfigured: Set the IO_URL environment variable
+ERROR 2024-12-11 00:02:03,233 basehttp "POST /upload/ HTTP/1.1" 500 130642
+INFO 2024-12-11 00:03:13,801 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-11 00:03:14,841 autoreload Watching for file changes with StatReloader
+INFO 2024-12-11 00:03:15,253 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+INFO 2024-12-11 00:03:23,625 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-11 00:03:24,565 autoreload Watching for file changes with StatReloader
+INFO 2024-12-11 00:03:24,951 environ D:\Python_Project\EzPDF-ver2\File\.env doesn't exist - if you're not configuring your environment separately, create one.
+ERROR 2024-12-11 00:03:43,016 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 388, in get_value
+    value = self.ENVIRON[var_name]
+            ~~~~~~~~~~~~^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'IO_URL'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 53, in upload_file
+    io_url = env('IO_URL')
+             ^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 199, in __call__
+    return self.get_value(
+           ^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 392, in get_value
+    raise ImproperlyConfigured(error_msg) from exc
+django.core.exceptions.ImproperlyConfigured: Set the IO_URL environment variable
+ERROR 2024-12-11 00:03:43,021 basehttp "POST /upload/ HTTP/1.1" 500 130642
+ERROR 2024-12-11 00:03:43,922 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 388, in get_value
+    value = self.ENVIRON[var_name]
+            ~~~~~~~~~~~~^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'IO_URL'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 53, in upload_file
+    io_url = env('IO_URL')
+             ^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 199, in __call__
+    return self.get_value(
+           ^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\environ\environ.py", line 392, in get_value
+    raise ImproperlyConfigured(error_msg) from exc
+django.core.exceptions.ImproperlyConfigured: Set the IO_URL environment variable
+ERROR 2024-12-11 00:03:43,923 basehttp "POST /upload/ HTTP/1.1" 500 130642
+INFO 2024-12-11 00:09:07,249 autoreload D:\Python_Project\EzPDF-ver2\manage.py changed, reloading.
+INFO 2024-12-11 00:10:22,742 autoreload Watching for file changes with StatReloader
+INFO 2024-12-11 00:10:24,886 converter Start to convert D:\Python_Project\EzPDF-ver2\media/files/note2_thuchanh_anWRgT3.pdf
+INFO 2024-12-11 00:10:24,888 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-11 00:10:24,889 converter [1;36m[2/4] Analyzing document...[0m
+INFO 2024-12-11 00:10:25,740 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-11 00:10:25,740 converter (1/11) Page 1
+INFO 2024-12-11 00:10:25,771 converter (2/11) Page 2
+INFO 2024-12-11 00:10:25,800 converter (3/11) Page 3
+INFO 2024-12-11 00:10:25,811 converter (4/11) Page 4
+INFO 2024-12-11 00:10:25,819 converter (5/11) Page 5
+INFO 2024-12-11 00:10:25,827 converter (6/11) Page 6
+INFO 2024-12-11 00:10:25,836 converter (7/11) Page 7
+INFO 2024-12-11 00:10:25,846 converter (8/11) Page 8
+INFO 2024-12-11 00:10:25,852 converter (9/11) Page 9
+INFO 2024-12-11 00:10:25,854 converter (10/11) Page 10
+INFO 2024-12-11 00:10:25,859 converter (11/11) Page 11
+INFO 2024-12-11 00:10:25,860 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-11 00:10:25,872 converter (1/11) Page 1
+INFO 2024-12-11 00:10:25,929 converter (2/11) Page 2
+INFO 2024-12-11 00:10:26,000 converter (3/11) Page 3
+INFO 2024-12-11 00:10:26,026 converter (4/11) Page 4
+INFO 2024-12-11 00:10:26,052 converter (5/11) Page 5
+INFO 2024-12-11 00:10:26,068 converter (6/11) Page 6
+INFO 2024-12-11 00:10:26,099 converter (7/11) Page 7
+INFO 2024-12-11 00:10:26,130 converter (8/11) Page 8
+INFO 2024-12-11 00:10:26,158 converter (9/11) Page 9
+INFO 2024-12-11 00:10:26,169 converter (10/11) Page 10
+INFO 2024-12-11 00:10:26,187 converter (11/11) Page 11
+INFO 2024-12-11 00:10:26,217 converter Terminated in 1.33s.
+INFO 2024-12-11 00:10:26,219 basehttp "POST /upload/ HTTP/1.1" 201 207
+INFO 2024-12-11 00:10:33,182 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2024-12-11 00:10:34,243 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 17:11:00,501 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-10 17:11:08,736 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 49, in upload_file
+    base_url = file_url.split('/media')[0] + '/media/'
+AttributeError: 'NoneType' object has no attribute 'split'
+ERROR 2024-12-10 17:11:08,743 basehttp "POST /upload/ HTTP/1.1" 500 98674
+INFO 2024-12-10 17:11:47,411 converter Start to convert /app/media/files/Note3_thuchanh.pdf
+INFO 2024-12-10 17:11:47,415 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-10 17:11:47,419 converter [1;36m[2/4] Analyzing document...[0m
+WARNING 2024-12-10 17:11:47,812 ImagesExtractor Ignore image due to inconsistent size of color and mask pixmaps: [48, 49, 2, 2, 1, 'Indexed', '', 'Image48', '', 0]
+WARNING 2024-12-10 17:11:47,820 ImagesExtractor Ignore image due to inconsistent size of color and mask pixmaps: [48, 49, 2, 2, 1, 'Indexed', '', 'Image48', '', 0]
+INFO 2024-12-10 17:11:48,559 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-10 17:11:48,564 converter (1/9) Page 1
+INFO 2024-12-10 17:11:48,588 converter (2/9) Page 2
+INFO 2024-12-10 17:11:48,611 converter (3/9) Page 3
+INFO 2024-12-10 17:11:48,619 converter (4/9) Page 4
+INFO 2024-12-10 17:11:48,630 converter (5/9) Page 5
+INFO 2024-12-10 17:11:48,643 converter (6/9) Page 6
+INFO 2024-12-10 17:11:48,656 converter (7/9) Page 7
+INFO 2024-12-10 17:11:48,665 converter (8/9) Page 8
+INFO 2024-12-10 17:11:48,676 converter (9/9) Page 9
+INFO 2024-12-10 17:11:48,689 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-10 17:11:48,720 converter (1/9) Page 1
+ERROR 2024-12-10 17:11:48,730 converter Ignore page 1 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 17:11:48,734 converter (2/9) Page 2
+ERROR 2024-12-10 17:11:48,741 converter Ignore page 2 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 17:11:48,746 converter (3/9) Page 3
+ERROR 2024-12-10 17:11:48,755 converter Ignore page 3 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 17:11:48,759 converter (4/9) Page 4
+ERROR 2024-12-10 17:11:48,765 converter Ignore page 4 due to making page error: invalid literal for int() with base 16: 'xd'
+INFO 2024-12-10 17:11:48,769 converter (5/9) Page 5
+ERROR 2024-12-10 17:11:48,775 converter Ignore page 5 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 17:11:48,778 converter (6/9) Page 6
+ERROR 2024-12-10 17:11:48,784 converter Ignore page 6 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 17:11:48,788 converter (7/9) Page 7
+ERROR 2024-12-10 17:11:48,795 converter Ignore page 7 due to making page error: invalid literal for int() with base 16: 'xc'
+INFO 2024-12-10 17:11:48,798 converter (8/9) Page 8
+ERROR 2024-12-10 17:11:48,807 converter Ignore page 8 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 17:11:48,812 converter (9/9) Page 9
+ERROR 2024-12-10 17:11:48,818 converter Ignore page 9 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-10 17:11:48,877 converter Terminated in 1.47s.
+INFO 2024-12-10 17:11:48,885 basehttp "POST /upload/ HTTP/1.1" 201 199
+INFO 2024-12-10 17:12:08,193 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 17:12:09,175 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 17:12:16,556 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 17:12:17,403 autoreload Watching for file changes with StatReloader
+INFO 2024-12-10 17:12:24,779 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-10 17:12:25,716 autoreload Watching for file changes with StatReloader

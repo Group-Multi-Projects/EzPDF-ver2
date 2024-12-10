@@ -1,7 +1,6 @@
 import fitz
 from django.db import models
 from Account.models import AccountModel
-
 class FileModel(models.Model):
     account = models.ForeignKey(AccountModel, on_delete=models.PROTECT, null=True)
     file = models.FileField(upload_to="files/", null=True)

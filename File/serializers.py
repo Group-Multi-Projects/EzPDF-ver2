@@ -10,17 +10,20 @@ class FileSerializer(serializers.ModelSerializer):
 
 class UploadFileSerializer(serializers.ModelSerializer):
     created_at = serializers.DateTimeField(read_only=True)
-
+    request_type = serializers.CharField(default="Web", write_only=True)  # Chỉ ghi
+    output_file_url = serializers.CharField(read_only = True)
     class Meta:
         model = FileModel
-        fields = ['file', 'created_at', 'account']
-
+        fields = ['file', 'created_at', 'account','request_type','output_file_url']
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         # Lấy user từ context
         self.user = self.context.get('request').user
 
     def create(self, validated_data):
+        # Lấy các trường không phải thuộc tính của model
+        request_type = validated_data.pop('request_type', None)
+
         # Gắn tài khoản dựa trên user từ context
         try:
             account = AccountModel.objects.get(username=self.user.username)
@@ -29,5 +32,5 @@ class UploadFileSerializer(serializers.ModelSerializer):
 
         validated_data['account'] = account  # Gán tài khoản vào validated_data
 
-        # Tạo instance mới
+        # Tạo instance mới từ validated_data còn lại
         return super().create(validated_data)
