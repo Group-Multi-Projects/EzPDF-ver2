@@ -49,7 +49,7 @@ services:
 
 
   celery:
-    image: theodorescsa/ezpdf:latest
+    image: theodorescsa/ezpdf-lib-requirements:latest
     container_name: celery_worker
     build:
       context: .
