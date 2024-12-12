@@ -1428,3 +1428,258 @@ INFO 2024-12-10 17:12:16,556 autoreload /app/File/views.py changed, reloading.
 INFO 2024-12-10 17:12:17,403 autoreload Watching for file changes with StatReloader
 INFO 2024-12-10 17:12:24,779 autoreload /app/File/views.py changed, reloading.
 INFO 2024-12-10 17:12:25,716 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 15:23:43,361 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 15:23:46,754 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-12 15:23:48,627 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-12 15:24:12,520 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 59, in upload_file
+    base_url = file_url.split('/media')[0] + '/media/'
+AttributeError: 'NoneType' object has no attribute 'split'
+ERROR 2024-12-12 15:24:12,539 basehttp "POST /upload/ HTTP/1.1" 500 98850
+INFO 2024-12-12 15:24:42,369 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-12 15:24:44,774 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 15:24:57,231 views User attempting login: admin@gmail.com
+INFO 2024-12-12 15:24:57,793 views Login successful for user: admin@gmail.com
+INFO 2024-12-12 15:24:57,859 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+ERROR 2024-12-12 15:25:14,027 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 59, in upload_file
+    base_url = file_url.split('/media')[0] + '/media/'
+AttributeError: 'NoneType' object has no attribute 'split'
+ERROR 2024-12-12 15:25:14,073 basehttp "POST /upload/ HTTP/1.1" 500 98850
+ERROR 2024-12-12 15:25:15,669 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/app/File/views.py", line 59, in upload_file
+    base_url = file_url.split('/media')[0] + '/media/'
+AttributeError: 'NoneType' object has no attribute 'split'
+ERROR 2024-12-12 15:25:15,712 basehttp "POST /upload/ HTTP/1.1" 500 98850
+INFO 2024-12-12 15:26:25,067 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-12 15:26:26,107 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 15:26:52,276 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-12 15:26:53,213 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 15:27:00,736 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-12 15:27:01,848 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 22:28:24,042 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-12 22:28:32,149 log Not Found: /
+WARNING 2024-12-12 22:28:32,150 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-12 22:28:32,544 log Not Found: /favicon.ico
+WARNING 2024-12-12 22:28:32,546 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+ERROR 2024-12-12 22:28:45,383 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 59, in upload_file
+    base_url = file_url.split('/media')[0] + '/media/'
+               ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+ERROR 2024-12-12 22:28:45,386 basehttp "POST /upload/ HTTP/1.1" 500 110353
+ERROR 2024-12-12 22:28:46,665 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 59, in upload_file
+    base_url = file_url.split('/media')[0] + '/media/'
+               ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+ERROR 2024-12-12 22:28:46,668 basehttp "POST /upload/ HTTP/1.1" 500 110353
+INFO 2024-12-12 22:32:23,986 converter Start to convert D:\Python_Project\EzPDF-ver2\media/files/Note3_thuchanh.pdf
+INFO 2024-12-12 22:32:23,987 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-12 22:32:23,988 converter [1;36m[2/4] Analyzing document...[0m
+WARNING 2024-12-12 22:32:24,287 ImagesExtractor Ignore image due to inconsistent size of color and mask pixmaps: [48, 49, 2, 2, 1, 'Indexed', '', 'Image48', '', 0]
+WARNING 2024-12-12 22:32:24,291 ImagesExtractor Ignore image due to inconsistent size of color and mask pixmaps: [48, 49, 2, 2, 1, 'Indexed', '', 'Image48', '', 0]
+INFO 2024-12-12 22:32:24,779 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-12 22:32:24,780 converter (1/9) Page 1
+INFO 2024-12-12 22:32:24,793 converter (2/9) Page 2
+INFO 2024-12-12 22:32:24,804 converter (3/9) Page 3
+INFO 2024-12-12 22:32:24,806 converter (4/9) Page 4
+INFO 2024-12-12 22:32:24,811 converter (5/9) Page 5
+INFO 2024-12-12 22:32:24,817 converter (6/9) Page 6
+INFO 2024-12-12 22:32:24,822 converter (7/9) Page 7
+INFO 2024-12-12 22:32:24,824 converter (8/9) Page 8
+INFO 2024-12-12 22:32:24,829 converter (9/9) Page 9
+INFO 2024-12-12 22:32:24,835 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-12 22:32:24,880 converter (1/9) Page 1
+INFO 2024-12-12 22:32:24,920 converter (2/9) Page 2
+INFO 2024-12-12 22:32:24,951 converter (3/9) Page 3
+INFO 2024-12-12 22:32:24,962 converter (4/9) Page 4
+INFO 2024-12-12 22:32:24,984 converter (5/9) Page 5
+INFO 2024-12-12 22:32:25,010 converter (6/9) Page 6
+INFO 2024-12-12 22:32:25,026 converter (7/9) Page 7
+INFO 2024-12-12 22:32:25,044 converter (8/9) Page 8
+INFO 2024-12-12 22:32:25,063 converter (9/9) Page 9
+INFO 2024-12-12 22:32:25,192 converter Terminated in 1.21s.
+INFO 2024-12-12 22:32:25,194 basehttp "POST /upload/ HTTP/1.1" 201 199
+INFO 2024-12-12 15:38:37,869 autoreload Watching for file changes with StatReloader
+INFO 2024-12-12 15:39:02,716 converter Start to convert /app/media/files/Note3_thuchanh_WJKl42j.pdf
+INFO 2024-12-12 15:39:02,721 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-12 15:39:02,731 converter [1;36m[2/4] Analyzing document...[0m
+WARNING 2024-12-12 15:39:03,393 ImagesExtractor Ignore image due to inconsistent size of color and mask pixmaps: [48, 49, 2, 2, 1, 'Indexed', '', 'Image48', '', 0]
+WARNING 2024-12-12 15:39:03,400 ImagesExtractor Ignore image due to inconsistent size of color and mask pixmaps: [48, 49, 2, 2, 1, 'Indexed', '', 'Image48', '', 0]
+INFO 2024-12-12 15:39:04,711 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-12 15:39:04,718 converter (1/9) Page 1
+INFO 2024-12-12 15:39:04,753 converter (2/9) Page 2
+INFO 2024-12-12 15:39:04,796 converter (3/9) Page 3
+INFO 2024-12-12 15:39:04,806 converter (4/9) Page 4
+INFO 2024-12-12 15:39:04,829 converter (5/9) Page 5
+INFO 2024-12-12 15:39:04,865 converter (6/9) Page 6
+INFO 2024-12-12 15:39:04,882 converter (7/9) Page 7
+INFO 2024-12-12 15:39:04,900 converter (8/9) Page 8
+INFO 2024-12-12 15:39:04,918 converter (9/9) Page 9
+INFO 2024-12-12 15:39:04,940 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-12 15:39:04,971 converter (1/9) Page 1
+ERROR 2024-12-12 15:39:04,982 converter Ignore page 1 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:04,990 converter (2/9) Page 2
+ERROR 2024-12-12 15:39:05,005 converter Ignore page 2 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:05,014 converter (3/9) Page 3
+ERROR 2024-12-12 15:39:05,032 converter Ignore page 3 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:05,043 converter (4/9) Page 4
+ERROR 2024-12-12 15:39:05,057 converter Ignore page 4 due to making page error: invalid literal for int() with base 16: 'xd'
+INFO 2024-12-12 15:39:05,066 converter (5/9) Page 5
+ERROR 2024-12-12 15:39:05,082 converter Ignore page 5 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:05,091 converter (6/9) Page 6
+ERROR 2024-12-12 15:39:05,108 converter Ignore page 6 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:05,122 converter (7/9) Page 7
+ERROR 2024-12-12 15:39:05,140 converter Ignore page 7 due to making page error: invalid literal for int() with base 16: 'xc'
+INFO 2024-12-12 15:39:05,146 converter (8/9) Page 8
+ERROR 2024-12-12 15:39:05,160 converter Ignore page 8 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:05,165 converter (9/9) Page 9
+ERROR 2024-12-12 15:39:05,177 converter Ignore page 9 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:05,278 converter Terminated in 2.56s.
+INFO 2024-12-12 15:39:05,294 basehttp "POST /upload/ HTTP/1.1" 201 207
+INFO 2024-12-12 15:39:52,212 converter Start to convert /app/media/files/Note3_thuchanh_YLk7Hpa.pdf
+INFO 2024-12-12 15:39:52,231 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-12 15:39:52,247 converter [1;36m[2/4] Analyzing document...[0m
+WARNING 2024-12-12 15:39:53,120 ImagesExtractor Ignore image due to inconsistent size of color and mask pixmaps: [48, 49, 2, 2, 1, 'Indexed', '', 'Image48', '', 0]
+WARNING 2024-12-12 15:39:53,161 ImagesExtractor Ignore image due to inconsistent size of color and mask pixmaps: [48, 49, 2, 2, 1, 'Indexed', '', 'Image48', '', 0]
+INFO 2024-12-12 15:39:56,929 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-12 15:39:56,942 converter (1/9) Page 1
+INFO 2024-12-12 15:39:56,988 converter (2/9) Page 2
+INFO 2024-12-12 15:39:57,042 converter (3/9) Page 3
+INFO 2024-12-12 15:39:57,058 converter (4/9) Page 4
+INFO 2024-12-12 15:39:57,112 converter (5/9) Page 5
+INFO 2024-12-12 15:39:57,150 converter (6/9) Page 6
+INFO 2024-12-12 15:39:57,181 converter (7/9) Page 7
+INFO 2024-12-12 15:39:57,201 converter (8/9) Page 8
+INFO 2024-12-12 15:39:57,228 converter (9/9) Page 9
+INFO 2024-12-12 15:39:57,257 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-12 15:39:57,296 converter (1/9) Page 1
+ERROR 2024-12-12 15:39:57,312 converter Ignore page 1 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:57,320 converter (2/9) Page 2
+ERROR 2024-12-12 15:39:57,332 converter Ignore page 2 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:57,346 converter (3/9) Page 3
+ERROR 2024-12-12 15:39:57,361 converter Ignore page 3 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:57,385 converter (4/9) Page 4
+ERROR 2024-12-12 15:39:57,401 converter Ignore page 4 due to making page error: invalid literal for int() with base 16: 'xd'
+INFO 2024-12-12 15:39:57,408 converter (5/9) Page 5
+ERROR 2024-12-12 15:39:57,441 converter Ignore page 5 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:57,452 converter (6/9) Page 6
+ERROR 2024-12-12 15:39:57,463 converter Ignore page 6 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:57,478 converter (7/9) Page 7
+ERROR 2024-12-12 15:39:57,498 converter Ignore page 7 due to making page error: invalid literal for int() with base 16: 'xc'
+INFO 2024-12-12 15:39:57,510 converter (8/9) Page 8
+ERROR 2024-12-12 15:39:57,523 converter Ignore page 8 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:57,535 converter (9/9) Page 9
+ERROR 2024-12-12 15:39:57,548 converter Ignore page 9 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-12 15:39:57,624 converter Terminated in 5.41s.
+INFO 2024-12-12 15:39:57,635 basehttp "POST /upload/ HTTP/1.1" 201 207
