@@ -18,7 +18,7 @@ from tools.models import TextModel,DrawModel
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
-from conversion.views import pdf_to_word
+from conversion.views import pdf_to_word, pdf_to_html
 logger = logging.getLogger(__name__)
 
 def get_jwt_token(username, password):
@@ -42,8 +42,19 @@ def upload_file(request):
     
     if serializer.is_valid():
         validated_data = serializer.validated_data  
-        serializer.save() 
-        if validated_data.get('request_type') == "pdf2word":
+        serializer.save()
+        
+        if validated_data.get('request_type') == "editfile":
+            file_url = serializer.data['file']
+            base_url = file_url.split('/media')[0] + '/media/'
+            file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
+            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files','output.html')).replace("\\", "/")
+            pdf_to_html(file_path,output_file_url)
+            dict_serializer_data = dict(serializer._data)
+            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output.html'
+            return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
+        
+        elif validated_data.get('request_type') == "pdf2word":
             file_url = serializer.data['file']
             base_url = file_url.split('/media')[0] + '/media/'
             file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
@@ -52,6 +63,7 @@ def upload_file(request):
             dict_serializer_data = dict(serializer._data)
             dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output.docx'
             return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
+        
         elif validated_data.get('request_type') == "pdf2html":
             pass
     
