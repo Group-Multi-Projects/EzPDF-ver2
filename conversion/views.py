@@ -172,5 +172,52 @@ def pdf_to_html(pdf_file_path,output_file_path):
     uploadedFileUrl = uploadFile(pdf_file_path)
     if (uploadedFileUrl != None):
         convertPdfToHtml(uploadedFileUrl, output_file_path)
-        
 
+def convert_html_to_pdf(html_path, output_pdf_path, api_key=None):
+    """
+    Converts HTML to PDF using PDF.co Web API.
+
+    Parameters:
+        html_path (str): Path to the input HTML file.
+        output_pdf_path (str): Path to save the resulting PDF file.
+        api_key (str): API key for PDF.co.
+    """ 
+    if api_key is None:
+        api_key = "tranbodyak@gmail.com_KlRfIfHEaqXWiDlBK8q9mx9XF2n0HJHm8Phsav3wbGfoNPMZMUtoDu3k1Ru03Dfh"
+    with open(html_path, mode='r', encoding='utf-8') as file:
+        sample_html = file.read()
+ 
+    parameters = {
+        "html": sample_html,
+        "name": os.path.basename(output_pdf_path),
+        "margins": "5px 5px 5px 5px",
+        "paperSize": "Letter",
+        "orientation": "Portrait",
+        "printBackground": "true",
+        "async": "false",
+        "header": "",
+        "footer": ""
+    }
+ 
+    base_url = "https://api.pdf.co/v1"
+    url = f"{base_url}/pdf/convert/from/html"
+ 
+    response = requests.post(url, data=parameters, headers={"x-api-key": api_key})
+
+    if response.status_code == 200:
+        json_response = response.json()
+
+        if not json_response.get("error", True): 
+            result_file_url = json_response.get("url")
+            r = requests.get(result_file_url, stream=True)
+            if r.status_code == 200:
+                with open(output_pdf_path, 'wb') as output_file:
+                    for chunk in r:
+                        output_file.write(chunk)
+                print(f"Result file saved as \"{output_pdf_path}\".")
+            else:
+                print(f"Failed to download the PDF file: {r.status_code} {r.reason}")
+        else:
+            print(f"API Error: {json_response.get('message')}")
+    else:
+        print(f"Request Error: {response.status_code} {response.reason}")
