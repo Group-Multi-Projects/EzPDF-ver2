@@ -1683,3 +1683,10 @@ INFO 2024-12-12 15:39:57,535 converter (9/9) Page 9
 ERROR 2024-12-12 15:39:57,548 converter Ignore page 9 due to making page error: invalid literal for int() with base 16: 'x1'
 INFO 2024-12-12 15:39:57,624 converter Terminated in 5.41s.
 INFO 2024-12-12 15:39:57,635 basehttp "POST /upload/ HTTP/1.1" 201 207
+INFO 2024-12-13 14:33:37,438 autoreload Watching for file changes with StatReloader
+INFO 2024-12-13 14:34:14,585 basehttp "POST /upload/ HTTP/1.1" 201 207
+INFO 2024-12-13 14:34:19,582 basehttp "GET /media/files/converted_files/output.html HTTP/1.1" 200 415726
+WARNING 2024-12-13 14:34:19,772 log Not Found: /favicon.ico
+WARNING 2024-12-13 14:34:19,779 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+INFO 2024-12-13 14:34:31,213 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-13 14:34:32,554 autoreload Watching for file changes with StatReloader
