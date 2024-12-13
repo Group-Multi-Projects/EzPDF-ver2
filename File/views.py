@@ -65,7 +65,16 @@ def upload_file(request):
             return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
         
         elif validated_data.get('request_type') == "pdf2html":
-            pass
+            file_url = serializer.data['file']
+            base_url = file_url.split('/media')[0] + '/media/'
+            file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
+            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files','output.html')).replace("\\", "/")
+            pdf_to_html(file_path,output_file_url)
+            dict_serializer_data = dict(serializer._data)
+            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output.html'
+            return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
+        else:
+            return JsonResponse({'status':'None'})
     
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 def edit_file(request, file_id):
