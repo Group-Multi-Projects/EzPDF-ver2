@@ -30,5 +30,5 @@ concurrent-log-handler
 
 # root@063318baf6e9:/# ^C
 
-
+#note : hello
 # apt install -y libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjpeg-dev libtiff-dev libwebp-dev
