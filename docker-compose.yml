@@ -66,5 +66,15 @@ services:
       - .:/app
 
 
+  frottend:
+    image: nginx
+    container_name: frottend
+    ports:
+      - "3000:80"
+    volumes:
+      - ./Front_end/dist:/usr/share/nginx/html:ro  # Mount thư mục dist vào Nginx
+      # - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro # Mount file cấu hình Nginx (tùy chọn)
+    restart: unless-stopped
+
 volumes:
   db_data:
