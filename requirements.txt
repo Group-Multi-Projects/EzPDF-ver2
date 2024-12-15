@@ -23,6 +23,7 @@ django-cors-headers
 celery
 django-celery-results
 concurrent-log-handler
+beautifulsoup4
 # pip install -r requirements.txt
 # python manage.py migrate
 # python manage.py runserver

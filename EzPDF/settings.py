@@ -1,3 +1,4 @@
+
 """
 Django settings for EzPDF project.
 
@@ -307,4 +308,3 @@ LOGGING = {
         'level': 'INFO',
     },
 }
-

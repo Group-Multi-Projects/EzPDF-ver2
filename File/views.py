@@ -19,6 +19,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
 from conversion.views import pdf_to_word, pdf_to_html
+from bs4 import BeautifulSoup
 logger = logging.getLogger(__name__)
 
 def get_jwt_token(username, password):
@@ -50,7 +51,14 @@ def upload_file(request):
             file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
             output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files','output.html')).replace("\\", "/")
             pdf_to_html(file_path,output_file_url)
+            with open(output_file_url, 'r') as f:
+                    html_content = f.read()
+            soup = BeautifulSoup(html_content, 'html.parser')
+            style = soup.head.style.string if soup.head and soup.head.style else ''
+            body = soup.body.decode_contents() if soup.body else ''
             dict_serializer_data = dict(serializer._data)
+            dict_serializer_data['style'] = style
+            dict_serializer_data['body'] = body
             dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output.html'
             return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
         
