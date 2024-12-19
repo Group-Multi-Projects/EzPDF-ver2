@@ -1690,3 +1690,14 @@ WARNING 2024-12-13 14:34:19,772 log Not Found: /favicon.ico
 WARNING 2024-12-13 14:34:19,779 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
 INFO 2024-12-13 14:34:31,213 autoreload /app/File/views.py changed, reloading.
 INFO 2024-12-13 14:34:32,554 autoreload Watching for file changes with StatReloader
+INFO 2024-12-14 10:14:13,243 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-14 16:04:59,109 log Not Found: /
+WARNING 2024-12-14 16:04:59,117 basehttp "GET / HTTP/1.1" 404 4485
+WARNING 2024-12-14 16:04:59,312 log Not Found: /favicon.ico
+WARNING 2024-12-14 16:04:59,312 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+INFO 2024-12-14 16:09:25,501 basehttp "OPTIONS /account/signin/ HTTP/1.1" 200 0
+INFO 2024-12-14 16:09:25,507 views User attempting login: admin4@gmail.com
+WARNING 2024-12-14 16:09:26,134 views Failed login attempt for email: admin4@gmail.com
+WARNING 2024-12-14 16:09:26,135 log Bad Request: /account/signin/
+WARNING 2024-12-14 16:09:26,135 basehttp "POST /account/signin/ HTTP/1.1" 400 94
+INFO 2024-12-15 11:04:49,324 autoreload Watching for file changes with StatReloader

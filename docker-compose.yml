@@ -31,15 +31,6 @@ services:
       - redis
     env_file:
       - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
-    environment:
-      - DJANGO_SETTINGS_MODULE=EzPDF.settings
-      - DATABASE_NAME=ezpdf
-      - DATABASE_USER=root
-      - DATABASE_PASSWORD=dinhthai2004
-      - DATABASE_HOST=db
-      - DATABASE_PORT=3306
-      - CELERY_BROKER_URL=redis://redis:6379/0
-      - CELERY_RESULT_BACKEND=redis://redis:6379/0
     volumes:
       - .:/app
     command: >
@@ -62,9 +53,19 @@ services:
     environment:
       - CELERY_BROKER_URL=redis://redis:6379/0
 
-    volumes:
-      - .:/app
+  #   volumes:
+  #     - .:/app
 
+
+  frottend:
+    image: nginx
+    container_name: frottend
+    ports:
+      - "3000:80"
+    volumes:
+      - ./Front_end/dist:/usr/share/nginx/html:ro  # Mount thư mục dist vào Nginx
+      # - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro # Mount file cấu hình Nginx (tùy chọn)
+    restart: unless-stopped
 
 volumes:
   db_data:

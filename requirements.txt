@@ -23,6 +23,7 @@ django-cors-headers
 celery
 django-celery-results
 concurrent-log-handler
+beautifulsoup4
 # pip install -r requirements.txt
 # python manage.py migrate
 # python manage.py runserver
@@ -30,5 +31,4 @@ concurrent-log-handler
 
 # root@063318baf6e9:/# ^C
 
-#note : hello
 # apt install -y libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjpeg-dev libtiff-dev libwebp-dev
