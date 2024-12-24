@@ -11,14 +11,19 @@ services:
       - "3307:3306"
     volumes:
       - db_data:/var/lib/mysql
-
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -uroot -pdinhthai2004 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
 
   redis:
     image: redis:latest
     container_name: redis_container
     ports:
       - "6379:6379"
-
+      
   web:
     image: theodorescsa/ezpdf-lib-requirements:latest
     container_name: ezpdf_web
@@ -29,15 +34,20 @@ services:
     depends_on:
       - db
       - redis
-    env_file:
-      - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
-
     volumes:
       - .:/app
     command: >
-      sh -c "python manage.py migrate &&
+      sh -c "
+        until mysqladmin ping -h db -uroot -pdinhthai2004 --silent; do
+          echo 'Waiting for MySQL...';
+          sleep 2;
+        done;
+        python manage.py migrate &&
         python manage.py shell < create_superuser.py &&
         python manage.py runserver 0.0.0.0:8000"
+    env_file:
+      - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
+    restart: unless-stopped
 
 
   celery:
@@ -53,20 +63,26 @@ services:
       - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
     environment:
       - CELERY_BROKER_URL=redis://redis:6379/0
-
-  #   volumes:
-  #     - .:/app
-
-
-  frottend:
-    image: nginx
-    container_name: frottend
-    ports:
-      - "3000:80"
     volumes:
-      - ./Front_end/dist:/usr/share/nginx/html:ro  # Mount thư mục dist vào Nginx
-      # - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro # Mount file cấu hình Nginx (tùy chọn)
+      - .:/app
     restart: unless-stopped
 
 volumes:
   db_data:
+
+  # frottend:
+  #   image: nginx
+  #   container_name: frottend
+  #   ports:
+  #     - "3000:80"  
+  #   volumes:
+  #     - ./logs/nginx:/var/log/nginx
+  #     - ./Front_end/dist:/usr/share/nginx/html:ro  # Mount thư mục dist vào Nginx
+  #     # - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro # Mount file cấu hình Nginx (tùy chọn)
+  #   restart: unless-stopped
+
+
+
+
+# volumes:
+#   db_data:
