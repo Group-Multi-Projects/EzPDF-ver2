@@ -1,0 +1,8 @@
+[nginx-limit]
+enabled = true
+port = http,https
+logpath = /var/log/nginx/access.log
+maxretry = 100
+findtime = 60
+bantime = 86400
+action = iptables-multiport
