@@ -1707,3 +1707,42 @@ WARNING 2024-12-25 13:33:25,747 log Not Found: /favicon.ico
 WARNING 2024-12-25 13:33:25,751 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
 INFO 2024-12-25 13:33:45,439 autoreload /app/conversion/views.py changed, reloading.
 INFO 2024-12-25 13:33:46,503 autoreload Watching for file changes with StatReloader
+INFO 2024-12-25 13:34:25,487 autoreload Watching for file changes with StatReloader
+INFO 2024-12-25 13:34:37,091 basehttp "POST /upload/ HTTP/1.1" 201 207
+WARNING 2024-12-25 13:34:53,014 log Not Found: /favicon.ico
+WARNING 2024-12-25 13:34:53,018 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+WARNING 2024-12-25 13:36:01,941 log Not Found: /favicon.ico
+WARNING 2024-12-25 13:36:01,944 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+INFO 2024-12-25 15:08:02,177 autoreload Watching for file changes with StatReloader
+INFO 2024-12-25 15:08:31,766 basehttp "POST /upload/ HTTP/1.1" 201 224
+INFO 2024-12-25 15:08:34,035 basehttp "GET /media/files/converted_files/output-1-20241225150825.html HTTP/1.1" 200 285876
+WARNING 2024-12-25 15:08:34,304 log Not Found: /favicon.ico
+WARNING 2024-12-25 15:08:34,307 basehttp "GET /favicon.ico HTTP/1.1" 404 4536
+INFO 2024-12-25 15:08:54,753 converter Start to convert /app/media/files/Note7_Thuchanh_OaiIllT.pdf
+INFO 2024-12-25 15:08:54,757 converter [1;36m[1/4] Opening document...[0m
+INFO 2024-12-25 15:08:54,761 converter [1;36m[2/4] Analyzing document...[0m
+INFO 2024-12-25 15:08:55,384 converter [1;36m[3/4] Parsing pages...[0m
+INFO 2024-12-25 15:08:55,390 converter (1/6) Page 1
+INFO 2024-12-25 15:08:55,408 converter (2/6) Page 2
+INFO 2024-12-25 15:08:55,423 converter (3/6) Page 3
+INFO 2024-12-25 15:08:55,436 converter (4/6) Page 4
+INFO 2024-12-25 15:08:55,444 converter (5/6) Page 5
+INFO 2024-12-25 15:08:55,455 converter (6/6) Page 6
+INFO 2024-12-25 15:08:55,463 converter [1;36m[4/4] Creating pages...[0m
+INFO 2024-12-25 15:08:55,486 converter (1/6) Page 1
+ERROR 2024-12-25 15:08:55,494 converter Ignore page 1 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-25 15:08:55,498 converter (2/6) Page 2
+ERROR 2024-12-25 15:08:55,503 converter Ignore page 2 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-25 15:08:55,507 converter (3/6) Page 3
+ERROR 2024-12-25 15:08:55,513 converter Ignore page 3 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-25 15:08:55,516 converter (4/6) Page 4
+ERROR 2024-12-25 15:08:55,524 converter Ignore page 4 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-25 15:08:55,528 converter (5/6) Page 5
+ERROR 2024-12-25 15:08:55,535 converter Ignore page 5 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-25 15:08:55,540 converter (6/6) Page 6
+ERROR 2024-12-25 15:08:55,549 converter Ignore page 6 due to making page error: invalid literal for int() with base 16: 'x1'
+INFO 2024-12-25 15:08:55,586 converter Terminated in 0.83s.
+INFO 2024-12-25 15:08:55,593 basehttp "POST /upload/ HTTP/1.1" 201 224
+INFO 2024-12-25 15:08:57,984 basehttp "GET /media/files/converted_files/output-1-20241225150854.docx HTTP/1.1" 200 402500
+INFO 2024-12-25 15:09:28,113 autoreload /app/File/views.py changed, reloading.
+INFO 2024-12-25 15:09:29,115 autoreload Watching for file changes with StatReloader

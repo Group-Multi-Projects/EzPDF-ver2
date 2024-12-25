@@ -20,6 +20,7 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
 from conversion.views import pdf_to_word, pdf_to_html
 from bs4 import BeautifulSoup
+from datetime import datetime
 logger = logging.getLogger(__name__)
 
 def get_jwt_token(username, password):
@@ -39,8 +40,17 @@ def get_jwt_token(username, password):
 @api_view(['POST'])
 def upload_file(request):
     print("zoo")
+    now = datetime.now()
+
+    unique_id = now.strftime("%Y%m%d%H%M%S")
+
     serializer = UploadFileSerializer(data=request.data, context={'request': request})
     
+    try:
+      account = AccountModel.objects.get(username = request.user.username)
+      account_id = account.id
+    except:
+      account_id = "client"
     if serializer.is_valid():
         validated_data = serializer.validated_data  
         serializer.save()
@@ -49,7 +59,7 @@ def upload_file(request):
             file_url = serializer.data['file']
             base_url = file_url.split('/media')[0] + '/media/'
             file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
-            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files','output.html')).replace("\\", "/")
+            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files',f'output-{account_id}-{unique_id}.html')).replace("\\", "/")
             pdf_to_html(file_path,output_file_url)
             with open(output_file_url, 'r') as f:
                     html_content = f.read()
@@ -59,27 +69,27 @@ def upload_file(request):
             dict_serializer_data = dict(serializer._data)
             dict_serializer_data['style'] = style
             dict_serializer_data['body'] = body
-            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output.html'
+            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.html'
             return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
         
         elif validated_data.get('request_type') == "pdf2word":
             file_url = serializer.data['file']
             base_url = file_url.split('/media')[0] + '/media/'
             file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
-            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files','output.docx')).replace("\\", "/")
+            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files',f'output-{account_id}-{unique_id}.docx')).replace("\\", "/")
             pdf_to_word(file_path,output_file_url)
             dict_serializer_data = dict(serializer._data)
-            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output.docx'
+            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.docx'
             return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
         
         elif validated_data.get('request_type') == "pdf2html":
             file_url = serializer.data['file']
             base_url = file_url.split('/media')[0] + '/media/'
             file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
-            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files','output.html')).replace("\\", "/")
+            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files',f'output-{account_id}-{unique_id}.html')).replace("\\", "/")
             pdf_to_html(file_path,output_file_url)
             dict_serializer_data = dict(serializer._data)
-            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output.html'
+            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.html'
             return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
         else:
             return JsonResponse({'status':'None'})

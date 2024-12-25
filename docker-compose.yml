@@ -46,16 +46,7 @@ services:
 
     command: >
       sh -c "
-        until mysqladmin ping -h db -uroot -pdinhthai2004 --silent; do
-          echo 'Waiting for MySQL...';
-          sleep 2;
-        done;
-        python manage.py migrate &&
-      sh -c "
-        until mysqladmin ping -h db -uroot -pdinhthai2004 --silent; do
-          echo 'Waiting for MySQL...';
-          sleep 2;
-        done;
+ 
         python manage.py migrate &&
         python manage.py shell < create_superuser.py &&
         python manage.py runserver 0.0.0.0:8000"
