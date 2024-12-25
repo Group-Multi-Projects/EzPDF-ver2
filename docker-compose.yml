@@ -30,6 +30,9 @@ services:
       context: .
     ports:
       - "8000:8000"
+    depends_on:
+      - db
+      - redis
     command: >
       sh -c "
         until mysqladmin ping -h db -uroot -pdinhthai2004 --silent; do
