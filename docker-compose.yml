@@ -30,10 +30,8 @@ services:
       context: .
     ports:
       - "8000:8000"
-    # depends_on:
-    #   - db
-    #   - redis
     depends_on:
+<<<<<<< HEAD
       db:
         condition: service_healthy
       redis:
@@ -41,14 +39,26 @@ services:
     env_file:
       - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
 
+=======
+      - db
+      - redis
+>>>>>>> 6287cc93705990ee6aba5c1ffc66082b9870bcb4
     volumes:
       - .:/app
       - ./watch_folder.sh:/usr/local/bin/watch_folder.sh  # Add the watch_folder script
 
     command: >
-      sh -c "python manage.py migrate &&
+      sh -c "
+        until mysqladmin ping -h db -uroot -pdinhthai2004 --silent; do
+          echo 'Waiting for MySQL...';
+          sleep 2;
+        done;
+        python manage.py migrate &&
         python manage.py shell < create_superuser.py &&
         python manage.py runserver 0.0.0.0:8000"
+    env_file:
+      - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
+    restart: unless-stopped
 
 
   # celery:
