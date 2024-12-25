@@ -34,35 +34,38 @@ services:
     #   - db
     #   - redis
     depends_on:
-      - db:
-          condition: service_healthy
-      - redis
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
     env_file:
       - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
 
     volumes:
       - .:/app
+      - ./watch_folder.sh:/usr/local/bin/watch_folder.sh  # Add the watch_folder script
+
     command: >
       sh -c "python manage.py migrate &&
         python manage.py shell < create_superuser.py &&
         python manage.py runserver 0.0.0.0:8000"
 
 
-  celery:
-    image: theodorescsa/ezpdf-lib-requirements:latest
-    container_name: celery_worker
-    build:
-      context: .
-    depends_on:
-      - db
-      - redis
-    command: celery -A EzPDF worker --loglevel=info
-    env_file:
-      - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
-    environment:
-      - CELERY_BROKER_URL=redis://redis:6379/0
-    volumes:
-      - .:/app
+  # celery:
+  #   image: theodorescsa/ezpdf-lib-requirements:latest
+  #   container_name: celery_worker
+  #   build:
+  #     context: .
+  #   depends_on:
+  #     - db
+  #     - redis
+  #   command: celery -A EzPDF worker --loglevel=info
+  #   env_file:
+  #     - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
+  #   environment:
+  #     - CELERY_BROKER_URL=redis://redis:6379/0
+  #   volumes:
+  #     - .:/app
 
 volumes:
   db_data:
