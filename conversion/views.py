@@ -100,7 +100,7 @@ def pdf_to_word(pdf_file_path, word_file_path):
     cv.convert(word_file_path, start=0, end=None)
     cv.close()
 def pdf_to_html(pdf_file_path,output_file_path):
-    API_KEY = "dinhthai160@gmail.com_prYKAhgefR7hOtx2NAmmz3g6zjNwtYqxP8nvGQjxbvGxe4rZF9B1diA1Djzbf1DD"
+    API_KEY = "tranbodyak@gmail.com_KlRfIfHEaqXWiDlBK8q9mx9XF2n0HJHm8Phsav3wbGfoNPMZMUtoDu3k1Ru03Dfh"
 
     BASE_URL = "https://api.pdf.co/v1"
 
