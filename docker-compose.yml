@@ -23,6 +23,7 @@ services:
     container_name: redis_container
     ports:
       - "6379:6379"
+    restart: unless-stopped
       
   web:
     image: theodorescsa/ezpdf-lib-requirements:latest
