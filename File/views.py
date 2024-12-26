@@ -18,7 +18,7 @@ from tools.models import TextModel,DrawModel
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
-from conversion.views import pdf_to_word, pdf_to_html
+from conversion.views import pdf_to_word, pdf_to_html, html_to_pdf
 from bs4 import BeautifulSoup
 from datetime import datetime
 logger = logging.getLogger(__name__)
@@ -90,6 +90,15 @@ def upload_file(request):
             pdf_to_html(file_path,output_file_url)
             dict_serializer_data = dict(serializer._data)
             dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.html'
+            return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
+        elif validated_data.get('request_type') == "html2pdf":
+            file_url = serializer.data['file']
+            base_url = file_url.split('/media')[0] + '/media/'
+            file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
+            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files',f'output-{account_id}-{unique_id}.pdf')).replace("\\", "/")
+            html_to_pdf(file_path,output_file_url)
+            dict_serializer_data = dict(serializer._data)
+            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.pdf'
             return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
         else:
             return JsonResponse({'status':'None'})
