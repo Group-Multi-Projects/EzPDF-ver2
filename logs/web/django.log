@@ -1746,3 +1746,341 @@ INFO 2024-12-25 15:08:55,593 basehttp "POST /upload/ HTTP/1.1" 201 224
 INFO 2024-12-25 15:08:57,984 basehttp "GET /media/files/converted_files/output-1-20241225150854.docx HTTP/1.1" 200 402500
 INFO 2024-12-25 15:09:28,113 autoreload /app/File/views.py changed, reloading.
 INFO 2024-12-25 15:09:29,115 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 16:11:21,100 autoreload Watching for file changes with StatReloader
+WARNING 2024-12-26 16:12:32,014 log Unauthorized: /upload/
+WARNING 2024-12-26 16:12:32,018 basehttp "POST /upload/ HTTP/1.1" 401 183
+INFO 2024-12-26 16:12:38,867 views User attempting login: admin@gmail.com
+INFO 2024-12-26 16:12:39,574 views Login successful for user: admin@gmail.com
+INFO 2024-12-26 16:12:39,710 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+ERROR 2024-12-26 16:12:55,145 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2994, in __init__
+    doc = mupdf.fz_open_document_with_stream(magic, data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/mupdf.py", line 46495, in fz_open_document_with_stream
+    return _mupdf.fz_open_document_with_stream(magic, stream)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 56, in upload_file
+    serializer.save()
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/serializers.py", line 36, in create
+    return super().create(validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 16, in save
+    self.num_pages = self._get_pdf_page_count()
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 21, in _get_pdf_page_count
+    with fitz.open(stream=self.file.read(), filetype="pdf") as pdf:
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2997, in __init__
+    raise FileDataError(f'Failed to open stream') from e
+pymupdf.FileDataError: Failed to open stream
+ERROR 2024-12-26 16:12:55,160 basehttp "POST /upload/ HTTP/1.1" 500 189924
+INFO 2024-12-26 16:13:24,146 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 16:13:39,517 views User attempting login: admin@gmail.com
+INFO 2024-12-26 16:13:40,235 views Login successful for user: admin@gmail.com
+INFO 2024-12-26 16:13:40,327 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+ERROR 2024-12-26 16:13:53,769 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2994, in __init__
+    doc = mupdf.fz_open_document_with_stream(magic, data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/mupdf.py", line 46495, in fz_open_document_with_stream
+    return _mupdf.fz_open_document_with_stream(magic, stream)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 56, in upload_file
+    serializer.save()
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/serializers.py", line 36, in create
+    return super().create(validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 16, in save
+    self.num_pages = self._get_pdf_page_count()
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 21, in _get_pdf_page_count
+    with fitz.open(stream=self.file.read(), filetype="pdf") as pdf:
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2997, in __init__
+    raise FileDataError(f'Failed to open stream') from e
+pymupdf.FileDataError: Failed to open stream
+ERROR 2024-12-26 16:13:53,780 basehttp "POST /upload/ HTTP/1.1" 500 190069
+INFO 2024-12-26 16:14:38,231 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-26 16:15:29,651 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2994, in __init__
+    doc = mupdf.fz_open_document_with_stream(magic, data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/mupdf.py", line 46495, in fz_open_document_with_stream
+    return _mupdf.fz_open_document_with_stream(magic, stream)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 56, in upload_file
+    serializer.save()
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/serializers.py", line 36, in create
+    return super().create(validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 16, in save
+    self.num_pages = self._get_pdf_page_count()
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 21, in _get_pdf_page_count
+    with fitz.open(stream=self.file.read(), filetype="pdf") as pdf:
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2997, in __init__
+    raise FileDataError(f'Failed to open stream') from e
+pymupdf.FileDataError: Failed to open stream
+ERROR 2024-12-26 16:15:29,679 basehttp "POST /upload/ HTTP/1.1" 500 190069
+INFO 2024-12-26 16:16:24,136 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 16:16:29,979 views User attempting login: admin@gmail.com
+INFO 2024-12-26 16:16:30,700 views Login successful for user: admin@gmail.com
+INFO 2024-12-26 16:16:30,815 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+ERROR 2024-12-26 16:17:52,973 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2994, in __init__
+    doc = mupdf.fz_open_document_with_stream(magic, data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/mupdf.py", line 46495, in fz_open_document_with_stream
+    return _mupdf.fz_open_document_with_stream(magic, stream)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 56, in upload_file
+    serializer.save()
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/serializers.py", line 36, in create
+    return super().create(validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 16, in save
+    self.num_pages = self._get_pdf_page_count()
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 21, in _get_pdf_page_count
+    with fitz.open(stream=self.file.read(), filetype="pdf") as pdf:
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2997, in __init__
+    raise FileDataError(f'Failed to open stream') from e
+pymupdf.FileDataError: Failed to open stream
+ERROR 2024-12-26 16:17:53,005 basehttp "POST /upload/ HTTP/1.1" 500 190069
+ERROR 2024-12-26 16:18:55,028 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2994, in __init__
+    doc = mupdf.fz_open_document_with_stream(magic, data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/mupdf.py", line 46495, in fz_open_document_with_stream
+    return _mupdf.fz_open_document_with_stream(magic, stream)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 56, in upload_file
+    serializer.save()
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/serializers.py", line 36, in create
+    return super().create(validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 16, in save
+    self.num_pages = self._get_pdf_page_count()
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 21, in _get_pdf_page_count
+    with fitz.open(stream=self.file.read(), filetype="pdf") as pdf:
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2997, in __init__
+    raise FileDataError(f'Failed to open stream') from e
+pymupdf.FileDataError: Failed to open stream
+ERROR 2024-12-26 16:18:55,038 basehttp "POST /upload/ HTTP/1.1" 500 190287
+INFO 2024-12-26 16:19:46,702 basehttp "POST /upload/ HTTP/1.1" 201 7586
+INFO 2024-12-26 16:21:22,341 basehttp "POST /upload/ HTTP/1.1" 201 7586
+ERROR 2024-12-26 16:24:41,980 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2994, in __init__
+    doc = mupdf.fz_open_document_with_stream(magic, data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/mupdf.py", line 46495, in fz_open_document_with_stream
+    return _mupdf.fz_open_document_with_stream(magic, stream)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 56, in upload_file
+    serializer.save()
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/serializers.py", line 36, in create
+    return super().create(validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 16, in save
+    self.num_pages = self._get_pdf_page_count()
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/models.py", line 21, in _get_pdf_page_count
+    with fitz.open(stream=self.file.read(), filetype="pdf") as pdf:
+  File "/home/huypro/.local/lib/python3.10/site-packages/pymupdf/__init__.py", line 2997, in __init__
+    raise FileDataError(f'Failed to open stream') from e
+pymupdf.FileDataError: Failed to open stream
+ERROR 2024-12-26 16:24:41,985 basehttp "POST /upload/ HTTP/1.1" 500 185293
+ERROR 2024-12-26 16:25:04,974 log Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/huypro/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/huypro/EZPDF/EzPDF-ver2/File/views.py", line 99, in upload_file
+    html_to_pdf(file_path,output_file_url)
+  File "/home/huypro/EZPDF/EzPDF-ver2/conversion/views.py", line 188, in html_to_pdf
+    sample_html = file.read()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 10: invalid continuation byte
