@@ -97,7 +97,8 @@ def signout(request):
 def get_user_info_serializers(request):
     if request.method == "GET":
         try:
-            account = AccountModel.objects.get(username=request.user.username)
+            user = request.user  
+            account = AccountModel.objects.get(username=user.username) 
             serializers = AccountSerializer(account)
             return Response({"data": serializers.data}, status=status.HTTP_200_OK)
         except AccountModel.DoesNotExist:
@@ -106,5 +107,4 @@ def get_user_info_serializers(request):
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
     elif request.method == "POST":
-        # Xử lý dữ liệu POST ở đây nếu cần
         return Response({"message": "POST method is not implemented"}, status=status.HTTP_405_METHOD_NOT_ALLOWED)

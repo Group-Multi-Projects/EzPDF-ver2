@@ -2084,3 +2084,39 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/codecs.py", line 322, in decode
     (result, consumed) = self._buffer_decode(data, self.errors, final)
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 10: invalid continuation byte
+INFO 2024-12-26 18:13:38,193 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:44:52,701 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:45:27,356 autoreload D:\Python_Project\EzPDF-ver2\EzPDF\settings.py changed, reloading.
+INFO 2025-01-02 19:45:28,553 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:45:57,941 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2025-01-02 19:45:58,912 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-02 19:46:27,995 log Unauthorized: /account/get_user_info_serializers/
+WARNING 2025-01-02 19:46:27,995 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 401 183
+WARNING 2025-01-02 19:47:07,158 log Method Not Allowed: /account/signin/
+WARNING 2025-01-02 19:47:07,158 basehttp "GET /account/signin/ HTTP/1.1" 405 52
+WARNING 2025-01-02 19:47:12,047 log Bad Request: /account/signin/
+WARNING 2025-01-02 19:47:12,054 basehttp "POST /account/signin/ HTTP/1.1" 400 65
+WARNING 2025-01-02 19:47:22,268 log Bad Request: /account/signin/
+WARNING 2025-01-02 19:47:22,269 basehttp "POST /account/signin/ HTTP/1.1" 400 65
+INFO 2025-01-02 19:47:33,192 views User attempting login: admin@gmail.com
+INFO 2025-01-02 19:47:33,547 views Login successful for user: admin@gmail.com
+INFO 2025-01-02 19:47:33,560 basehttp "POST /account/signin/ HTTP/1.1" 200 520
+ERROR 2025-01-02 19:47:42,400 log Internal Server Error: /account/get_user_info_serializers/
+ERROR 2025-01-02 19:47:42,400 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 500 216
+INFO 2025-01-02 19:48:38,868 autoreload D:\Python_Project\EzPDF-ver2\Account\views.py changed, reloading.
+INFO 2025-01-02 19:48:39,739 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:48:43,112 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 200 11
+INFO 2025-01-02 19:49:03,828 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:49:08,405 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 200 11
+INFO 2025-01-02 19:49:53,426 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 200 11
+INFO 2025-01-02 19:51:29,146 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 200 11
+INFO 2025-01-02 19:51:37,746 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:52:25,278 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 200 11
+INFO 2025-01-02 19:53:21,224 autoreload D:\Python_Project\EzPDF-ver2\Account\serializers.py changed, reloading.
+INFO 2025-01-02 19:53:24,046 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:53:32,960 autoreload D:\Python_Project\EzPDF-ver2\Account\serializers.py changed, reloading.
+INFO 2025-01-02 19:53:35,386 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:53:41,364 autoreload Watching for file changes with StatReloader
+INFO 2025-01-02 19:53:43,788 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 200 338
+INFO 2025-01-02 19:53:49,290 autoreload D:\Python_Project\EzPDF-ver2\Account\serializers.py changed, reloading.
+INFO 2025-01-02 19:53:50,231 autoreload Watching for file changes with StatReloader
