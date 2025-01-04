@@ -1,23 +1,33 @@
-import requests
+from bs4 import BeautifulSoup
+from deep_translator import GoogleTranslator
 import time
+# Open the HTML file and read its contents
+html_file_path = 'media/files/giayxacnhan.html'
+with open(html_file_path, 'r', encoding='utf-8') as file:
+    html_content = file.read()
 
-# Địa chỉ của server Nginx (hoặc IP của bạn)
-url = "http://localhost/client"  # Đổi thành địa chỉ server của bạn
-response = requests.get(url)
-print(f"Mã trạng thái: {response.status_code}")
+# Parse the HTML content with BeautifulSoup
+soup = BeautifulSoup(html_content, 'html.parser')
 
-# # Số lượng yêu cầu bạn muốn gửi
-# num_requests = 20
+# Translate the text content
+translator = GoogleTranslator(source='auto', target='en')
 
-# for i in range(num_requests):
+# Replace the original text with the translated text in the HTML structure
+new_html_file_path = 'media/files/giayxacnhan.html'
+start_time = time.time()
+for element in soup.find_all(text=True):
+    if element.strip():
+        try:
+            translated_text = translator.translate(element)
+            if translated_text:
+                element.replace_with(translated_text)
+        except Exception as e:
+            print(f"Error translating element: {element}\n{e}")
 
-#     try:
-#         # Gửi yêu cầu đến server
-#         response = requests.get(url)
-#         print(f"Yêu cầu {i+1} gửi thành công, mã trạng thái: {response.status_code}")
-#     except requests.exceptions.RequestException as e:
-#         print(f"Yêu cầu {i+1} gặp lỗi: {e}")
-    
-#     # Giới hạn tốc độ yêu cầu để vượt quá rate/burst của Nginx
-#     # Gửi yêu cầu liên tục mà không nghỉ để vượt quá giới hạn tốc độ của Nginx
-#     time.sleep(0.1)  # Điều chỉnh thời gian nghỉ giữa các yêu cầu nếu cần
+# Save the modified HTML back to the file
+with open(new_html_file_path, 'w', encoding='utf-8') as file:
+    file.write(str(soup))
+time.sleep(1)
+end_time = time.time()
+duration = end_time - start_time
+print(f"Translation and saving completed in {duration:.2f} seconds")
