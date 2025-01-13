@@ -18,7 +18,7 @@ from tools.models import TextModel,DrawModel
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.views import APIView
-from conversion.views import pdf_to_word, pdf_to_html, html_to_pdf
+from conversion.utils import pdf_to_word, pdf_to_html, html_to_pdf
 from bs4 import BeautifulSoup
 from datetime import datetime
 logger = logging.getLogger(__name__)

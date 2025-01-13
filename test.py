@@ -1,23 +1,49 @@
-import requests
+from bs4 import BeautifulSoup
+from deep_translator import GoogleTranslator
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# Địa chỉ của server Nginx (hoặc IP của bạn)
-url = "http://localhost/client"  # Đổi thành địa chỉ server của bạn
-response = requests.get(url)
-print(f"Mã trạng thái: {response.status_code}")
 
-# # Số lượng yêu cầu bạn muốn gửi
-# num_requests = 20
+def html_translator(html_file_path)
+    # Open the HTML file and read its contents
+    with open(html_file_path, 'r', encoding='utf-8') as file:
+        html_content = file.read()
 
-# for i in range(num_requests):
+    # Parse the HTML content with BeautifulSoup
+    soup = BeautifulSoup(html_content, 'html.parser')
 
-#     try:
-#         # Gửi yêu cầu đến server
-#         response = requests.get(url)
-#         print(f"Yêu cầu {i+1} gửi thành công, mã trạng thái: {response.status_code}")
-#     except requests.exceptions.RequestException as e:
-#         print(f"Yêu cầu {i+1} gặp lỗi: {e}")
-    
-#     # Giới hạn tốc độ yêu cầu để vượt quá rate/burst của Nginx
-#     # Gửi yêu cầu liên tục mà không nghỉ để vượt quá giới hạn tốc độ của Nginx
-#     time.sleep(0.1)  # Điều chỉnh thời gian nghỉ giữa các yêu cầu nếu cần
+    # Translate the text content
+    translator = GoogleTranslator(source='auto', target='ko')
+
+    # Function to translate text
+    def translate_text(element):
+        try:
+            translated_text = translator.translate(element)
+            if translated_text:
+                return element, translated_text
+        except Exception as e:
+            print(f"Error translating element: {element}\n{e}")
+        return element, None
+
+    # Record the start time
+    start_time = time.time()
+
+    # Use ThreadPoolExecutor to translate elements concurrently
+    with ThreadPoolExecutor() as executor:
+        futures = {executor.submit(translate_text, element): element for element in soup.find_all(text=True) if element.strip()}
+        for future in as_completed(futures):
+            element, translated_text = future.result()
+            if translated_text:
+                element.replace_with(translated_text)
+
+    # Save the modified HTML back to the file
+    with open(html_file_path, 'w', encoding='utf-8') as file:
+        file.write(str(soup))
+
+    # Record the end time
+    end_time = time.time()
+
+    # Calculate and print the duration
+    duration = end_time - start_time
+    print(f"Translation and saving completed in {duration:.2f} seconds")
+    return html_file_path
