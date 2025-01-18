@@ -47,13 +47,15 @@ INSTALLED_APPS = [
     
     'rest_framework',
     'rest_framework_simplejwt',
+    'drf_spectacular',
     'corsheaders',
     'Account',
     'File',
     'jwt_auth',
     'tools',
     'conversion',
-    'django_celery_results'
+    'django_celery_results',
+    'api_doc'
 ]
 
 MIDDLEWARE = [
@@ -278,4 +280,13 @@ LOGGING = {
         'handlers': ['rotating_file'],
         'level': 'INFO',
     },
+}
+REST_FRAMEWORK.update({
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+})
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'CRM API',
+    'DESCRIPTION': 'API documentation for the CRM system',
+    'VERSION': '1.0.0',
 }

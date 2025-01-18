@@ -103,7 +103,7 @@ def html_to_pdf(html_path, output_pdf_path, api_key=None):
         "html": sample_html,
         "name": os.path.basename(output_pdf_path),
         "margins": "5px 5px 5px 5px",
-        "paperSize": "Letter",
+        "paperSize": "A4",
         "orientation": "Portrait",
         "printBackground": "true",
         "async": "false",

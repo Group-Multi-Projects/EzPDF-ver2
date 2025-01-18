@@ -3,7 +3,7 @@ from .forms import SignUpForm
 from .models import AccountModel
 from django.contrib.auth import login,authenticate,logout
 from rest_framework_simplejwt.tokens import RefreshToken
-from rest_framework import status
+from rest_framework import status, viewsets
 from rest_framework.response import Response
 from rest_framework.decorators import api_view,permission_classes
 from django.contrib import messages
@@ -13,80 +13,118 @@ import logging, json
 from rest_framework.permissions import IsAuthenticated
 from .serializers import AccountSerializer
 from django.views.decorators.csrf import csrf_exempt
+from django.http import JsonResponse
+from rest_framework.views import APIView
+from rest_framework.status import HTTP_200_OK, HTTP_201_CREATED, HTTP_400_BAD_REQUEST, HTTP_500_INTERNAL_SERVER_ERROR, HTTP_405_METHOD_NOT_ALLOWED
+from drf_spectacular.utils import extend_schema
+from rest_framework.permissions import AllowAny
+import logging, json
 
 logger = logging.getLogger('custom_logger')
-@csrf_exempt
-def signup(request):
-    """
-    Handle user signup requests and return JSON response.
-    """
-    if request.method == "GET":
-        logger.debug("Signup page accessed with GET method.")
-        return JsonResponse({"success": False, "message": "GET method not allowed for signup."}, status=405)
-
-    if request.method != "POST":
-        return JsonResponse({"success": False, "message": "Method not allowed."}, status=405)
-    
-    try:
-        # Lấy dữ liệu JSON từ request
+class SignupView(APIView):
+    permission_classes = [AllowAny]
+    @extend_schema(
+        request={
+            "application/json": {
+                "type": "object",
+                "properties": {
+                    "username": {"type": "string", "example": "testuser"},
+                    "email": {"type": "string", "example": "user@gmail.com"},
+                    "password1": {"type": "string", "example": "testpassword"},
+                    "password2": {"type": "string", "example": "testpassword"},
+                },
+                "required": ["username", "password1","password2"],
+            }
+        },
+        responses={
+            201: {"description": "User created successfully."},
+            400: {"description": "Invalid form data."},
+            500: {"description": "Internal server error."},
+        },
+        description="API endpoint for user signup."
+    )
+    def post(self, request):
         try:
-            data = json.loads(request.body)
-        except json.JSONDecodeError:
-            return JsonResponse({"success": False, "message": "Invalid JSON input."}, status=400)
+            data = request.data
+            form = SignUpForm(data)
+            if form.is_valid():
+                form.save()
+                logger.info("User signed up successfully.")
+                return Response({"success": True, "message": "Sign up successful!"}, status=HTTP_201_CREATED)
+            else:
+                logger.warning("Sign up failed due to invalid form data.")
+                return Response({"success": False, "message": "Invalid form data.", "errors": form.errors}, status=HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            logger.error(f"An error occurred during signup: {e}", exc_info=True)
+            return Response({"success": False, "message": "An error occurred during sign up."}, status=HTTP_500_INTERNAL_SERVER_ERROR)
 
-        # Khởi tạo form đăng ký với dữ liệu
-        form = SignUpForm(data)
-
-        if form.is_valid():
-            form.save()  # Lưu thông tin người dùng
-            logger.info("User signed up successfully.")
-            return JsonResponse({"success": True, "message": "Sign up successful! Redirecting to home page."}, status=201)
-        else:
-            logger.warning("Sign up failed due to invalid form data.")
-            return JsonResponse({"success": False, "message": "Invalid form data.", "errors": form.errors}, status=400)
-    except Exception as e:
-        logger.error(f"An error occurred during signup: {e}", exc_info=True)
-        return JsonResponse({"success": False, "message": "An error occurred during sign up."}, status=500)
-@csrf_exempt  
-def signin(request):
-    """
-    Handle user login request via JSON input and return a JSON response with status and JWT tokens.
-    """
-    if request.method != 'POST':
-        return JsonResponse({"success": False, "message": "Method not allowed."}, status=405)
-    try:
-        # Parse JSON data from request body
+class SignInAPIView(APIView):
+    permission_classes = [AllowAny]  # Cho phép truy cập công khai
+    @extend_schema(
+        request={
+            "application/json": {
+                "type": "object",
+                "properties": {
+                    "email_login": {"type": "string", "example": "testuser"},
+                    "password_login": {"type": "string", "example": "testpassword"},
+                    "next": {"type": "string", "example": "/dashboard/"}
+                },
+                "required": ["email_login", "password_login"],
+            }
+        },
+        responses={
+            200: {
+                "description": "Login successful. Returns JWT tokens.",
+                "type": "object",
+                "properties": {
+                    "refresh": {"type": "string", "example": "refresh_token_example"},
+                    "access": {"type": "string", "example": "access_token_example"},
+                }
+            },
+            400: {"description": "Invalid credentials or input."},
+            500: {"description": "Internal server error."},
+        },
+        description="API endpoint for user signin."
+    )
+    def post(self, request):
+        """
+        Handle user login request via JSON input and return JWT tokens.
+        """
         try:
-            data = json.loads(request.body)
-        except json.JSONDecodeError:
-            return JsonResponse({"success": False, "message": "Invalid JSON input."}, status=400)
+            # Parse JSON data
+            try:
+                data = request.data
+            except Exception:
+                return Response({"success": False, "message": "Invalid JSON input."}, status=400)
 
-        email_login = data.get("email_login")
-        password_login = data.get("password_login")
-        next_page = data.get("next", "")
-        # Validate input
-        if not email_login or not password_login:
-            return JsonResponse({"success": False, "message": "Email and password are required."}, status=400)
-        logger.info(f"User attempting login: {email_login}")
-        user = authenticate(request, username=email_login, password=password_login)
+            email_login = data.get("email_login")
+            password_login = data.get("password_login")
+            next_page = data.get("next", "")
 
-        if user:
-            login(request, user)
-            logger.info(f"Login successful for user: {email_login}")
-            refresh = RefreshToken.for_user(user)
+            # Validate input
+            if not email_login or not password_login:
+                return Response({"success": False, "message": "Email and password are required."}, status=400)
 
-            return JsonResponse({
-                "success": True,
-                "next_page": next_page,
-                "refresh": str(refresh),
-                "access": str(refresh.access_token),
-            }, status=200)
-        else:
-            logger.warning(f"Failed login attempt for email: {email_login}")
-            return JsonResponse({"success": False, "message": "Email hoặc mật khẩu không đúng!"}, status=400)
-    except Exception as e:
-        logger.error(f"An error occurred during login: {e}", exc_info=True)
-        return JsonResponse({"success": False, "message": "Đã xảy ra lỗi."}, status=500)
+            logger.info(f"User attempting login: {email_login}")
+            user = authenticate(request, username=email_login, password=password_login)
+
+            if user:
+                login(request, user)
+                logger.info(f"Login successful for user: {email_login}")
+                refresh = RefreshToken.for_user(user)
+
+                return Response({
+                    "success": True,
+                    "next_page": next_page,
+                    "refresh": str(refresh),
+                    "access": str(refresh.access_token),
+                }, status=200)
+            else:
+                logger.warning(f"Failed login attempt for email: {email_login}")
+                return Response({"success": False, "message": "Email hoặc mật khẩu không đúng!"}, status=400)
+        except Exception as e:
+            logger.error(f"An error occurred during login: {e}", exc_info=True)
+            return Response({"success": False, "message": "Đã xảy ra lỗi."}, status=500)
 @csrf_exempt
 def signout(request):
     logout(request)
@@ -108,3 +146,7 @@ def get_user_info_serializers(request):
     
     elif request.method == "POST":
         return Response({"message": "POST method is not implemented"}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
+
+class AccountViewset(viewsets.ModelViewSet):
+    queryset = AccountModel.objects.all()
+    serializer_class = AccountSerializer

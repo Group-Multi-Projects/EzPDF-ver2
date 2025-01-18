@@ -2120,3 +2120,771 @@ INFO 2025-01-02 19:53:41,364 autoreload Watching for file changes with StatReloa
 INFO 2025-01-02 19:53:43,788 basehttp "GET /account/get_user_info_serializers/ HTTP/1.1" 200 338
 INFO 2025-01-02 19:53:49,290 autoreload D:\Python_Project\EzPDF-ver2\Account\serializers.py changed, reloading.
 INFO 2025-01-02 19:53:50,231 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 01:57:20,104 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 01:57:33,515 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-18 01:57:40,292 log Unauthorized: /
+WARNING 2025-01-18 01:57:40,303 basehttp "GET / HTTP/1.1" 401 4989
+INFO 2025-01-18 01:57:40,340 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-01-18 01:57:40,341 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-01-18 01:57:40,342 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-01-18 01:57:40,342 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-01-18 01:57:40,345 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-01-18 01:57:40,345 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-01-18 01:57:40,355 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-01-18 01:57:40,367 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-01-18 01:57:40,378 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-01-18 01:57:40,393 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-01-18 01:57:40,404 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-01-18 01:57:40,424 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2025-01-18 01:57:40,490 log Not Found: /favicon.ico
+WARNING 2025-01-18 01:57:40,500 basehttp "GET /favicon.ico HTTP/1.1" 404 6766
+WARNING 2025-01-18 01:57:44,084 log Unauthorized: /
+WARNING 2025-01-18 01:57:44,101 basehttp "GET / HTTP/1.1" 401 4989
+WARNING 2025-01-18 01:57:45,048 log Unauthorized: /
+WARNING 2025-01-18 01:57:45,063 basehttp "GET / HTTP/1.1" 401 4989
+INFO 2025-01-18 01:59:06,325 basehttp "POST /files-api/ HTTP/1.1" 201 129
+ERROR 2025-01-18 01:59:19,709 log Internal Server Error: /files-api/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'FileViewSet' should either include a `queryset` attribute, or override the `get_queryset()` method.
+ERROR 2025-01-18 01:59:19,724 basehttp "GET /files-api/ HTTP/1.1" 500 97331
+INFO 2025-01-18 02:00:28,688 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:00:30,598 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:00:50,660 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:00:55,454 basehttp "GET /files-api/ HTTP/1.1" 200 6222
+WARNING 2025-01-18 02:01:08,655 log Unauthorized: /files-api/
+WARNING 2025-01-18 02:01:08,665 basehttp "GET /files-api/ HTTP/1.1" 401 58
+INFO 2025-01-18 02:01:15,594 basehttp "GET /files-api/ HTTP/1.1" 200 6222
+INFO 2025-01-18 02:04:00,678 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:04:02,560 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:04:19,112 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:04:20,874 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:04:39,242 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:04:40,959 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:04:43,392 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:04:45,288 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:06:31,766 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:06:33,450 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:06:37,125 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:06:39,263 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:06:54,752 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:06:56,335 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:06:58,089 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:06:59,925 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:07:01,718 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:07:03,393 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:07:14,322 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:07:16,123 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:07:20,185 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:07:21,751 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:07:25,573 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:07:27,102 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:07:59,476 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:08:01,199 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:08:34,926 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:08:36,911 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:08:40,635 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:08:42,560 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:08:51,962 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:08:53,786 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:07,156 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:08,960 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:12,588 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:14,531 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:20,483 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:22,130 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:24,717 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:26,597 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:30,336 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:31,928 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:37,175 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:39,017 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:41,888 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:43,610 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:46,363 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:47,764 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:09:53,831 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:09:55,447 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:10:06,086 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:10:07,937 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:10:11,859 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:10:13,458 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:10:15,081 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:10:17,197 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:10:19,978 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:10:21,562 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:10:25,518 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:10:27,110 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:11:01,884 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:11:03,531 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:11:06,517 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:11:08,090 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:11:14,337 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:11:15,985 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:11:38,118 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:11:40,094 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:11:45,112 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:11:46,818 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:11:50,780 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:11:52,340 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:11:55,627 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:11:57,624 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:12:01,470 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:12:02,946 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:12:05,553 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:12:07,706 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:12:10,195 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:12:12,002 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:12:14,570 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:12:16,492 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:12:21,366 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:12:23,194 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:12:27,217 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:12:28,932 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:14:00,928 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:14:02,613 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:14:07,757 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:14:09,339 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:14:17,935 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:14:19,352 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:14:22,378 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:14:24,063 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:14:27,039 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:14:29,003 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:14:31,821 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:14:33,551 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:15:13,372 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:15:14,935 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:15:22,467 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:15:24,228 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:15:27,213 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:15:28,805 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:15:57,155 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:15:58,908 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:16:05,138 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:16:06,981 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:16:18,705 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:16:20,538 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:16:23,365 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:16:24,878 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:16:29,673 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:16:31,514 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:16:34,319 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:16:36,165 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:16:55,008 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:16:56,841 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:17:18,037 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:17:19,587 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:18:35,195 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:18:36,849 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:18:38,838 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:18:40,499 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:18:47,733 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:18:49,582 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:18:54,362 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:18:56,144 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:18:59,004 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:19:00,577 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:24:45,458 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:24:58,525 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:25:12,490 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:25:24,875 basehttp "GET /files-api/1/ HTTP/1.1" 200 181
+INFO 2025-01-18 02:26:01,319 basehttp "GET /files-api/files/ HTTP/1.1" 200 5529
+INFO 2025-01-18 02:26:12,310 basehttp "GET /files-api/trashs/ HTTP/1.1" 200 2
+INFO 2025-01-18 02:26:30,697 basehttp "GET /files-api/1/add_to_trash HTTP/1.1" 301 0
+WARNING 2025-01-18 02:26:30,712 log Method Not Allowed: /files-api/1/add_to_trash/
+WARNING 2025-01-18 02:26:30,723 basehttp "GET /files-api/1/add_to_trash/ HTTP/1.1" 405 40
+ERROR 2025-01-18 02:26:35,306 log Internal Server Error: /files-api/1/add_to_trash
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/files-api/1/add_to_trash/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2025-01-18 02:26:35,316 basehttp "POST /files-api/1/add_to_trash HTTP/1.1" 500 71076
+INFO 2025-01-18 02:26:44,945 basehttp "POST /files-api/1/add_to_trash/ HTTP/1.1" 200 159
+INFO 2025-01-18 02:27:43,768 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:27:45,509 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:31:54,680 autoreload /app/EzPDF/urls.py changed, reloading.
+INFO 2025-01-18 02:31:57,045 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:32:07,841 autoreload /app/EzPDF/urls.py changed, reloading.
+INFO 2025-01-18 02:32:11,382 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:32:35,821 autoreload /app/EzPDF/urls.py changed, reloading.
+INFO 2025-01-18 02:32:36,969 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:33:05,412 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2025-01-18 02:33:06,108 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:33:07,304 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2025-01-18 02:33:07,954 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:34:37,238 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:35:26,992 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:35:28,201 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:35:45,550 autoreload /app/File/views.py changed, reloading.
+INFO 2025-01-18 02:35:46,878 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:36:12,226 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+ERROR 2025-01-18 02:36:12,675 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:12,690 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+ERROR 2025-01-18 02:36:12,732 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:12,744 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+INFO 2025-01-18 02:36:18,847 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+ERROR 2025-01-18 02:36:18,952 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:18,964 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+ERROR 2025-01-18 02:36:19,013 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:19,022 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+INFO 2025-01-18 02:36:19,766 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+ERROR 2025-01-18 02:36:19,846 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:19,858 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+ERROR 2025-01-18 02:36:19,893 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:19,910 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+INFO 2025-01-18 02:36:20,903 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+ERROR 2025-01-18 02:36:20,982 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:20,996 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+ERROR 2025-01-18 02:36:21,039 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:21,047 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+INFO 2025-01-18 02:36:21,742 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+ERROR 2025-01-18 02:36:21,819 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:21,830 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+ERROR 2025-01-18 02:36:21,866 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:21,884 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+INFO 2025-01-18 02:36:22,729 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+ERROR 2025-01-18 02:36:22,807 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:22,820 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+ERROR 2025-01-18 02:36:22,860 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:22,874 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+INFO 2025-01-18 02:36:23,538 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+ERROR 2025-01-18 02:36:23,613 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:23,627 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+ERROR 2025-01-18 02:36:23,665 log Internal Server Error: /api/schema/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 84, in get
+    return self._get_schema_response(request)
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/views.py", line 92, in _get_schema_response
+    data=generator.get_schema(request=request, public=self.serve_public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 285, in get_schema
+    paths=self.parse(request, public),
+  File "/usr/local/lib/python3.10/site-packages/drf_spectacular/generators.py", line 250, in parse
+    assert isinstance(view.schema, AutoSchema), (
+AssertionError: Incompatible AutoSchema used on View <class 'Account.views.WrappedAPIView'>. Is DRF's DEFAULT_SCHEMA_CLASS pointing to "drf_spectacular.openapi.AutoSchema" or any other drf-spectacular compatible AutoSchema?
+ERROR 2025-01-18 02:36:23,680 basehttp "GET /api/schema/ HTTP/1.1" 500 114425
+INFO 2025-01-18 02:37:02,133 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2025-01-18 02:37:03,410 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:37:06,005 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2025-01-18 02:37:07,370 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:37:50,717 autoreload /app/EzPDF/settings.py changed, reloading.
+INFO 2025-01-18 02:37:51,864 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:38:31,282 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:38:35,517 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+INFO 2025-01-18 02:38:35,647 basehttp "GET /api/schema/ HTTP/1.1" 200 35607
+INFO 2025-01-18 02:40:57,158 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:40:58,417 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:41:15,866 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:41:17,048 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:41:19,003 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:41:20,201 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:41:34,229 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:41:35,415 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:41:40,701 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:41:41,865 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:41:44,905 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:41:46,209 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:42:32,317 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:42:33,607 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:42:36,737 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:42:37,956 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:42:49,728 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:42:51,053 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:43:35,854 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:43:37,163 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:43:50,117 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:43:51,416 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:43:55,523 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:43:56,752 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:43:59,826 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:44:00,967 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:44:03,423 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:44:04,706 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:44:07,361 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:44:08,667 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:44:11,168 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:44:12,464 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:44:20,580 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+INFO 2025-01-18 02:44:20,725 basehttp "GET /api/schema/ HTTP/1.1" 200 39502
+WARNING 2025-01-18 02:44:38,942 log Bad Request: /account/signin/
+WARNING 2025-01-18 02:44:38,955 basehttp "POST /account/signin/ HTTP/1.1" 400 62
+INFO 2025-01-18 02:45:34,450 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:45:46,353 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:45:47,665 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:45:51,373 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+INFO 2025-01-18 02:45:51,489 basehttp "GET /api/schema/ HTTP/1.1" 200 39502
+INFO 2025-01-18 02:46:20,670 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:46:21,938 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:46:38,149 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:46:39,360 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:46:41,766 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:46:43,023 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:47:05,162 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:47:29,716 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 02:47:30,859 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:47:36,801 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+INFO 2025-01-18 02:47:36,933 basehttp "GET /api/schema/ HTTP/1.1" 200 42376
+INFO 2025-01-18 02:48:23,372 views User attempting login: testuser
+WARNING 2025-01-18 02:48:23,677 views Failed login attempt for email: testuser
+WARNING 2025-01-18 02:48:23,691 log Bad Request: /account/signin/
+WARNING 2025-01-18 02:48:23,700 basehttp "POST /account/signin/ HTTP/1.1" 400 70
+INFO 2025-01-18 02:48:26,007 views User attempting login: testuser
+WARNING 2025-01-18 02:48:26,269 views Failed login attempt for email: testuser
+WARNING 2025-01-18 02:48:26,284 log Bad Request: /account/signin/
+WARNING 2025-01-18 02:48:26,292 basehttp "POST /account/signin/ HTTP/1.1" 400 70
+INFO 2025-01-18 02:48:42,727 views User attempting login: admin@gmail.com
+INFO 2025-01-18 02:48:43,061 views Login successful for user: admin@gmail.com
+INFO 2025-01-18 02:48:43,100 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+INFO 2025-01-18 02:54:28,382 autoreload /app/conversion/views.py changed, reloading.
+INFO 2025-01-18 02:54:29,712 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:54:46,102 autoreload /app/conversion/views.py changed, reloading.
+INFO 2025-01-18 02:54:47,364 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:54:56,101 autoreload /app/conversion/urls.py changed, reloading.
+INFO 2025-01-18 02:54:57,421 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:55:01,072 autoreload /app/conversion/models.py changed, reloading.
+INFO 2025-01-18 02:55:02,345 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:58:54,809 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:58:56,055 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:58:59,645 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:59:00,874 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:59:05,093 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:59:06,463 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:59:18,278 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:59:19,748 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:59:24,982 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:59:26,196 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:59:29,253 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:59:30,416 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 02:59:36,856 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 02:59:37,986 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:01:00,498 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 03:01:01,737 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:01:06,043 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 03:01:07,263 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:02:04,778 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 03:02:06,085 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:02:13,017 autoreload /app/Account/views.py changed, reloading.
+INFO 2025-01-18 03:02:14,310 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:02:21,538 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:02:22,866 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:02:25,976 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:02:27,170 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:02:46,329 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:02:47,626 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:02:58,212 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:02:59,514 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:03:03,760 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:03:04,976 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:03:09,254 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:03:10,523 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:03:13,054 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:03:14,195 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:03:16,707 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:03:17,899 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:03:32,950 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:03:34,036 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:03:38,916 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:03:40,218 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:03:47,633 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:03:49,038 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:03:58,372 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:03:59,957 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:04:23,131 autoreload Watching for file changes with StatReloader
+WARNING 2025-01-18 03:04:50,009 log Not Found: /account-api/
+WARNING 2025-01-18 03:04:50,018 basehttp "POST /account-api/ HTTP/1.1" 404 8769
+WARNING 2025-01-18 03:04:51,510 log Not Found: /account-api/
+WARNING 2025-01-18 03:04:51,521 basehttp "POST /account-api/ HTTP/1.1" 404 8769
+WARNING 2025-01-18 03:05:12,182 log Bad Request: /account/account-api/
+WARNING 2025-01-18 03:05:12,193 basehttp "POST /account/account-api/ HTTP/1.1" 400 115
+INFO 2025-01-18 03:05:18,806 basehttp "GET /account/account-api/ HTTP/1.1" 200 331
+INFO 2025-01-18 03:05:33,180 autoreload /app/EzPDF/urls.py changed, reloading.
+INFO 2025-01-18 03:05:34,487 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:05:36,929 autoreload /app/EzPDF/urls.py changed, reloading.
+INFO 2025-01-18 03:05:38,194 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:05:41,960 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:05:43,187 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:06:11,010 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:06:12,151 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:06:15,878 autoreload /app/Account/urls.py changed, reloading.
+INFO 2025-01-18 03:06:17,031 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 03:06:23,124 autoreload /app/tools/tasks.py changed, reloading.
+INFO 2025-01-18 03:06:24,478 autoreload Watching for file changes with StatReloader

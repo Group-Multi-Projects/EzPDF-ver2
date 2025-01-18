@@ -4,23 +4,20 @@ import os
 import requests
 from .models import FileModel
 import logging
-from rest_framework.decorators import api_view,permission_classes
-from rest_framework import status
+from rest_framework.decorators import api_view,permission_classes,action
+from rest_framework import status, viewsets
 from rest_framework.response import Response
 from. serializers import FileSerializer, UploadFileSerializer
 from rest_framework.permissions import IsAuthenticated
 from Account.models import AccountModel
-from django.contrib.auth.decorators import login_required
 from django.conf import settings
 from rest_framework_simplejwt.tokens import RefreshToken
-from django.contrib.auth import authenticate
-from tools.models import TextModel,DrawModel
 from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
-from rest_framework.views import APIView
 from conversion.utils import pdf_to_word, pdf_to_html, html_to_pdf
 from bs4 import BeautifulSoup
 from datetime import datetime
+from drf_spectacular.utils import extend_schema, OpenApiParameter
+
 logger = logging.getLogger(__name__)
 
 def get_jwt_token(username, password):
@@ -37,6 +34,7 @@ def get_jwt_token(username, password):
     else:
         print(f"Error: {response.status_code}")
         return None, None
+    
 @api_view(['POST'])
 def upload_file(request):
     print("zoo")
@@ -135,62 +133,43 @@ def edit_file(request, file_id):
     except Exception as e:
         logger.error(f"Error occurred while retrieving file data for user {request.user.username}: {str(e)}")
         return JsonResponse({"error": "An error occurred while retrieving the file data."}, status=500)
-    
 
 
-@api_view(["GET", "PUT", "DELETE"])
-# @permission_classes([IsAuthenticated])
-def get_put_delete_file_api(request, id):
-    model = get_object_or_404(FileModel, id=id)
+class FileViewSet(viewsets.ModelViewSet):
+    queryset = FileModel.objects.all()
+    serializer_class = FileSerializer
 
-    if request.method == "GET":
-        serializer = FileSerializer(model)
-        return Response(serializer.data)
-
-    elif request.method == "PUT":
-        serializer = FileSerializer(model, data=request.data)
-        print("geellsadlasd")
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_200_OK)
-    elif request.method == "DELETE":
-        model.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
-    
-
-
-@api_view(["GET", "POST"])
-# @permission_classes([IsAuthenticated])
-def get_list_files(request,page_type):
-    if request.method == "GET":
+    @action(detail=False, methods=['get'])
+    def files(self, request):
         try:
-            account = AccountModel.objects.get(username=request.user.username)
-            if page_type == "files":
-                files = FileModel.objects.filter(
-                    account=account,
-                    trash = 0
-                    )
-            elif page_type == "trash":
-                files = FileModel.objects.filter(
-                    account=account,
-                    trash = 1
-                    )
-            serializers = FileSerializer(files, many=True)
-            return Response({"list_files": serializers.data}, status=status.HTTP_200_OK)
-        except AccountModel.DoesNotExist:
-            return Response({"error": "Account not found"}, status=status.HTTP_404_NOT_FOUND)
+            files = FileModel.objects.filter(trash=0)
+            serializer = FileSerializer(files, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    @action(detail=False, methods=['get'])
+    def trashs(self, request):
+        try:
+            trashs = FileModel.objects.filter(trash=1)
+            serializer = FileSerializer(trashs, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    @action(detail=True, methods=['post'])
+    def add_to_trash(self, request, pk=None):
+        try:
+            file = self.get_object()  # Lấy đối tượng dựa vào pk
+            if file.trash == 1:
+                return Response({"error": "File đã ở trong thùng rác"}, status=status.HTTP_400_BAD_REQUEST)
+            
+            file.trash = 1
+            file.save()
+            serializer = FileSerializer(file)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except FileModel.DoesNotExist:
+            return Response({"error": "Không tìm thấy file"}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
-    elif request.method == "POST":
-        # Xử lý dữ liệu POST ở đây nếu cần
-        return Response({"message": "POST method is not implemented"}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
-
-@csrf_exempt  
-def add_to_trash(request, id):
-    if request.method == "POST":
-        file = get_object_or_404(FileModel, id=id)
-        file.trash = 1
-        file.save()
-        return JsonResponse({"status": "true"})
-    return JsonResponse({"status": "false", "message": "Invalid request method."}, status=400)
