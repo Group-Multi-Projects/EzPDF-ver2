@@ -5971,3 +5971,283 @@ INFO 2025-02-08 10:33:09,286 autoreload Watching for file changes with StatReloa
 INFO 2025-02-08 10:33:16,740 autoreload Watching for file changes with StatReloader
 INFO 2025-02-08 10:33:28,610 basehttp "POST /upload/ HTTP/1.1" 201 653929
 INFO 2025-02-08 10:33:48,123 autoreload D:\Python_Project\EzPDF-ver2\File\views.py changed, reloading.
+INFO 2025-02-08 10:38:54,407 autoreload Watching for file changes with StatReloader
+ERROR 2025-02-08 10:38:56,018 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:38:56,021 basehttp "GET / HTTP/1.1" 500 94606
+ERROR 2025-02-08 10:39:09,571 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:09,573 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:10,428 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:10,429 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:10,670 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:10,672 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:10,821 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:10,822 basehttp "GET / HTTP/1.1" 500 94594
+INFO 2025-02-08 10:39:19,418 autoreload Watching for file changes with StatReloader
+ERROR 2025-02-08 10:39:22,415 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:22,417 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:22,926 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:22,928 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:23,096 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:23,098 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:23,262 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:23,264 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:23,444 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:23,446 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:23,631 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:23,633 basehttp "GET / HTTP/1.1" 500 94594
+ERROR 2025-02-08 10:39:23,771 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\File\views.py", line 29, in home_page
+    return render(request,"File/home_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Project\EzPDF-ver2\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: File/home_page.html
+ERROR 2025-02-08 10:39:23,774 basehttp "GET / HTTP/1.1" 500 94594
+INFO 2025-02-08 10:39:37,145 basehttp "GET / HTTP/1.1" 200 1349
+INFO 2025-02-08 10:39:39,787 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+INFO 2025-02-08 10:39:39,883 basehttp "GET /api/schema/ HTTP/1.1" 200 58460
+INFO 2025-02-08 10:39:41,932 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-08 10:39:42,039 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4157
+INFO 2025-02-08 10:39:42,046 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-02-08 10:39:42,046 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-02-08 10:39:42,052 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-02-08 10:39:42,053 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+WARNING 2025-02-08 10:39:42,057 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 404 1984
+INFO 2025-02-08 10:39:42,058 basehttp "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-02-08 10:39:42,060 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-02-08 10:39:43,552 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4157
+WARNING 2025-02-08 10:39:43,565 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 404 1984
+INFO 2025-02-08 10:39:44,697 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4157
+INFO 2025-02-08 10:39:44,839 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-02-08 10:39:44,843 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-02-08 10:39:44,845 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-02-08 10:39:44,847 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-02-08 10:39:44,848 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-02-08 10:39:44,867 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-02-08 10:39:44,868 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-02-08 10:39:44,909 log Not Found: /favicon.ico
+WARNING 2025-02-08 10:39:44,910 basehttp "GET /favicon.ico HTTP/1.1" 404 4681
+INFO 2025-02-08 10:39:56,322 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+INFO 2025-02-08 10:39:56,372 basehttp "GET /api/schema/ HTTP/1.1" 200 58460

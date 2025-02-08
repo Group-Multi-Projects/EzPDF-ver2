@@ -25,6 +25,8 @@ from .docs import file_schema, upload_file_schema
 from .html404 import body_response, style_response
 logger = logging.getLogger(__name__)
 
+def home_page(request):
+    return render(request,"File/home_page.html")
 def get_jwt_token(username, password):
     url = '/auth/api/token/'
     data = {
