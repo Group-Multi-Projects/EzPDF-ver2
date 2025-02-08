@@ -2,11 +2,15 @@ version: '3.8'
 
 services:
   db:
-    image: mysql:8.0
+    image: theodorescsa/mysql-ezpdf:latest
     container_name: mysql_container
     environment:
-      MYSQL_ROOT_PASSWORD: dinhthai2004  # Đặt mật khẩu cho người dùng root
-      MYSQL_DATABASE: ezpdf               # Tạo database mặc định
+      MYSQL_ROOT_PASSWORD: dinhthai2004
+      MYSQL_DATABASE: ezpdf
+      MYSQL_USER: ezpdf_user 
+      MYSQL_PASSWORD: ezpdf_password  
+      MYSQL_AUTHENTICATION_PLUGIN: mysql_native_password  # Đặt plugin xác thực
+
     ports:
       - "3307:3306"
     volumes:
@@ -26,7 +30,7 @@ services:
     restart: unless-stopped
       
   web:
-    image: theodorescsa/ezpdf-lib-requirements:latest
+    image: theodorescsa/ezpdf-requirements:latest
     container_name: ezpdf_web
     build:
       context: .
@@ -46,29 +50,29 @@ services:
 
     command: >
       sh -c "
-        python manage.py makemigrations &&
-        python manage.py migrate &&
-        python manage.py shell < create_superuser.py &&
-        python manage.py runserver 0.0.0.0:8000"
+        python3 manage.py makemigrations &&
+        python3 manage.py migrate &&
+        python3 manage.py shell < create_superuser.py &&
+        python3 manage.py runserver 0.0.0.0:8000"
 
     restart: unless-stopped
 
 
-  # celery:
-  #   image: theodorescsa/ezpdf-lib-requirements:latest
-  #   container_name: celery_worker
-  #   build:
-  #     context: .
-  #   depends_on:
-  #     - db
-  #     - redis
-  #   command: celery -A EzPDF worker --loglevel=info
-  #   env_file:
-  #     - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
-  #   environment:
-  #     - CELERY_BROKER_URL=redis://redis:6379/0
-  #   volumes:
-  #     - .:/app
+  celery:
+    image: theodorescsa/ezpdf-requirements:latest
+    container_name: celery_worker
+    build:
+      context: .
+    depends_on:
+      - db
+      - redis
+    command: celery -A EzPDF worker --loglevel=info
+    env_file:
+      - .env  # Thêm dòng này để container nhận các biến môi trường từ file .env
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+    volumes:
+      - .:/app
 
 volumes:
   db_data:

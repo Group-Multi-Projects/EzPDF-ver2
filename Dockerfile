@@ -1,5 +1,5 @@
 # Sử dụng Python chính thức
-FROM theodorescsa/ezpdf-lib-requirements:latest
+FROM theodorescsa/ezpdf-requirements:latest
 
 # Đặt biến môi trường để ngăn pip tạo cache
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -27,3 +27,17 @@ EXPOSE 8000
 
 # Chạy Gunicorn server
 CMD ["gunicorn", "EzPDF.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "3"]
+
+# FROM mysql:8.0
+
+# # Thiết lập biến môi trường
+# ENV MYSQL_ROOT_PASSWORD=dinhthai2004
+# ENV MYSQL_DATABASE=ezpdf
+# ENV MYSQL_USER=ezpdf_user
+# ENV MYSQL_PASSWORD=ezpdf_password
+
+# # Sao chép file SQL vào container
+# COPY init.sql /docker-entrypoint-initdb.d/
+
+# # Chạy MySQL
+# CMD ["mysqld"]

@@ -6251,3 +6251,227 @@ WARNING 2025-02-08 10:39:44,909 log Not Found: /favicon.ico
 WARNING 2025-02-08 10:39:44,910 basehttp "GET /favicon.ico HTTP/1.1" 404 4681
 INFO 2025-02-08 10:39:56,322 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
 INFO 2025-02-08 10:39:56,372 basehttp "GET /api/schema/ HTTP/1.1" 200 58460
+INFO 2025-02-08 07:05:38,339 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:30:09,882 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:31:58,443 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:32:11,317 basehttp "GET / HTTP/1.1" 200 1349
+WARNING 2025-02-08 08:32:11,820 log Not Found: /favicon.ico
+WARNING 2025-02-08 08:32:11,832 basehttp "GET /favicon.ico HTTP/1.1" 404 3852
+INFO 2025-02-08 08:32:13,953 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-08 08:32:14,031 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+INFO 2025-02-08 08:32:14,075 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-02-08 08:32:14,076 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-02-08 08:32:14,088 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-02-08 08:32:14,095 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-02-08 08:32:14,095 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-02-08 08:32:14,095 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-02-08 08:32:14,110 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-02-08 08:32:15,555 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4336
+INFO 2025-02-08 08:32:18,070 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-02-08 08:32:18,126 basehttp "GET /admin/ HTTP/1.1" 200 7749
+INFO 2025-02-08 08:32:18,165 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-02-08 08:32:18,248 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-02-08 08:32:18,275 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-02-08 08:32:22,904 basehttp "GET /admin/File/filemodel/ HTTP/1.1" 200 8697
+INFO 2025-02-08 08:32:22,935 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-02-08 08:32:22,943 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-02-08 08:32:22,948 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-02-08 08:32:22,952 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-02-08 08:32:22,956 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-02-08 08:32:22,967 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-02-08 08:32:22,968 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-02-08 08:32:22,969 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-02-08 08:32:22,978 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-02-08 08:32:23,001 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-02-08 08:32:23,161 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-02-08 08:32:23,199 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-02-08 08:41:45,393 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:43:05,486 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:43:06,316 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:43:40,983 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:43:59,507 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:44:00,429 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:44:40,558 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:44:41,366 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:44:46,051 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:44:46,821 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:44:50,499 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:44:51,292 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:44:53,896 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:44:54,762 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:44:57,387 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:44:58,212 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:55:27,815 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:55:28,704 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:55:30,832 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:55:31,625 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:55:38,091 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:55:38,942 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:55:40,611 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 08:55:41,361 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:55:54,401 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 08:55:55,151 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:55:57,680 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 08:55:58,569 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:56:00,727 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 08:56:01,575 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:56:13,370 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 08:56:14,199 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:56:17,841 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 08:56:18,761 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:56:20,183 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 08:56:21,121 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:56:30,988 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 08:56:31,907 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:56:37,075 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 08:56:37,947 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 08:56:57,648 basehttp "GET / HTTP/1.1" 200 1349
+WARNING 2025-02-08 08:56:57,787 log Not Found: /favicon.ico
+WARNING 2025-02-08 08:56:57,793 basehttp "GET /favicon.ico HTTP/1.1" 404 3852
+INFO 2025-02-08 08:56:59,685 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+INFO 2025-02-08 08:56:59,811 basehttp "GET /api/schema/ HTTP/1.1" 200 58422
+INFO 2025-02-08 08:57:20,132 views User attempting login: admin@gmail.com
+INFO 2025-02-08 08:57:20,313 views Login successful for user: admin@gmail.com
+INFO 2025-02-08 08:57:20,338 basehttp "POST /account/signin/ HTTP/1.1" 200 524
+INFO 2025-02-08 08:57:43,403 basehttp "POST /upload/ HTTP/1.1" 201 1664
+INFO 2025-02-08 09:01:17,491 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:01:18,583 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:01:22,013 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:01:23,057 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:01:36,083 basehttp "POST /upload/ HTTP/1.1" 201 1664
+INFO 2025-02-08 09:05:18,986 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:05:20,044 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:05:22,361 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:05:23,102 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:05:26,245 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:05:27,108 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:05:38,519 basehttp "POST /upload/ HTTP/1.1" 201 1672
+INFO 2025-02-08 09:11:05,724 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:11:06,750 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:11:10,990 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:11:11,784 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:11:26,296 basehttp "POST /upload/ HTTP/1.1" 201 1672
+INFO 2025-02-08 09:12:03,380 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 09:12:04,267 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:12:08,594 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 09:12:09,575 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:12:12,846 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 09:12:13,759 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:12:16,184 autoreload /app/conversion/utils.py changed, reloading.
+INFO 2025-02-08 09:12:17,089 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:12:24,503 basehttp "POST /upload/ HTTP/1.1" 201 1672
+INFO 2025-02-08 09:19:14,145 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:19:15,102 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:19:20,501 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:19:21,435 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:19:23,592 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:19:24,378 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:19:34,390 basehttp "POST /upload/ HTTP/1.1" 201 2898130
+INFO 2025-02-08 09:20:38,504 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:20:39,521 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:20:51,556 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:20:52,585 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:20:56,248 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:20:57,060 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:21:05,727 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:21:06,622 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:21:08,745 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:21:09,752 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:21:20,514 basehttp "POST /upload/ HTTP/1.1" 201 1672
+INFO 2025-02-08 09:21:43,966 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:21:45,081 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:21:58,814 basehttp "POST /upload/ HTTP/1.1" 201 1672
+INFO 2025-02-08 09:22:41,228 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:22:42,295 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:22:52,040 basehttp "POST /upload/ HTTP/1.1" 201 1664
+INFO 2025-02-08 09:23:15,435 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:23:16,462 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:23:19,615 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:23:20,422 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:23:24,550 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:23:25,376 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:23:35,062 basehttp "POST /upload/ HTTP/1.1" 201 1672
+INFO 2025-02-08 09:24:19,389 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:24:20,251 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:24:23,466 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:24:24,264 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:24:27,424 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:24:28,326 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:24:33,767 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:24:34,624 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:24:36,785 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:24:37,581 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:24:42,774 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:24:43,669 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:24:53,289 basehttp "POST /upload/ HTTP/1.1" 201 2898130
+INFO 2025-02-08 09:26:56,537 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:26:57,396 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:26:59,729 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:27:00,460 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:27:18,656 basehttp "POST /upload/ HTTP/1.1" 201 1672
+INFO 2025-02-08 09:29:30,607 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:29:31,560 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:29:34,010 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:29:34,834 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:29:37,226 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:29:38,026 autoreload Watching for file changes with StatReloader
+ERROR 2025-02-08 09:29:42,379 log Internal Server Error: /upload/
+ERROR 2025-02-08 09:29:42,383 basehttp "POST /upload/ HTTP/1.1" 500 97
+ERROR 2025-02-08 09:30:06,385 log Internal Server Error: /upload/
+ERROR 2025-02-08 09:30:06,389 basehttp "POST /upload/ HTTP/1.1" 500 97
+INFO 2025-02-08 09:30:35,075 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:30:35,914 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:30:40,092 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:30:41,106 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:30:42,529 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:30:43,355 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:30:45,478 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:30:46,459 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:30:47,827 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:30:48,547 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:30:53,785 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:30:54,615 autoreload Watching for file changes with StatReloader
+ERROR 2025-02-08 09:30:58,818 log Internal Server Error: /upload/
+ERROR 2025-02-08 09:30:58,827 basehttp "POST /upload/ HTTP/1.1" 500 97
+ERROR 2025-02-08 09:31:04,036 log Internal Server Error: /upload/
+ERROR 2025-02-08 09:31:04,041 basehttp "POST /upload/ HTTP/1.1" 500 97
+INFO 2025-02-08 09:31:36,616 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:31:37,409 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:31:40,491 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:31:41,258 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:31:43,266 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:31:44,317 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:31:45,689 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:31:46,451 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:31:48,587 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:31:49,507 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:31:51,664 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:31:52,532 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:32:02,708 basehttp "POST /upload/ HTTP/1.1" 201 2898138
+INFO 2025-02-08 09:32:18,162 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:32:19,067 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:32:21,150 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:32:22,027 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:34:33,537 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:34:34,499 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:34:49,807 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:34:50,676 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:34:52,883 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:34:53,671 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:34:57,857 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:34:58,818 autoreload Watching for file changes with StatReloader
+ERROR 2025-02-08 09:34:59,923 log Internal Server Error: /upload/
+ERROR 2025-02-08 09:34:59,927 basehttp "POST /upload/ HTTP/1.1" 500 85
+INFO 2025-02-08 09:35:16,344 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:35:17,283 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:35:19,377 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:35:20,373 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:35:23,522 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:35:24,472 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:35:33,478 basehttp "POST /upload/ HTTP/1.1" 201 2898138
+INFO 2025-02-08 09:35:36,865 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:35:37,779 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:35:40,831 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:35:41,684 autoreload Watching for file changes with StatReloader
+INFO 2025-02-08 09:35:44,796 autoreload /app/File/views.py changed, reloading.
+INFO 2025-02-08 09:35:45,746 autoreload Watching for file changes with StatReloader

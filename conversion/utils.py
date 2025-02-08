@@ -12,19 +12,20 @@ def pdf_to_word(pdf_file_path, word_file_path):
     cv.convert(word_file_path, start=0, end=None)
     cv.close()
     
+# Create your tests here.
 def convert_pdf_to_html(pdf_path, html_path):
     # command = f"pdf2htmlEX --optimize-text 1 --no-drm 1 --fit-width 1024 --font-format woff {pdf_path} {html_path}"
-    command = f"pdf2htmlEX --optimize-text 1 --embed cfijo --font-format woff --process-outline 0 {pdf_path} {html_path}"
+    command = f"pdf2htmlEX --optimize-text 1 --process-outline 0 {pdf_path} {html_path}"    
+    print('html_path',html_path)
     process = subprocess.Popen(command, shell=True)
     process.communicate()
     if process.returncode != 0:
         return False
     else:
         return True
-
 # if convert_pdf_to_html("input.pdf", "output1.html"):
 # print("✅ Chuyển đổi thành công")
-def pdf_to_html(pdf_file_path,output_file_path):
+def pdf_to_html_payment(pdf_file_path,output_file_path):
     API_KEY = "luutruongan08082003@gmail.com_oPSSSxmvrEfbE9MQmuw5q7XvntJZSUIyDuvlUPe1NEvwr67l6rjd6w42gBzpvG0U"
 
     BASE_URL = "https://api.pdf.co/v1"

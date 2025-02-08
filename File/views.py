@@ -15,7 +15,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.views import APIView
 
 from django.http import JsonResponse
-from conversion.utils import pdf_to_word, pdf_to_html, html_to_pdf
+from conversion.utils import pdf_to_word,convert_pdf_to_html, html_to_pdf
 from bs4 import BeautifulSoup
 from datetime import datetime
 from drf_spectacular.utils import extend_schema, OpenApiParameter
@@ -79,9 +79,9 @@ class UploadFileView(APIView):
             
             base_url = file_url.split('/media')[0] + '/media/'
             file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
-            
             output_dir = os.path.join(settings.MEDIA_ROOT, 'files', 'converted_files')
             os.makedirs(output_dir, exist_ok=True)
+            output_dir = os.path.relpath(output_dir)  # Lấy đường dẫn tương đối
         except Exception as e:
             return Response({'error': f'File path error: {str(e)}'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
@@ -90,18 +90,25 @@ class UploadFileView(APIView):
         is_existed_file = True
         try:
             if request_type == "editfile":
-                output_file_path = os.path.join(output_dir, f'output-{account_id}-{unique_id}.html').replace("\\", "/")
+                output_file_path = os.path.join(output_dir, f'output-{account_id}-{unique_id}.html')                
+                output_file_path = os.path.relpath(output_file_path)
                 try:
-                    
-                    pdf_to_html(file_path, output_file_path)
+                    convert_pdf_to_html(file_path, output_file_path)
                 except Exception as e:
-                    print(e)
-                try:
-                    with open(output_file_path, 'r', encoding='utf-8') as f:
-                        html_content = f.read()
-                except Exception as e:
-                    print(e)
+                    print(f"Lỗi khi chuyển đổi PDF sang HTML: {e}")
+
+                # Kiểm tra file có tồn tại không
+                if os.path.exists(output_file_path):
+                    try:
+                        with open(output_file_path, 'r', encoding='utf-8') as f:
+                            html_content = f.read()
+                    except Exception as e:
+                        print(f"Lỗi khi đọc file: {e}")
+                        is_existed_file = False
+                else:
+                    print(f"LỖI: File {output_file_path} không tồn tại sau khi chuyển đổi!")
                     is_existed_file = False
+
                     
                 if is_existed_file == False:
                     style = style_response
@@ -129,7 +136,7 @@ class UploadFileView(APIView):
 
             elif request_type == "pdf2html":
                 output_file_path = os.path.join(output_dir, f'output-{account_id}-{unique_id}.html').replace("\\", "/")
-                pdf_to_html(file_path, output_file_path)
+                convert_pdf_to_html(file_path, output_file_path)
                 output_file_url = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.html'
 
             elif request_type == "html2pdf":
