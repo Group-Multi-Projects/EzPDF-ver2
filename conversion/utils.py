@@ -4,15 +4,28 @@ import os
 from django.conf import settings
 from .forms import ConversionForm
 from .models import ConversionModel
-import requests 
+import requests, os, subprocess
 from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
 def pdf_to_word(pdf_file_path, word_file_path):
     cv = WordConverter(pdf_file_path)
     cv.convert(word_file_path, start=0, end=None)
     cv.close()
+    
+def convert_pdf_to_html(pdf_path, html_path):
+    # command = f"pdf2htmlEX --optimize-text 1 --no-drm 1 --fit-width 1024 --font-format woff {pdf_path} {html_path}"
+    command = f"pdf2htmlEX --optimize-text 1 --embed cfijo --font-format woff --process-outline 0 {pdf_path} {html_path}"
+    process = subprocess.Popen(command, shell=True)
+    process.communicate()
+    if process.returncode != 0:
+        return False
+    else:
+        return True
+
+# if convert_pdf_to_html("input.pdf", "output1.html"):
+# print("✅ Chuyển đổi thành công")
 def pdf_to_html(pdf_file_path,output_file_path):
-    API_KEY = "dinhthai0312@gmail.com_u2FBP5Wuk9EyD6yr77OX69YZPwVF6h7QKrwPyk3Vhs7IWujGXm2l2cGRxkrBXUwY"
+    API_KEY = "luutruongan08082003@gmail.com_oPSSSxmvrEfbE9MQmuw5q7XvntJZSUIyDuvlUPe1NEvwr67l6rjd6w42gBzpvG0U"
 
     BASE_URL = "https://api.pdf.co/v1"
 
@@ -53,6 +66,7 @@ def pdf_to_html(pdf_file_path,output_file_path):
                 print(json["message"])
         else:
             print(f"Request error: {response.status_code} {response.reason}")
+        return response
 
 
     def uploadFile(fileName):
@@ -95,7 +109,7 @@ def html_to_pdf(html_path, output_pdf_path, api_key=None):
         api_key (str): API key for PDF.co.
     """ 
     if api_key is None:
-        api_key = "dinhthai0312@gmail.com_u2FBP5Wuk9EyD6yr77OX69YZPwVF6h7QKrwPyk3Vhs7IWujGXm2l2cGRxkrBXUwY"
+        api_key = "luutruongan08082003@gmail.com_oPSSSxmvrEfbE9MQmuw5q7XvntJZSUIyDuvlUPe1NEvwr67l6rjd6w42gBzpvG0U"
     with open(html_path, mode='r', encoding='utf-8') as file:
         sample_html = file.read()
  

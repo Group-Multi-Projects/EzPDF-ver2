@@ -12,12 +12,17 @@ from rest_framework.permissions import IsAuthenticated
 from Account.models import AccountModel
 from django.conf import settings
 from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework.views import APIView
+
 from django.http import JsonResponse
 from conversion.utils import pdf_to_word, pdf_to_html, html_to_pdf
 from bs4 import BeautifulSoup
 from datetime import datetime
 from drf_spectacular.utils import extend_schema, OpenApiParameter
-
+from .pagination import CustomPagination
+from drf_spectacular.utils import extend_schema, extend_schema_view, OpenApiExample
+from .docs import file_schema, upload_file_schema
+from .html404 import body_response, style_response
 logger = logging.getLogger(__name__)
 
 def get_jwt_token(username, password):
@@ -34,74 +39,111 @@ def get_jwt_token(username, password):
     else:
         print(f"Error: {response.status_code}")
         return None, None
-    
-@api_view(['POST'])
-def upload_file(request):
-    print("zoo")
-    now = datetime.now()
+class UploadFileView(APIView):
+    @upload_file_schema()
+    def post(self, request, *args, **kwargs):
+        now = datetime.now()
+        unique_id = now.strftime("%Y%m%d%H%M%S")
 
-    unique_id = now.strftime("%Y%m%d%H%M%S")
+        # 1️⃣ Xử lý lỗi khi tạo serializer
+        try:
+            serializer = UploadFileSerializer(data=request.data, context={'request': request})
+            serializer.is_valid(raise_exception=True)
+        except Exception as e:
+            return Response({'error': f'Serializer error: {str(e)}'}, status=status.HTTP_400_BAD_REQUEST)
 
-    serializer = UploadFileSerializer(data=request.data, context={'request': request})
-    
-    try:
-      account = AccountModel.objects.get(username = request.user.username)
-      account_id = account.id
-    except:
-      account_id = "client"
-    if serializer.is_valid():
-        validated_data = serializer.validated_data  
-        serializer.save()
-        
-        if validated_data.get('request_type') == "editfile":
-            file_url = serializer.data['file']
+        # 2️⃣ Xử lý lỗi khi lấy `AccountModel`
+        try:
+            account = AccountModel.objects.get(username=request.user.username)
+            account_id = account.id
+        except AccountModel.DoesNotExist:
+            account = None
+            account_id = "client"
+
+        # 3️⃣ Gán giá trị `account` vào serializer
+        validated_data = serializer.validated_data
+        validated_data['account'] = account
+
+        try:
+            serializer.save()
+        except Exception as e:
+            return Response({'error': f'Failed to save file: {str(e)}'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+        # 4️⃣ Xử lý đường dẫn file
+        try:
+            file_url = serializer.data.get('file')
+            if not file_url:
+                raise ValueError("File URL is empty")
+            
             base_url = file_url.split('/media')[0] + '/media/'
             file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
-            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files',f'output-{account_id}-{unique_id}.html')).replace("\\", "/")
-            pdf_to_html(file_path,output_file_url)
-            with open(output_file_url, 'r') as f:
-                    html_content = f.read()
-            soup = BeautifulSoup(html_content, 'html.parser')
-            style = soup.head.style.string if soup.head and soup.head.style else ''
-            body = soup.body.decode_contents() if soup.body else ''
-            dict_serializer_data = dict(serializer._data)
-            dict_serializer_data['style'] = style
-            dict_serializer_data['body'] = body
-            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.html'
-            return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
-        
-        elif validated_data.get('request_type') == "pdf2word":
-            file_url = serializer.data['file']
-            base_url = file_url.split('/media')[0] + '/media/'
-            file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
-            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files',f'output-{account_id}-{unique_id}.docx')).replace("\\", "/")
-            pdf_to_word(file_path,output_file_url)
-            dict_serializer_data = dict(serializer._data)
-            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.docx'
-            return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
-        
-        elif validated_data.get('request_type') == "pdf2html":
-            file_url = serializer.data['file']
-            base_url = file_url.split('/media')[0] + '/media/'
-            file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
-            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files',f'output-{account_id}-{unique_id}.html')).replace("\\", "/")
-            pdf_to_html(file_path,output_file_url)
-            dict_serializer_data = dict(serializer._data)
-            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.html'
-            return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
-        elif validated_data.get('request_type') == "html2pdf":
-            file_url = serializer.data['file']
-            base_url = file_url.split('/media')[0] + '/media/'
-            file_path = file_url.replace(base_url, settings.MEDIA_ROOT)
-            output_file_url =  (os.path.join(settings.MEDIA_ROOT,'files','converted_files',f'output-{account_id}-{unique_id}.pdf')).replace("\\", "/")
-            html_to_pdf(file_path,output_file_url)
-            dict_serializer_data = dict(serializer._data)
-            dict_serializer_data['ouput_file_url'] = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.pdf'
-            return Response(dict_serializer_data, status=status.HTTP_201_CREATED)
+            
+            output_dir = os.path.join(settings.MEDIA_ROOT, 'files', 'converted_files')
+            os.makedirs(output_dir, exist_ok=True)
+        except Exception as e:
+            return Response({'error': f'File path error: {str(e)}'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+        request_type = validated_data.get('request_type')
+        output_file_url = ""
+        is_existed_file = True
+        try:
+            if request_type == "editfile":
+                output_file_path = os.path.join(output_dir, f'output-{account_id}-{unique_id}.html').replace("\\", "/")
+                try:
+                    
+                    pdf_to_html(file_path, output_file_path)
+                except Exception as e:
+                    print(e)
+                try:
+                    with open(output_file_path, 'r', encoding='utf-8') as f:
+                        html_content = f.read()
+                except Exception as e:
+                    print(e)
+                    is_existed_file = False
+                    
+                if is_existed_file == False:
+                    style = style_response
+                    body = body_response
+                    output_file_url = f'{base_url}files/converted_files/404.html'
+                    
+                else:
+                    soup = BeautifulSoup(html_content, 'html.parser')
+                    style = soup.head.style.string if soup.head and soup.head.style else ''
+                    body = soup.body.decode_contents() if soup.body else ''
+
+                    output_file_url = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.html'
+                response_data = {
+                    **serializer.data,
+                    'style': style,
+                    'body': body,
+                    'output_file_url': output_file_url
+                }
+                return Response(response_data, status=status.HTTP_201_CREATED)
+
+            elif request_type == "pdf2word":
+                output_file_path = os.path.join(output_dir, f'output-{account_id}-{unique_id}.docx').replace("\\", "/")
+                pdf_to_word(file_path, output_file_path)
+                output_file_url = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.docx'
+
+            elif request_type == "pdf2html":
+                output_file_path = os.path.join(output_dir, f'output-{account_id}-{unique_id}.html').replace("\\", "/")
+                pdf_to_html(file_path, output_file_path)
+                output_file_url = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.html'
+
+            elif request_type == "html2pdf":
+                output_file_path = os.path.join(output_dir, f'output-{account_id}-{unique_id}.pdf').replace("\\", "/")
+                html_to_pdf(file_path, output_file_path)
+                output_file_url = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.pdf'
+
+        except Exception as e:
+            return Response({'error': f'File conversion error: {str(e)}'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+        # 5️⃣ Trả về kết quả
+        if output_file_url:
+            response_data = {**serializer.data, 'output_file_url': output_file_url}
+            return Response(response_data, status=status.HTTP_201_CREATED)
         else:
-            return JsonResponse({'status':'None'})
-    
-    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            return JsonResponse({'status': 'None'}, status=status.HTTP_400_BAD_REQUEST)
 def edit_file(request, file_id):
     try:
         file = get_object_or_404(FileModel, id=file_id)
@@ -134,10 +176,11 @@ def edit_file(request, file_id):
         logger.error(f"Error occurred while retrieving file data for user {request.user.username}: {str(e)}")
         return JsonResponse({"error": "An error occurred while retrieving the file data."}, status=500)
 
-
+@file_schema()
 class FileViewSet(viewsets.ModelViewSet):
     queryset = FileModel.objects.all()
     serializer_class = FileSerializer
+    pagination_class = CustomPagination
 
     @action(detail=False, methods=['get'])
     def files(self, request):
