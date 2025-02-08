@@ -169,25 +169,7 @@ def add_shape_save_data(data, file_instance,doc):
                 'updated_at': timezone.now()  # Cập nhật thời gian chỉnh sửa
             }
         )
-@api_view(["GET","POST"])
-def get_post_tools_api(request):
-    draw_model = DrawModel.objects.all()
-    text_model = TextModel.objects.all()
-    if request.method == "GET":
-        draw_serializers = DrawSerializers(draw_model,many = True)
-        text_serializers = TextSerializers(text_model,many = True)
-        serializers_data = draw_serializers.data + text_serializers.data
-        return Response(serializers_data)
-    
-    if request.method == "POST":
-        draw_serializer = DrawSerializers(data=request.data)
-        text_serializer = TextSerializers(data=request.data)
-        if DrawSerializers.is_valid():
-            DrawSerializers.save()
-            return  Response({"Success":"Success"})
-        if TextSerializers.is_valid():
-            TextSerializers.save()
-            return  Response({"Success":"Success"})
+
         
 @api_view(["GET", "DELETE"])
 def get_delete_tools_api(request, item_id):
@@ -240,46 +222,7 @@ def get_delete_tools_api(request, item_id):
     except Exception as e:
         return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
-@api_view(["GET"])
-def get_draw_added_api(request,id):
-    file = FileModel.objects.get(id = id)
-    draw_model = DrawModel.objects.filter(
-        file = file
-    )
-    if request.method == "GET":
-        draw_serializers = DrawSerializers(draw_model,many = True)
-        return Response(draw_serializers.data)
-    
-   
-@api_view(["GET"])
-def get_text_added_api(request,id):
-    file = FileModel.objects.get(id = id)
-    text_model = TextModel.objects.filter(
-        file = file
-    )
-    if request.method == "GET":
-        text_serializers = TextSerializers(text_model,many = True)
-        return Response(text_serializers.data)
-    
-@api_view(["GET"])
-def get_image_added_api(request,id):
-    file = FileModel.objects.get(id = id)
-    text_model = ImageModel.objects.filter(
-        file = file
-    )
-    if request.method == "GET":
-        image_serializers = ImageSerializers(text_model,many = True)
-        return Response(image_serializers.data)
-    
-@api_view(["GET"])
-def get_shape_added_api(request,id):
-    file = FileModel.objects.get(id = id)
-    shape_model = ShapeModel.objects.filter(
-        file = file
-    )
-    if request.method == "GET":
-        shape_serializers = ShapeSerializers(shape_model,many = True)
-        return Response(shape_serializers.data)
+
 from .tasks import test_func
 from django.http import HttpResponse
 

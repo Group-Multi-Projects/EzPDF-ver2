@@ -130,22 +130,6 @@ def signout(request):
     logout(request)
     return redirect("")
 
-@api_view(["GET", "POST"])
-@permission_classes([IsAuthenticated])
-def get_user_info_serializers(request):
-    if request.method == "GET":
-        try:
-            user = request.user  
-            account = AccountModel.objects.get(username=user.username) 
-            serializers = AccountSerializer(account)
-            return Response({"data": serializers.data}, status=status.HTTP_200_OK)
-        except AccountModel.DoesNotExist:
-            return Response({"error": "Account not found"}, status=status.HTTP_404_NOT_FOUND)
-        except Exception as e:
-            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-    
-    elif request.method == "POST":
-        return Response({"message": "POST method is not implemented"}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
 
 class AccountViewset(viewsets.ModelViewSet):
     queryset = AccountModel.objects.all()
