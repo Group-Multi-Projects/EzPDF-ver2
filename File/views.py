@@ -15,7 +15,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.views import APIView
 
 from django.http import JsonResponse
-from conversion.utils import pdf_to_word,convert_pdf_to_html, html_to_pdf
+from conversion.utils import pdf_to_word,convert_pdf_to_html, html_to_pdf_payment
 from bs4 import BeautifulSoup
 from datetime import datetime
 from drf_spectacular.utils import extend_schema, OpenApiParameter
@@ -141,7 +141,7 @@ class UploadFileView(APIView):
 
             elif request_type == "html2pdf":
                 output_file_path = os.path.join(output_dir, f'output-{account_id}-{unique_id}.pdf').replace("\\", "/")
-                html_to_pdf(file_path, output_file_path)
+                html_to_pdf_payment(file_path, output_file_path)
                 output_file_url = f'{base_url}files/converted_files/output-{account_id}-{unique_id}.pdf'
 
         except Exception as e:
