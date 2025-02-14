@@ -1,0 +1,11 @@
+2025/02/14 17:15:52 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:15:56 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:15:59 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:16:02 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:16:05 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:16:09 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:16:13 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:16:20 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:16:34 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:17:01 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19
+2025/02/14 17:17:53 [emerg] 1#1: open() "/app/blacklist.txt" failed (2: No such file or directory) in /etc/nginx/nginx.conf:19

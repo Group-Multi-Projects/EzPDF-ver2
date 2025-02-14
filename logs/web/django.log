@@ -6497,3 +6497,62 @@ INFO 2025-02-14 15:53:28,729 autoreload /app/File/views.py changed, reloading.
 INFO 2025-02-14 15:53:29,537 autoreload Watching for file changes with StatReloader
 INFO 2025-02-14 15:53:35,982 autoreload /app/File/views.py changed, reloading.
 INFO 2025-02-14 15:53:36,831 autoreload Watching for file changes with StatReloader
+INFO 2025-02-14 17:13:27,617 autoreload Watching for file changes with StatReloader
+INFO 2025-02-14 17:16:15,252 autoreload Watching for file changes with StatReloader
+INFO 2025-02-14 17:16:41,091 basehttp "GET / HTTP/1.1" 200 1349
+WARNING 2025-02-14 17:16:41,534 log Not Found: /assets/js/Wallet.mlGYZajl.js
+WARNING 2025-02-14 17:16:41,537 log Not Found: /assets/js/index.CucWK6IV.js
+WARNING 2025-02-14 17:16:41,539 log Not Found: /assets/js/asyncToGenerator.O4pnRyQq.js
+WARNING 2025-02-14 17:16:41,540 log Not Found: /assets/js/index.umd.BXzp7Rme.js
+WARNING 2025-02-14 17:16:41,546 basehttp "GET /assets/js/Wallet.mlGYZajl.js HTTP/1.1" 404 3903
+WARNING 2025-02-14 17:16:41,559 basehttp "GET /assets/js/index.CucWK6IV.js HTTP/1.1" 404 3900
+WARNING 2025-02-14 17:16:41,566 basehttp "GET /assets/js/asyncToGenerator.O4pnRyQq.js HTTP/1.1" 404 3933
+WARNING 2025-02-14 17:16:41,571 basehttp "GET /assets/js/index.umd.BXzp7Rme.js HTTP/1.1" 404 3912
+WARNING 2025-02-14 17:16:41,948 log Not Found: /favicon.ico
+WARNING 2025-02-14 17:16:41,956 basehttp "GET /favicon.ico HTTP/1.1" 404 3852
+INFO 2025-02-14 17:16:46,093 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+INFO 2025-02-14 17:16:47,832 basehttp "GET /api/schema/ HTTP/1.1" 200 58422
+WARNING 2025-02-14 17:16:48,129 log Not Found: /assets/js/index.CucWK6IV.js
+WARNING 2025-02-14 17:16:48,152 log Not Found: /assets/js/asyncToGenerator.O4pnRyQq.js
+WARNING 2025-02-14 17:16:48,156 log Not Found: /assets/js/Wallet.mlGYZajl.js
+WARNING 2025-02-14 17:16:48,160 log Not Found: /assets/js/index.umd.BXzp7Rme.js
+WARNING 2025-02-14 17:16:48,165 basehttp "GET /assets/js/index.CucWK6IV.js HTTP/1.1" 404 3900
+WARNING 2025-02-14 17:16:48,181 basehttp "GET /assets/js/asyncToGenerator.O4pnRyQq.js HTTP/1.1" 404 3933
+WARNING 2025-02-14 17:16:48,190 basehttp "GET /assets/js/Wallet.mlGYZajl.js HTTP/1.1" 404 3903
+WARNING 2025-02-14 17:16:48,215 basehttp "GET /assets/js/index.umd.BXzp7Rme.js HTTP/1.1" 404 3912
+INFO 2025-02-14 17:17:03,569 basehttp "GET / HTTP/1.1" 200 1349
+WARNING 2025-02-14 17:17:04,204 log Not Found: /assets/js/Wallet.mlGYZajl.js
+WARNING 2025-02-14 17:17:04,208 log Not Found: /assets/js/index.umd.BXzp7Rme.js
+WARNING 2025-02-14 17:17:04,212 log Not Found: /assets/js/index.CucWK6IV.js
+WARNING 2025-02-14 17:17:04,215 log Not Found: /assets/js/asyncToGenerator.O4pnRyQq.js
+WARNING 2025-02-14 17:17:04,224 basehttp "GET /assets/js/Wallet.mlGYZajl.js HTTP/1.1" 404 3903
+WARNING 2025-02-14 17:17:04,237 basehttp "GET /assets/js/index.umd.BXzp7Rme.js HTTP/1.1" 404 3912
+WARNING 2025-02-14 17:17:04,254 basehttp "GET /assets/js/index.CucWK6IV.js HTTP/1.1" 404 3900
+WARNING 2025-02-14 17:17:04,264 basehttp "GET /assets/js/asyncToGenerator.O4pnRyQq.js HTTP/1.1" 404 3933
+INFO 2025-02-14 17:17:05,042 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-14 17:17:05,108 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+INFO 2025-02-14 17:17:05,157 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-02-14 17:17:05,157 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-02-14 17:17:05,158 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-02-14 17:17:05,158 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-02-14 17:17:05,158 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-02-14 17:17:05,370 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-02-14 17:17:05,370 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+WARNING 2025-02-14 17:17:05,477 log Not Found: /assets/js/index.umd.BXzp7Rme.js
+WARNING 2025-02-14 17:17:05,488 log Not Found: /assets/js/Wallet.mlGYZajl.js
+WARNING 2025-02-14 17:17:05,492 log Not Found: /assets/js/asyncToGenerator.O4pnRyQq.js
+WARNING 2025-02-14 17:17:05,496 log Not Found: /assets/js/index.CucWK6IV.js
+WARNING 2025-02-14 17:17:05,501 basehttp "GET /assets/js/index.umd.BXzp7Rme.js HTTP/1.1" 404 3912
+WARNING 2025-02-14 17:17:05,518 basehttp "GET /assets/js/Wallet.mlGYZajl.js HTTP/1.1" 404 3903
+WARNING 2025-02-14 17:17:05,565 basehttp "GET /assets/js/asyncToGenerator.O4pnRyQq.js HTTP/1.1" 404 3933
+WARNING 2025-02-14 17:17:05,574 basehttp "GET /assets/js/index.CucWK6IV.js HTTP/1.1" 404 3900
+INFO 2025-02-14 17:17:07,965 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+WARNING 2025-02-14 17:17:08,848 log Not Found: /assets/js/index.CucWK6IV.js
+WARNING 2025-02-14 17:17:08,854 log Not Found: /assets/js/asyncToGenerator.O4pnRyQq.js
+INFO 2025-02-14 17:17:08,857 basehttp "GET /api/schema/ HTTP/1.1" 200 58422
+WARNING 2025-02-14 17:17:08,864 log Not Found: /assets/js/Wallet.mlGYZajl.js
+WARNING 2025-02-14 17:17:08,869 log Not Found: /assets/js/index.umd.BXzp7Rme.js
+WARNING 2025-02-14 17:17:08,877 basehttp "GET /assets/js/index.CucWK6IV.js HTTP/1.1" 404 3900
+WARNING 2025-02-14 17:17:08,973 basehttp "GET /assets/js/asyncToGenerator.O4pnRyQq.js HTTP/1.1" 404 3933
+WARNING 2025-02-14 17:17:09,041 basehttp "GET /assets/js/Wallet.mlGYZajl.js HTTP/1.1" 404 3903
+WARNING 2025-02-14 17:17:09,058 basehttp "GET /assets/js/index.umd.BXzp7Rme.js HTTP/1.1" 404 3912
