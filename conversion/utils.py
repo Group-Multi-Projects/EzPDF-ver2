@@ -100,7 +100,7 @@ def pdf_to_html_payment(pdf_file_path,output_file_path):
     if (uploadedFileUrl != None):
         convertPdfToHtml(uploadedFileUrl, output_file_path)
 
-def html_to_pdf(html_path, output_pdf_path, api_key=None):
+def html_to_pdf_payment(html_path, output_pdf_path, api_key=None):
     """
     Converts HTML to PDF using PDF.co Web API.
 
